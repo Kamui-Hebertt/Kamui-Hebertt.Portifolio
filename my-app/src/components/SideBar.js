@@ -7,6 +7,7 @@ class SideBar extends Component {
     <div className='links'>
      <Link to="/">Home</Link>
      <Link to="/about">About</Link>
+     <Link to="/skills">My Skills</Link>
     </div>
    )
   }
