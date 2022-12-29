@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
+import React, { useContext }  from 'react';
+import Loading from '../components/Loading';
 import SideBar from '../components/SideBar';
+import providerFile from '../context/contex';
 
-class Home extends Component {
-    render(){
+function Home () {
+    const { loading } =  useContext(providerFile);
+    
         return(
             <div>
-            <h2>Home</h2>
+         {loading ? <Loading /> : (<h2>Home</h2>) }   
             <SideBar />
             </div>
         )
     }
-}
+
 export default Home;

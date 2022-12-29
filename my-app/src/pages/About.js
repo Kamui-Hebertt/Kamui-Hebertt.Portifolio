@@ -1,14 +1,18 @@
-import React, { Component } from 'react';
+import React, { useContext } from 'react';
+import Loading from '../components/Loading';
 import SideBar from '../components/SideBar';
+import providerFile from '../context/contex';
 
-class About extends Component {
-    render(){
+
+
+function About () {
+   const { loading } = useContext(providerFile)
         return(
             <div>
-            <h2>about</h2>
+          {loading ? <Loading /> : (<h2>about</h2>) }  
            <SideBar />
             </div>
         )
     }
-}
+
 export default About;

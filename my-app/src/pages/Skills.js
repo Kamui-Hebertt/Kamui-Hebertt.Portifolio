@@ -1,8 +1,14 @@
-import React, { Component } from 'react';
+import React, {  useContext } from 'react';
 import SideBar from '../components/SideBar';
+import providerFile from '../context/contex';
 
-class Skills extends Component {
-    render(){
+
+
+function Skills () {
+    const { setloading, loading } = useContext(providerFile);
+
+  
+   
         return(
             <div>
             <h2>skills</h2>
@@ -10,5 +16,5 @@ class Skills extends Component {
             </div>
         )
     }
-}
+
 export default Skills;

@@ -1,0 +1,13 @@
+.links {
+  border: 1px solid black;
+  width: 10vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.langbtn {
+  background-color: transparent;
+}
+
