@@ -4,6 +4,7 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import providerFile from './context/contex';
 import { useState } from 'react';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/skills' element={<Skills /> } />
-
+          <Route path='/contact' element={<Contact />} />
+          
       </Routes>
   </providerFile.Provider>
  

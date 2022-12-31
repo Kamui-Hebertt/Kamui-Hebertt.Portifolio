@@ -4,7 +4,7 @@ import React from 'react';
 function Loading () {
   
         return(
-         <div>
+         <div className='loadingDiv'>
           <span className="loader"></span>
          </div>
         )

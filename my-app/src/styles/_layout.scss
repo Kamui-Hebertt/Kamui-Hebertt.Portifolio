@@ -1,0 +1,55 @@
+body {
+ 
+}
+
+.links {
+  background-color: $backG;
+   color: $whiteLetter;
+   display: flex;
+   width: 14vw;
+   height: 90vh;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.links p {
+   margin-top: -5px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  color: $whiteLetter;
+  text-decoration: none;
+  border-top: 1px solid $kindgray;
+  border-bottom: 1px solid $kindgray;
+  width: 13.7vw;
+  height: 7.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  
+}
+
+.links p:hover {
+    color:$blueHove;
+    transition: 0.2s;
+    
+}
+
+.links :link {text-decoration: none;}
+
+
+.langbtn {
+  background-color: transparent;
+  color: $whiteLetter;
+  border:none;
+  cursor:pointer;
+
+  color: $blueHove;
+}
+
+.logo {
+  width: 14vw;
+  height: 32vh;
+}
+
