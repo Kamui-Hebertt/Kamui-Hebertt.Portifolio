@@ -1,65 +1,3 @@
-.links {
-  background-color: #1d1d1d;
-  color: #fff;
-  display: flex;
-  width: 14vw;
-  height: 90vh;
-  flex-direction: column;
-  align-items: center;
-}
-
-.links p {
-  margin-top: -5px;
-  font-weight: 700;
-  font-family: "Courier New", Courier, monospace;
-  color: #fff;
-  text-decoration: none;
-  border-top: 1px solid rgb(71, 67, 67);
-  border-bottom: 1px solid rgb(71, 67, 67);
-  width: 13.7vw;
-  height: 7.6vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-}
-
-.links p:hover {
-  color: rgb(106, 188, 190);
-  transition: 0.2s;
-}
-
-.links :link {
-  text-decoration: none;
-}
-
-.langbtn {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  color: rgb(106, 188, 190);
-}
-
-.logo {
-  width: 14vw;
-  height: 32vh;
-}
-
-.icons {
-  margin-top: 8px;
-  transition: 0.2s;
-}
-
-.icons a {
-  color: aliceblue;
-  transition: 0.5s;
-}
-
-.icons a:hover {
-  color: rgb(106, 188, 190);
-}
-
 .App {
   min-height: 100vh;
   width: 100%;
@@ -115,4 +53,4 @@
   position: relative;
   display: inline-block;
   cursor: default;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=presentation.css.map */
