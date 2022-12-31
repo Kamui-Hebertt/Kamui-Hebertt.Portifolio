@@ -44,4 +44,18 @@
 .logo {
   width: 14vw;
   height: 32vh;
+}
+
+.icons {
+  margin-top: 8px;
+  transition: 0.2s;
+}
+
+.icons a {
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.icons a:hover {
+  color: rgb(106, 188, 190);
 }/*# sourceMappingURL=main.css.map */
