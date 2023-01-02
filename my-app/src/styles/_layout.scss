@@ -7,7 +7,8 @@ body {
    color: $whiteLetter;
    display: flex;
    width: 14vw;
-   height: 90vh;
+   height: 100vh;
+  position: fixed;
    flex-direction: column;
    align-items: center;
    
@@ -65,5 +66,35 @@ body {
 
 .icons a:hover {
   color: $blueHove;
+}
+
+
+.allContent {
+  border: 1px solid black;
+  height: 120vh;
+  background-color: $kindgray;
+  color: $whiteLetter;
+}
+
+.allContent > h2 {
+ 
+  width: 56vw;
+  height: 70vh;
+  border: 1px solid rgb(133, 27, 27);
+  margin-left: 25vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ 
+
+ 
+
+}
+
+.mainContent > h2 {
+  border: 1px solid black;
+  height: 25vh;
+ 
+  width: 25vw;
 }
 

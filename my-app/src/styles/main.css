@@ -3,7 +3,8 @@
   color: #fff;
   display: flex;
   width: 14vw;
-  height: 90vh;
+  height: 100vh;
+  position: fixed;
   flex-direction: column;
   align-items: center;
 }
@@ -58,6 +59,29 @@
 
 .icons a:hover {
   color: rgb(106, 188, 190);
+}
+
+.allContent {
+  border: 1px solid black;
+  height: 120vh;
+  background-color: rgb(71, 67, 67);
+  color: #fff;
+}
+
+.allContent > h2 {
+  width: 56vw;
+  height: 70vh;
+  border: 1px solid rgb(133, 27, 27);
+  margin-left: 25vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mainContent > h2 {
+  border: 1px solid black;
+  height: 25vh;
+  width: 25vw;
 }
 
 .App {
@@ -115,4 +139,13 @@
   position: relative;
   display: inline-block;
   cursor: default;
+}
+
+.nameLogo {
+  width: 2vw;
+}
+
+.profileClass {
+  width: 15vw;
+  display: 1px solid black;
 }/*# sourceMappingURL=main.css.map */

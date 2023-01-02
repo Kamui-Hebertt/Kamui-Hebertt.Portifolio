@@ -2,20 +2,14 @@ import React, { useContext, useEffect }  from 'react';
 import Loading from '../components/Loading';
 import SideBar from '../components/SideBar';
 import providerFile from '../context/contex';
-import { motion } from "framer-motion"
+import H from '../styles/images/h.png';
+import profile from '../styles/images/profile.jfif'
 
-const text1 = 'Hi,';
-const text2 = "i'm Hebertt";
-const text3 = 'Web Developer';
 
-const spanVariants = {
-  visible: { y: 0, scaleY: 1},
-  hover:{ y: [-1, -2, -2.8,0.9,0], scaleY: [1, 1.3,0.8, 1 , 1.2],
-     color: 'red'},
-}
+
 
 function Home () {
-    const { loading, setloading } =  useContext(providerFile);
+    const { loading, setloading, english } =  useContext(providerFile);
 
     useEffect(
         () => {
@@ -28,30 +22,26 @@ function Home () {
       );
   
         return(
+         
             <div className='allContent'>
-                
-                
-         {loading ? <Loading /> : ( 
-                <main className='home1'>
-                  <div className='home-page'>
-                  <section className='landing-left-section'>
-                  <div className='text'>
-                <h2>{text1.split('').map((letter, i)=> (
-                  <motion.span key={ i } variants={ spanVariants} initial="visible" whileHover="hover"  >{ letter }</motion.span>
-                ))} </h2>
-                <h2>{text2.split('').map((letter, i)=> (
-                 <motion.span key={ i } variants={ spanVariants} initial="visible" whileHover="hover"  >{ letter }</motion.span>
-                ))} </h2>
-                <h2>{text3.split('').map((letter, i)=> (
-                  <motion.span key={ i } variants={ spanVariants} initial="visible" whileHover="hover"   >{ letter }</motion.span>
-                ))} </h2>
-                </div>
-                </section>
-                </div>
-                  <SideBar />
-                </main>)
-          }   
-        
+                <SideBar />
+          {loading ? <Loading /> : (<h2>
+             
+            {english? (<div className='mainContent'>
+            <img src={profile} className="profileClass" alt='profile' />
+            <h2>Hi, I'm 
+             <img src={H} className="nameLogo" alt="logo" />ebertt, Web developer
+            </h2>
+            </div>) : ( <div className='mainContent'>
+              <img src={profile} className="profileClass" alt='profile' />
+              <h2>Olá, me chamo 
+              <img src={H} className="nameLogo" alt="logo" />ebertt, desenvolvedor Web</h2>
+            </div>
+            
+            )}
+
+
+          </h2>) }  
             </div>
         )
     }
