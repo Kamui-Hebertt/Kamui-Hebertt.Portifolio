@@ -25,6 +25,10 @@
   transition: 0.4s;
 }
 
+.x {
+  display: none;
+}
+
 .links p:hover {
   color: #49c5b6;
   transition: 0.2s;
@@ -39,7 +43,6 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  margin-left: 5vw;
   color: #49c5b6;
 }
 
@@ -51,7 +54,6 @@
 .icons {
   margin-top: 3vh;
   transition: 0.2s;
-  margin-left: 5vw;
 }
 
 .icons a {
@@ -244,6 +246,22 @@
     margin-right: 5vw;
     margin-top: 1vw;
     border: 1px solid black;
+  }
+  .x svg {
+    width: 10vw;
+    height: 10vh;
+    margin-top: -2vh;
+  }
+  .x {
+    display: block;
+    height: 6vh;
+    display: flex;
+    justify-content: end;
+    margin-right: 2vw;
+  }
+  .menuBar svg {
+    width: 10vw;
+    height: 10vh;
   }
   .menuBar button {
     background-color: transparent;

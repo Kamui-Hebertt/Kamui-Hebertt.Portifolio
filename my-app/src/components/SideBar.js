@@ -4,7 +4,7 @@ import providerFile from '../context/contex';
 import logo from '../components/a.png';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-
+import CloseIcon from '@mui/icons-material/Close';
 
 
 
@@ -19,6 +19,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 return(
   <div className="links">
+    <div className='x'>
+    <CloseIcon />
+    </div>
     <div>
     <img src={ logo } alt="logo" className="logo" />
     </div>
