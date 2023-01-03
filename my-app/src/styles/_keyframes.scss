@@ -1,0 +1,38 @@
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+.hi1 {
+ 
+ animation: slide-in 0.7s ;
+
+}
+
+.hi {
+
+  animation: slide-in 0.7s ;
+}
+
+.profileClass {
+
+  animation: slide-inRight 0.7s  ;
+}
+@keyframes slide-inRight {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(0%);
+  }}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }}
