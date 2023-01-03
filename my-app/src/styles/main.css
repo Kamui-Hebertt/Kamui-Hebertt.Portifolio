@@ -26,7 +26,7 @@
 }
 
 .links p:hover {
-  color: rgb(106, 188, 190);
+  color: #49c5b6;
   transition: 0.2s;
 }
 
@@ -39,7 +39,7 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  color: rgb(106, 188, 190);
+  color: #49c5b6;
 }
 
 .logo {
@@ -48,7 +48,7 @@
 }
 
 .icons {
-  margin-top: 8px;
+  margin-top: 3vh;
   transition: 0.2s;
 }
 
@@ -58,11 +58,11 @@
 }
 
 .icons a:hover {
-  color: rgb(106, 188, 190);
+  color: #49c5b6;
 }
 
 .allContent {
-  border: 1px solid black;
+  border: 1px solid rgb(173, 25, 25);
   height: 120vh;
   background-color: rgb(71, 67, 67);
   color: #fff;
@@ -71,17 +71,53 @@
 .allContent > h2 {
   width: 56vw;
   height: 70vh;
-  border: 1px solid rgb(133, 27, 27);
   margin-left: 25vw;
   justify-content: center;
   align-items: center;
   display: flex;
+  height: 100vh;
 }
 
 .mainContent > h2 {
-  border: 1px solid black;
-  height: 25vh;
-  width: 25vw;
+  height: 100vh;
+  margin-right: 20vw;
+  width: 30vw;
+  font-size: 4vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.hipt {
+  margin-bottom: -10vh;
+  width: 20vw;
+}
+
+.hi {
+  margin-bottom: -4vw;
+  margin-left: 2vw;
+  width: 20vw;
+}
+
+.hi2 {
+  margin-bottom: -10vh;
+}
+
+.intro {
+  font-size: 4vw;
+}
+
+.mainContent {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.mainContent p {
+  margin-top: 10vh;
 }
 
 .App {
@@ -142,10 +178,23 @@
 }
 
 .nameLogo {
-  width: 2vw;
+  width: 3vw;
 }
 
 .profileClass {
-  width: 15vw;
+  width: 25vw;
+  margin-left: 33vw;
+  margin-bottom: -33vw;
+  display: 1px solid rgb(131, 9, 9);
+}
+
+.portugueseText {
+  height: 20vh;
+  width: 20vw;
   display: 1px solid black;
+}
+
+.hi1 {
+  margin-right: 4vw;
+  height: 20vh;
 }/*# sourceMappingURL=main.css.map */

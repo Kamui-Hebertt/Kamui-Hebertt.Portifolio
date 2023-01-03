@@ -25,17 +25,24 @@ function Home () {
          
             <div className='allContent'>
                 <SideBar />
-          {loading ? <Loading /> : (<h2>
+          {loading ? <Loading /> : (
+          <h2>
              
-            {english? (<div className='mainContent'>
+            {english? (<div className="mainContent">
             <img src={profile} className="profileClass" alt='profile' />
-            <h2>Hi, I'm 
-             <img src={H} className="nameLogo" alt="logo" />ebertt, Web developer
+            <h2>
+
+            <p className='hi'>Hi, </p>
+           <p className='hi1'> I'm <img src={H} className="nameLogo" alt="logo" />ebertt, Web Developer</p>
+            
+            
             </h2>
-            </div>) : ( <div className='mainContent'>
-              <img src={profile} className="profileClass" alt='profile' />
-              <h2>Olá, me chamo 
-              <img src={H} className="nameLogo" alt="logo" />ebertt, desenvolvedor Web</h2>
+            </div>) : ( 
+            <div className='mainContent'>
+              <img src={ profile } className="profileClass" alt='profile' />
+              <h2><p className='hipt'>Olá,</p>  
+             <p className='portugueseText'> Me chamo <img src={H} className="nameLogo" alt="logo" />
+              ebertt,<p className='hi2'></p> Desenvolvedor Web  </p> </h2>
             </div>
             
             )}
