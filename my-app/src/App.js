@@ -11,13 +11,14 @@ function App() {
 
   const [english, setEnglish ] = useState(true);
   const [ loading, setloading ] = useState(true);
+  const [newSideBar, setNewSideBar] = useState(false) 
 
- 
 
   const contexObj = {
     english,
      setEnglish,
-    loading, setloading
+    loading, setloading,
+    newSideBar, setNewSideBar
 
   }
 

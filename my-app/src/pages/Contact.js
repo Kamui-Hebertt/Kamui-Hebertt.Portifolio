@@ -6,7 +6,7 @@ import providerFile from '../context/contex';
 
 
 function Contact () {
-   const { loading, setloading } = useContext(providerFile)
+   const { loading } = useContext(providerFile)
         return(
             <div className='allContent'>
                 <SideBar />

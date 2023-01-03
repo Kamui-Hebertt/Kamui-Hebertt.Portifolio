@@ -39,6 +39,7 @@
   color: #fff;
   border: none;
   cursor: pointer;
+  margin-left: 5vw;
   color: #49c5b6;
 }
 
@@ -50,6 +51,7 @@
 .icons {
   margin-top: 3vh;
   transition: 0.2s;
+  margin-left: 5vw;
 }
 
 .icons a {
@@ -118,6 +120,10 @@
 
 .mainContent p {
   margin-top: 10vh;
+}
+
+.menuBar {
+  display: none;
 }
 
 @-webkit-keyframes slide-in {
@@ -228,4 +234,57 @@
 .hi1 {
   margin-right: 4vw;
   height: 20vh;
+}
+
+@media (max-width: 768px) {
+  .menuBar {
+    display: block;
+    display: flex;
+    justify-content: end;
+    margin-right: 5vw;
+    margin-top: 1vw;
+    border: 1px solid black;
+  }
+  .menuBar button {
+    background-color: transparent;
+    border: none;
+  }
+  .links {
+    display: none;
+    width: 101vw;
+    justify-content: center;
+    border: 4px solid black;
+  }
+  .links p {
+    width: 99vw;
+    font-size: 20px;
+  }
+  .langbtn {
+    font-size: 20px;
+    margin-left: 38vw;
+  }
+  .logo {
+    width: 70vw;
+    margin: 15vw;
+  }
+  .icons {
+    margin-left: 43vw;
+  }
+  .mainContent {
+    border: 1px solid black;
+    display: flex;
+    margin-top: -19vw;
+  }
+  .mainContent h2 {
+    border: 1px solid black;
+    height: 50vh;
+    font-size: 10vw;
+  }
+  .allContent {
+    width: 105vw;
+  }
+  .profileClass {
+    width: 80vw;
+    margin-right: 40vw;
+  }
 }/*# sourceMappingURL=main.css.map */

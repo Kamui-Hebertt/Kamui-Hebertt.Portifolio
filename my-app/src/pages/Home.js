@@ -4,13 +4,22 @@ import SideBar from '../components/SideBar';
 import providerFile from '../context/contex';
 import H from '../styles/images/h.png';
 import profile from '../styles/images/profile.jfif'
-
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 
 function Home () {
-    const { loading, setloading, english } =  useContext(providerFile);
+    const { loading, setloading, english, newSideBar, setNewSideBar } =  useContext(providerFile);
+    const openSideBar = () => {
+   const x =  document.querySelector('.links')
 
+   if (x.style.display === 'none') {
+     return x.style.display = 'block';
+  } else {
+   return   x.style.display = 'none';
+  }
+      
+    }
     useEffect(
         () => {
           let timer1 = setTimeout(() => setloading(false), 2500);
@@ -21,11 +30,18 @@ function Home () {
         []
       );
   
+
         return(
          
             <div className='allContent'>
+          <div className='menuBar' >
+            <button onClick={ openSideBar } >
+              <MenuIcon />
+              </button>
+              </div>
                 <SideBar />
           {loading ? <Loading /> : (
+
           <h2>
              
             {english? (<div className="mainContent">
@@ -48,7 +64,8 @@ function Home () {
             )}
 
 
-          </h2>) }  
+          </h2>)
+           }  
             </div>
         )
     }
