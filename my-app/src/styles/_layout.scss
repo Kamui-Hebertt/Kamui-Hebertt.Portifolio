@@ -1,0 +1,149 @@
+body {
+ 
+}
+
+.links {
+  background-color: $backG;
+   color: $whiteLetter;
+   display: flex;
+   width: 14vw;
+   height: 100vh;
+  position: fixed;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.links p {
+   margin-top: -5px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  color: $whiteLetter;
+  text-decoration: none;
+  border-top: 1px solid $kindgray;
+  border-bottom: 1px solid $kindgray;
+  width: 13.7vw;
+  height: 7.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  
+}
+
+.links p:hover {
+    color:$blueHove;
+    transition: 0.2s;
+    
+}
+
+.links :link {text-decoration: none;}
+
+
+.langbtn {
+  background-color: transparent;
+  color: $whiteLetter;
+  border:none;
+  cursor:pointer;
+
+  color: $blueHove;
+}
+
+.logo {
+  width: 14vw;
+  height: 32vh;
+}
+
+.icons {
+
+  margin-top: 3vh;
+  transition: 0.2s;
+}
+
+.icons a {
+  
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.icons a:hover {
+  color: $blueHove;
+}
+
+
+.allContent {
+  border: 1px solid rgb(173, 25, 25);
+  height: 120vh;
+  background-color: $kindgray;
+  color: $whiteLetter;
+ 
+
+}
+
+.allContent > h2 {
+ 
+  width: 56vw;
+  height: 70vh;
+
+  margin-left: 25vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+
+ 
+
+}
+
+.mainContent > h2 {
+ 
+  height: 100vh;
+  margin-right: 20vw;
+  width: 30vw;
+  font-size: 4vw;
+
+   text-align: center;
+   justify-content: center;
+ 
+
+
+}
+
+.hipt {
+  
+  margin-bottom: -10vh;
+
+  width: 20vw;
+}
+
+.hi {
+  margin-bottom: -4vw;
+  margin-left: 2vw;
+
+  width: 20vw;
+}
+.hi2 {
+ 
+  margin-bottom: -10vh;
+}
+.intro {
+  font-size: 4vw;
+
+}
+
+.mainContent {
+
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+
+}
+
+.mainContent p {
+
+  margin-top: 10vh;
+}

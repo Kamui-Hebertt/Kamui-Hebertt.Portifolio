@@ -1,0 +1,200 @@
+.links {
+  background-color: #1d1d1d;
+  color: #fff;
+  display: flex;
+  width: 14vw;
+  height: 100vh;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links p {
+  margin-top: -5px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+  text-decoration: none;
+  border-top: 1px solid rgb(71, 67, 67);
+  border-bottom: 1px solid rgb(71, 67, 67);
+  width: 13.7vw;
+  height: 7.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.links p:hover {
+  color: #49c5b6;
+  transition: 0.2s;
+}
+
+.links :link {
+  text-decoration: none;
+}
+
+.langbtn {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #49c5b6;
+}
+
+.logo {
+  width: 14vw;
+  height: 32vh;
+}
+
+.icons {
+  margin-top: 3vh;
+  transition: 0.2s;
+}
+
+.icons a {
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.icons a:hover {
+  color: #49c5b6;
+}
+
+.allContent {
+  border: 1px solid rgb(173, 25, 25);
+  height: 120vh;
+  background-color: rgb(71, 67, 67);
+  color: #fff;
+}
+
+.allContent > h2 {
+  width: 56vw;
+  height: 70vh;
+  margin-left: 25vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.mainContent > h2 {
+  height: 100vh;
+  margin-right: 20vw;
+  width: 30vw;
+  font-size: 4vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.hipt {
+  margin-bottom: -10vh;
+  width: 20vw;
+}
+
+.hi {
+  margin-bottom: -4vw;
+  margin-left: 2vw;
+  width: 20vw;
+}
+
+.hi2 {
+  margin-bottom: -10vh;
+}
+
+.intro {
+  font-size: 4vw;
+}
+
+.mainContent {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.mainContent p {
+  margin-top: 10vh;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  background: #14213D;
+  color: #E5E5E5;
+  overflow: hidden;
+}
+
+.home-page {
+  overflow: hidden;
+}
+
+.home-page {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  margin-top: 1rem;
+  padding: 1rem;
+  position: relative;
+  height: 90vh;
+}
+
+.home-page .landing-left-section {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 5;
+}
+
+.home-page .landing-left-section .text {
+  color: black;
+}
+
+.home-page .landing-left-section .text h1, .home-page .landing-left-section .text p {
+  letter-spacing: 3px;
+}
+
+.home-page .landing-left-section .text h1, .home-page .landing-left-section .text {
+  font-size: 2.5rem;
+}
+
+.home-page .landing-left-section .text p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.home-page .landing-left-section .text span {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.nameLogo {
+  width: 3vw;
+}
+
+.profileClass {
+  width: 25vw;
+  margin-left: 33vw;
+  margin-bottom: -33vw;
+  display: 1px solid rgb(131, 9, 9);
+}
+
+.portugueseText {
+  height: 20vh;
+  width: 20vw;
+  display: 1px solid black;
+}
+
+.hi1 {
+  margin-right: 4vw;
+  height: 20vh;
+}/*# sourceMappingURL=main.css.map */
