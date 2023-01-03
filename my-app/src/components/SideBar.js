@@ -16,11 +16,18 @@ import CloseIcon from '@mui/icons-material/Close';
     english ? setEnglish(false) : setEnglish(true);
   }
   
+  const closeBar = () => {
+    const x =  document.querySelector('.links')
+    return  x.style.display = 'none';
+    
+  }
 
 return(
   <div className="links">
     <div className='x'>
+      <button onClick={closeBar}>
     <CloseIcon />
+    </button>
     </div>
     <div>
     <img src={ logo } alt="logo" className="logo" />
