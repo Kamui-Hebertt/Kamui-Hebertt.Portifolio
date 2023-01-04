@@ -17,8 +17,9 @@ import CloseIcon from '@mui/icons-material/Close';
   }
   
   const closeBar = () => {
-    const x =  document.querySelector('.links')
-    return  x.style.display = 'none';
+    const x =  document.querySelector('.links');
+       
+       return  x.style.display = 'none';
     
   }
 
