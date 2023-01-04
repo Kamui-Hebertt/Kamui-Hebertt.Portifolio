@@ -46,7 +46,7 @@ function Home () {
              
             {english? (<div className="mainContent">
             <img src={profile} className="profileClass" alt='profile' />
-            <h2>
+            <h2 className='text1'>
 
             <p className='hi'>Hi, </p>
            <p className='hi1'> I'm <img src={H} className="nameLogo" alt="logo" />ebertt, Web Developer</p>
@@ -56,7 +56,7 @@ function Home () {
             </div>) : ( 
             <div className='mainContent'>
               <img src={ profile } className="profileClass" alt='profile' />
-              <h2><p className='hipt'>Olá,</p>  
+              <h2 className='text2'><p className='hipt'>Olá,</p>  
              <p className='portugueseText'> Me chamo <img src={H} className="nameLogo" alt="logo" />
               ebertt,<p className='hi2'></p> Desenvolvedor Web  </p> </h2>
             </div>

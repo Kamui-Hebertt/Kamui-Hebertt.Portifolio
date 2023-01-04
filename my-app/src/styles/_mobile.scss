@@ -33,6 +33,7 @@
   .menuBar svg {
     width: 10vw;
     height: 10vh;
+    color: $whiteLetter;
   }
   .menuBar button {
     background-color: transparent;
@@ -67,21 +68,69 @@
     margin-left: 43vw;
   }
   .mainContent {
-    border: 1px solid black;
+  
     display: flex;
    margin-top: -19vw;
   }
   .mainContent h2{
-    border: 1px solid black;
-    height: 50vh;
+ 
+    
+    width: 80vw;
     font-size: 10vw;
+    margin-left: 15vw;
+   
+ 
+  }
+  .text1 {
+    margin-top: 9vh;
+
+  }
+  .hi {
+   margin-left: 25vw;
+   
+   margin-bottom: -9vh;
+ 
+
+
+   
+  }
+  .hi1{
+    margin: auto;
+   margin-bottom: 15px;
+   width: 65vw;
+    
+  
+  }
+
+  .nameLogo{
+    height: 5vh;
+    width: 10vw;
   }
   .allContent {
     width: 105vw;
   }
 
   .profileClass {
+    
     width: 80vw;
     margin-right: 40vw;
+    border: 1px solid rgb(136, 50, 50);
+  }
+  .text2 {
+   
+    width: 25vw;
+    height: 30vh;
+    margin-top: 14vh;
+    margin-left: 25vw;
+  }
+
+  .portugueseText{
+    width: 50vw;
+    margin: auto;
+  }
+
+  .hipt {
+    margin-left: 27vw;
+  
   }
 }
