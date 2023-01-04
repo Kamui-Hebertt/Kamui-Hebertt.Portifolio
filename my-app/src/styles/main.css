@@ -341,6 +341,14 @@
   .hipt {
     margin-left: 27vw;
   }
+  .titleSkills {
+    border: 1px solid black;
+  }
+  .titulo {
+    border: 1px solid black;
+    height: 5vh;
+    font-size: 12px;
+  }
 }
 * {
   margin: 0;
