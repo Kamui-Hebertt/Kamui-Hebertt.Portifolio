@@ -6,7 +6,7 @@ import providerFile from '../context/contex';
 
 
 function Skills () {
-    const { loading, setloading } = useContext(providerFile);
+    const { loading, setloading, english   } = useContext(providerFile);
 
     useEffect(
         () => {
@@ -22,7 +22,42 @@ function Skills () {
         return(
             <div className='allContent'>
            <SideBar />
-         {loading ? <Loading /> : (<h2>skills</h2>)}   
+         {loading ? <Loading /> : (
+         <>{ english ? (
+           <main className='skillsMain'>
+           <h1 className='titleSkills'>Skills And Experinces</h1> 
+          <div class="container">
+  <div class="col">
+    <h2 class="titulo">Front-End Skills</h2>
+    <ul class="skill">
+      <li><span class="blueline html"></span><em>HTML</em></li>
+      <li><span class="blueline css"></span><em>CSS</em></li>
+      <li><span class="blueline javascript"></span><em>ReactJS</em></li> 
+      <li><span class="blueline php"></span><em>Javascript</em></li>
+      <li><span class="blueline jquery"></span><em>TypeScript</em></li>
+    </ul>
+  </div>
+   
+  </div>
+
+              </main>
+              ) : (        <main className='skillsMain'>
+              <h1 className='titleSkills'>Habilidades e Experiências</h1> 
+             <div class="container">
+     <div class="col">
+       <h2 class="titulo">Habilidades de Front-end</h2>
+       <ul class="skill">
+         <li><span class="blueline html"></span><em>HTML</em></li>
+         <li><span class="blueline css"></span><em>CSS</em></li>
+         <li><span class="blueline javascript"></span><em>ReactJS</em></li> 
+         <li><span class="blueline php"></span><em>Javascript</em></li>
+         <li><span class="blueline jquery"></span><em>TypeScript</em></li>
+       </ul>
+     </div>
+      
+     </div>
+   
+                 </main>)}</>)}   
             </div>
         )
     }
