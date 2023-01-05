@@ -2,9 +2,7 @@
   .menuBar { 
 
     display: block;
-    display: flex;
-    justify-content: end;
-    margin-right: 5vw;
+
     margin-top: 1vw;
 
    
@@ -23,17 +21,21 @@
   }
   .x {
     display: block;
-   
+
     height: 6vh;
     display: flex;
+    
     justify-content: end;
-    margin-right: 2vw;
+    margin-top: 7vh;
+    margin-right:20vw;
   }
 
   .menuBar svg {
     width: 10vw;
     height: 10vh;
+    
     color: $whiteLetter;
+   
   }
   .menuBar button {
     background-color: transparent;
@@ -41,63 +43,88 @@
   }
 
   .links {
-    display: none;
-    width: 101vw;
-    margin-top: -12vh;
+    display: block;
+    width: 100%;
+
     height: 200vh;
     justify-content: center;
     border: 4px solid black;
+    margin-top: -10vh;
     
   }
   .links p {
-    width: 99vw;
+    width: 100vw;
     font-size: 20px;
   }
 
   .langbtn{
     font-size: 20px;
-    margin-left: 38vw;
+    width: 100vw;
+    border: 1px solid black;
   }
   .logo{
     width: 70vw;
-    margin: 15vw;
-    
+
+    border: 1px solid black;
+    width: 100vw;
     
   }
   .icons {
-    margin-left: 43vw;
-  }
-  .mainContent {
-  
     display: flex;
-   margin-top: -19vw;
+    justify-content: center;
+    border: 1px solid black;
+    height: 5vh;
+    gap:5px;
+    width: 100vw;
   }
+
+ .mainContent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+ }
+
   .mainContent h2{
- 
-    
     width: 80vw;
     font-size: 10vw;
-    margin-left: 15vw;
-   
- 
+  }
+  
+  .texti {
+    width: 50vw;
+    margin-bottom: 20vh;
   }
   .text1 {
-    margin-top: 9vh;
-
+   height: 40vh;
+    width: 60vw;
+    margin-left: -15vw;
   }
   .hi {
-   margin-left: 25vw;
-   
+    border:1px solid black;
+    width: 70vw;
+    font-size: 5vh;
+    text-align: center;
+   width: 15vw;
    margin-bottom: -9vh;
 
   }
+   .hi2 {
+    width: 100vw;
+    border: 1px solid rgb(223, 46, 46);
+   }
   .hi1{
-    margin: auto;
-   margin-bottom: 15px;
-   width: 65vw;
-    
-  
+    border:1px solid black;
+    width: 70vw;
+    font-size: 5vh;
+    text-align: center;
   }
+
+  .texti {
+    border: 1px solid black;
+
+  }
+  
+
 
   .nameLogo{
     height: 5vh;
@@ -108,28 +135,35 @@
   }
 
   .profileClass {
-    
-    width: 80vw;
-    margin-right: 40vw;
-    border: 1px solid rgb(136, 50, 50);
+    width: 120vw;
+   margin-left: -19vw;
+   margin-bottom: 2vh;
+ 
+
   }
-  .text2 {
-   
-    width: 25vw;
-    height: 30vh;
-    margin-top: 14vh;
-    margin-left: 25vw;
+  
+  .menuBar svg{
+
+    margin-left: 10vw;
   }
 
+  .menuBar {
+    justify-content: end;
+    display: flex;
+    margin-left: 14.2vw;
+    width: 100vw;
+
+    background-color: $kindgray;
+  }
+  .hi2 {
+
+    width: 30vw;
+  }
   .portugueseText{
     width: 50vw;
     margin: auto;
   }
 
-  .hipt {
-    margin-left: 27vw;
-  
-  }
 
   .titleSkills {
 
@@ -140,4 +174,9 @@
     height: 5vh;
     font-size: 12px;
   }
+  .profileClass{
+  height: 20vh;
+  width: 22vh;
+  }
+  
 }

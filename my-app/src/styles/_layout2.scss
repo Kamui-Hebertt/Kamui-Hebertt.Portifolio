@@ -1,0 +1,164 @@
+.mainContent {
+  border: 1px solid black;
+  height: 75vh;
+  width: 85vw;
+   margin-left: 14vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: $kindgray;
+  color: $whiteLetter
+
+}
+
+body{
+  background-color: $kindgray;
+}
+
+
+.hi1 {
+  margin-left: 7vw;
+
+  width: 70vw;
+  font-size: 5vh;
+  text-align: center;
+}
+.hi2 {
+  font-size: 5vh;
+}
+.hi {
+margin-right: 7vw;
+  width: 30vw;
+ 
+}
+
+.hi {
+
+  width: 70vw;
+  font-size: 5vh;
+  text-align: center;
+  margin-bottom: -10vh;
+  display: flex;
+  justify-content: center;
+  width: 10vw;
+}
+.profileClass {
+  height: 50vh;
+  margin-right: 10vw;
+  margin-top: -70vh;
+}
+
+.texti {
+  margin-right: -25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  width: 25vw;
+  height: 40vh;
+}
+
+
+.logo {
+  width: 20vw ;
+}
+.links {
+  border: 1px solid rgb(2, 119, 8);
+  width: 20vw;
+}
+
+
+.mainContent p {
+
+  margin-top: 10vh;
+}
+
+.menuBar { 
+
+  display: none;
+}
+
+
+.links {
+  background-color: $backG;
+   color: $whiteLetter;
+   gap: 20px;
+   display: flex;
+   width: 14vw;
+   height: 100vh;
+   position: fixed;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.links p {
+   margin-top: -5px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  color: $whiteLetter;
+  text-decoration: none;
+  border-top: 1px solid $kindgray;
+  border-bottom: 1px solid $kindgray;
+  width: 13.7vw;
+  height: 7.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  
+}
+.x {
+  
+ 
+  display:none;
+}
+.links p:hover {
+    color:$blueHove;
+    transition: 0.2s;
+    
+}
+
+.links :link {text-decoration: none;}
+
+
+.langbtn {
+  background-color: transparent;
+  color: $whiteLetter;
+  border:none;
+  cursor:pointer;
+
+  color: $blueHove;
+}
+
+.logo {
+  width: 14vw;
+  height: 32vh;
+}
+
+.icons {
+
+  margin-top: 3vh;
+  transition: 0.2s;
+
+}
+
+.icons a {
+  
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+.icons a:hover {
+  color: $blueHove;
+}
+
+.nameLogo {
+  height: 5vh;
+   width: 2vw;
+}
+
+.titulo {
+  color: $whiteLetter;
+}

@@ -29,6 +29,7 @@ function Skills () {
           <div class="container">
   <div class="col">
     <h2 class="titulo">Front-End Skills</h2>
+   
     <ul class="skill">
       <li><span class="blueline html"></span><em>HTML</em></li>
       <li><span class="blueline css"></span><em>CSS</em></li>
@@ -42,10 +43,11 @@ function Skills () {
 
               </main>
               ) : (        <main className='skillsMain'>
-              <h1 className='titleSkills'>Habilidades e Experiências</h1> 
+              <h1 className='titleSkills'>Habilidades & Experiências</h1> 
              <div class="container">
      <div class="col">
        <h2 class="titulo">Habilidades de Front-end</h2>
+=
        <ul class="skill">
          <li><span class="blueline html"></span><em>HTML</em></li>
          <li><span class="blueline css"></span><em>CSS</em></li>
