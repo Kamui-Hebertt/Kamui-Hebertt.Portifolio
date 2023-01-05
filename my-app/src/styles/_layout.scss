@@ -78,7 +78,9 @@ body {
 
 .allContent {
   border: 1px solid rgb(173, 25, 25);
-  height: 120vh;
+  height: 200vh;
+  display: flex;
+  flex-wrap: wrap;
   background-color: $kindgray;
   color: $whiteLetter;
 }
@@ -86,8 +88,8 @@ body {
 .allContent > h2 {
  
   width: 56vw;
-  height: 70vh;
-
+  height: 100vh;
+  
   margin-left: 25vw;
   justify-content: center;
   align-items: center;
@@ -100,7 +102,7 @@ body {
 
 .mainContent > h2 {
  
-  height: 100vh;
+  height: 150vh;
   margin-right: 20vw;
   width: 30vw;
   font-size: 4vw;
@@ -118,33 +120,54 @@ body {
 
   width: 20vw;
 }
-
-.hi {
-  margin-bottom: -4vw;
-  margin-left: 2vw;
-
+.hi1 {
+  border: 1px solid rgb(189, 108, 108);
+  margin-left: 7vw;
   width: 20vw;
 }
+.hi {
+  margin-bottom: -5vw;
+  margin-left: 2vw;
+  border: 1px solid black;
+  width: 10vw;
+}
 .hi2 {
- 
+  border: 1px solid black;
   margin-bottom: -10vh;
 }
-.intro {
-  font-size: 4vw;
+.text1 {
+  border: 1px solid black;
 
+  
 }
 
+.intro h3{
+  font-size: 3vw;
+  margin-left: 5vw;
+}
+.intro  p{
+  margin-left: 19vw;
+}
+
+.allContent{
+  border: 1px solid rgb(20, 3, 3);
+}
 .mainContent {
 
-  width: 100vw;
+  width: 80vw;
   height: 80vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10vh;
+border:1px solid black;
+
+
+
 
 }
+
+.text1{
+  border: 1px solid black;
+}
+
+
 
 .mainContent p {
 
@@ -154,4 +177,20 @@ body {
 .menuBar { 
 
   display: none;
+}
+
+
+.intro  > p{
+  text-align: center;
+  font-size: 3.7vh;
+
+}
+.text1 {
+  width: 60vw;
+}
+
+.profileClass{
+border: 1px solid red;
+
+
 }

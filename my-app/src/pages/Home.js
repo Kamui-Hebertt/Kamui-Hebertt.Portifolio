@@ -35,36 +35,40 @@ function Home () {
          
             <div className='allContent'>
           <div className='menuBar' >
-            <button onClick={ openSideBar } >
+          <button onClick={ openSideBar } >
               <MenuIcon />
               </button>
               </div>
                 <SideBar />
           {loading ? <Loading /> : (
 
-          <h2>
+          <>
              
-            {english? (<div className="mainContent">
+            {english? (
+            <div className="mainContent">
+           
             <img src={profile} className="profileClass" alt='profile' />
-            <h2 className='text1'>
-
-            <p className='hi'>Hi, </p>
+        <div className='texti'>
+            <p className='hi'>Hi! </p>
            <p className='hi1'> I'm <img src={H} className="nameLogo" alt="logo" />ebertt, Web Developer</p>
             
             
-            </h2>
+           </div>
+      
             </div>) : ( 
-            <div className='mainContent'>
+            <div className="mainContent">
               <img src={ profile } className="profileClass" alt='profile' />
-              <h2 className='text2'><p className='hipt'>Olá,</p>  
-             <p className='portugueseText'> Me chamo <img src={H} className="nameLogo" alt="logo" />
-              ebertt,<p className='hi2'></p> Desenvolvedor Web  </p> </h2>
+              <div className='texti'>
+             <p className='hi'>Olá!</p>  
+             <p className='hi2'> Me chamo <img src={H} className="nameLogo" alt="logo" />
+              ebertt, Desenvolvedor Web  </p>
+              </div>
             </div>
             
             )}
 
 
-          </h2>)
+          </>)
            }  
             </div>
         )

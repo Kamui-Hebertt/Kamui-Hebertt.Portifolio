@@ -58,18 +58,23 @@
 
 .titleSkills{
   float: right;
-  margin-right: 25vw;
+  margin-right: 37vw;
   margin-top: 8vh;
-  width: 40vw;
+  width: 20vw;
+  border: 1px solid black;
   font-size: 8vh;
   color: $blueHove;
   font-family: "Poppins";
+  text-align: center;
+
  
 }
 .titulo {
   font-size: 4vh;
   display: flex;
   justify-content: center;
+  margin-bottom: 3vh;
+  
 
 }
 
