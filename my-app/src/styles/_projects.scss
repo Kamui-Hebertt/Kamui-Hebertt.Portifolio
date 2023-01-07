@@ -1,0 +1,51 @@
+.pro {
+
+
+  border: 1px solid rgb(201, 20, 20);
+  width: 70vw;
+  height: 90vh;
+  margin-left: 20vw;
+
+}
+
+.projectImg {
+  width: 15vw;
+  height: 20vh;
+ transition: 0.4s;
+}
+
+.someProjects{
+  border: 1px solid black;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+.projectImg:hover {
+  transition: 0.4s;
+  opacity: 0.5;
+}
+
+.someProjects > li {
+border: 1px solid black;
+height: 30vh;
+width: 20vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.titleProject{
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  font-size: 6vh;
+  font-family: "Poppins";
+  color:$whiteLetter;
+}
+
+
+.projectHamburger{
+  display: none;
+}
