@@ -31,10 +31,9 @@ body {
   
 }
 .x {
-  
- 
   display:none;
 }
+
 .links p:hover {
     color:$blueHove;
     transition: 0.2s;
@@ -75,7 +74,6 @@ body {
   color: $blueHove;
 }
 
-
 .allContent {
   border: 1px solid rgb(173, 25, 25);
   height: 200vh;
@@ -86,18 +84,13 @@ body {
 }
 
 .allContent > h2 {
- 
   width: 56vw;
   height: 100vh;
-  
   margin-left: 25vw;
   justify-content: center;
   align-items: center;
   display: flex;
   height: 100vh;
-
- 
-
 }
 
 .mainContent > h2 {
@@ -157,9 +150,6 @@ body {
   width: 80vw;
   height: 80vh;
 border:1px solid black;
-
-
-
 
 }
 

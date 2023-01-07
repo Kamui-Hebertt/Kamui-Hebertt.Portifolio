@@ -26,3 +26,26 @@
   transition: 0.4s;
   opacity: 0.5;
 }
+
+.someProjects > li {
+border: 1px solid black;
+height: 30vh;
+width: 20vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.titleProject{
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  font-size: 6vh;
+  font-family: "Poppins";
+  color:$whiteLetter;
+}
+
+
+.projectHamburger{
+  display: none;
+}
