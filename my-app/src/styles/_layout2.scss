@@ -1,11 +1,10 @@
 .mainContent {
   border: 1px solid black;
-  height: 75vh;
-  width: 85vw;
-   margin-left: 14vw;
+  height: 180vh;
+  width: 80vw;
+ margin-left: 15vw;
   display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
+  flex-direction: column;
   background-color: $kindgray;
   color: $whiteLetter
 
@@ -19,9 +18,11 @@ body{
 .hi1 {
   margin-left: 7vw;
 
-  width: 70vw;
+  width: 30vw;
   font-size: 5vh;
   text-align: center;
+  border: 1px solid black;
+ 
 }
 .hi2 {
   font-size: 5vh;
@@ -42,21 +43,31 @@ margin-right: 7vw;
   justify-content: center;
   width: 10vw;
 }
+
 .profileClass {
-  height: 50vh;
-  margin-right: 10vw;
-  margin-top: -70vh;
+
+  border: 1px solid rgb(177, 7, 7);
+  margin-top: 15vh;
+  margin-left: 50vw;
+padding-bottom: 10vh;
+}
+.content {
+  border: 1px solid black;
+  width: 75vw;
+  padding-left: 7vw;
 }
 
 .texti {
-  margin-right: -25vw;
+margin-left: 1vw;
   display: flex;
   align-items: center;
   justify-content: center;
-
   flex-direction: column;
   width: 25vw;
   height: 40vh;
+  border: 1px solid black;
+  margin-bottom: 5vw;
+  margin-top: 20vh;
 }
 
 

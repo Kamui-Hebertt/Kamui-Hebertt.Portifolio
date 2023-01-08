@@ -47,16 +47,27 @@ function Home () {
              
             {english? (
             <div className="mainContent">
-           
-            <img src={profile} className="profileClass" alt='profile' />
-        <div className='texti'>
+           <div className="content">
+            
+             <img src={profile} className="profileClass" alt='profile' />
+             <div className='texti'>
             <p className='hi'>Hi! </p>
            <p className='hi1'> I'm <img src={H} className="nameLogo" alt="logo" />ebertt, Web Developer</p>
-            
-            
            </div>
-      
-            </div>) : ( 
+           </div>
+           
+     
+         <div className='about'>
+           <div className="about1">
+          <p>About Me</p>
+          </div>
+          <div className="allAbout">
+            <p className="pAbout">I am obsessed with the Internet and how it works, so experimenting with new technologies is a lot of fun for me. I like to feel challenged and find personal satisfaction in learning new things.
+</p>
+          </div>
+         </div>
+            </div>
+            ) : ( 
             <div className="mainContent">
               <img src={ profile } className="profileClass" alt='profile' />
               <div className='texti'>
@@ -64,6 +75,7 @@ function Home () {
              <p className='hi2'> Me chamo <img src={H} className="nameLogo" alt="logo" />
               ebertt, Desenvolvedor Web  </p>
               </div>
+              
             </div>
             
             )}

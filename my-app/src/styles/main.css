@@ -1,11 +1,10 @@
 .mainContent {
   border: 1px solid black;
-  height: 75vh;
-  width: 85vw;
-  margin-left: 14vw;
+  height: 180vh;
+  width: 80vw;
+  margin-left: 15vw;
   display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
+  flex-direction: column;
   background-color: rgb(71, 67, 67);
   color: #fff;
 }
@@ -16,9 +15,10 @@ body {
 
 .hi1 {
   margin-left: 7vw;
-  width: 70vw;
+  width: 30vw;
   font-size: 5vh;
   text-align: center;
+  border: 1px solid black;
 }
 
 .hi2 {
@@ -41,19 +41,29 @@ body {
 }
 
 .profileClass {
-  height: 50vh;
-  margin-right: 10vw;
-  margin-top: -70vh;
+  border: 1px solid rgb(177, 7, 7);
+  margin-top: 15vh;
+  margin-left: 50vw;
+  padding-bottom: 10vh;
+}
+
+.content {
+  border: 1px solid black;
+  width: 75vw;
+  padding-left: 7vw;
 }
 
 .texti {
-  margin-right: -25vw;
+  margin-left: 1vw;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 25vw;
   height: 40vh;
+  border: 1px solid black;
+  margin-bottom: 5vw;
+  margin-top: 20vh;
 }
 
 .logo {
@@ -167,6 +177,16 @@ body {
     transform: translateX(0%);
   }
 }
+.pAbout {
+  -webkit-animation: slide-in 0.7s;
+          animation: slide-in 0.7s;
+}
+
+.hi2 {
+  -webkit-animation: slide-in 0.7s;
+          animation: slide-in 0.7s;
+}
+
 .hi1 {
   -webkit-animation: slide-in 0.7s;
           animation: slide-in 0.7s;
@@ -622,6 +642,7 @@ body {
   width: 15vw;
   height: 20vh;
   transition: 0.4s;
+  border-radius: 5px;
 }
 
 .someProjects {
@@ -630,11 +651,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 2vw;
+  justify-content: center;
 }
 
 .projectImg:hover {
   transition: 0.4s;
   opacity: 0.5;
+  transform: scale(1.2);
 }
 
 .someProjects > li {
@@ -657,4 +680,41 @@ body {
 
 .projectHamburger {
   display: none;
+}
+
+.about {
+  width: 80vw;
+  border: 2px solid rgb(201, 12, 12);
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+
+.pAbout {
+  margin-top: -5vh;
+  border: 1px solid black;
+  width: 40vw;
+}
+
+.about1 {
+  font-size: 5vh;
+  font-family: "Poppins";
+  height: 80vh;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(201, 12, 12);
+}
+
+.allAbout {
+  font-size: 5vh;
+  text-align: center;
+  font-family: "Poppins";
+  height: 80vh;
+  display: flex;
+  width: 150vw;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(201, 12, 12);
 }/*# sourceMappingURL=main.css.map */
