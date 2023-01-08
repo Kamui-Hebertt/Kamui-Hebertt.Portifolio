@@ -5,6 +5,7 @@ import providerFile from '../context/contex';
 import trivia from '../styles/projectsImg/trivia.png';
 import recipes from '../styles/projectsImg/recipes.png';
 import MenuIcon from '@mui/icons-material/Menu';
+import wallet from '../styles/projectsImg/wallet.png';
 
 
 function Projects () {
@@ -50,6 +51,8 @@ function Projects () {
             <li>
               <a href="https://trivia-project-redux.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={ trivia } alt="link" className="projectImg" />
+                
+               
                 </a>
              
               </li>
@@ -57,7 +60,15 @@ function Projects () {
               <a href="https://recipe-app-react-jade.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={ recipes } alt="link" className="projectImg" />
                 </a>
+
               </li>
+              <li>
+              <a href="https://wallet-project-redux.vercel.app/" target="_blank" rel="noreferrer">
+                <img src={ wallet } alt="link" className="projectImg" />
+                </a>
+                
+              </li>
+            
             
           </ul>
           
