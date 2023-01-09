@@ -9,8 +9,11 @@ import Footer from '../components/Footer';
 
 
 
+
 function Home () {
     const { loading, setloading, english  } =  useContext(providerFile);
+    
+
 
 
     const openSideBar = () => {
