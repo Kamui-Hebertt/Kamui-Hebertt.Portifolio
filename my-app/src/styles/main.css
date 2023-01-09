@@ -434,7 +434,7 @@ body {
 .container {
   border: 1px solid rgb(240, 26, 176);
   margin-left: 17vw;
-  height: 100vh;
+  height: 110vh;
   width: 80vw;
   display: flex;
   flex-direction: row-reverse;
@@ -755,4 +755,22 @@ body {
   width: 87.7vw;
   height: 12vh;
   padding-bottom: 5vh;
+}
+
+.footSkills {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 12px;
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98.7vw;
+  height: 12vh;
+  padding-bottom: 5vh;
+}
+
+.footSkills > p {
+  margin-top: 10vh;
+  margin-left: 10vw;
 }/*# sourceMappingURL=main.css.map */

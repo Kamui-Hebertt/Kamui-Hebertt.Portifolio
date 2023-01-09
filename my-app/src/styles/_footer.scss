@@ -6,9 +6,28 @@
   background-color: $backG;
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
   width: 87.7vw;
   height: 12vh;
   padding-bottom: 5vh;
 
+}
+
+.footSkills {
+  color: $whiteLetter;
+ font-family: "Poppins";
+ font-size: 12px;
+
+  background-color: $backG;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98.7vw;
+  height: 12vh;
+  padding-bottom: 5vh;
+}
+.footSkills > p {
+
+  margin-top: 10vh;
+  margin-left: 10vw;
 }

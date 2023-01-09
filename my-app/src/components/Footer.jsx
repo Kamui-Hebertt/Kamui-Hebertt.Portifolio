@@ -7,13 +7,13 @@ import providerFile from "../context/contex";
 
 const Footer = () => {
 
-   const{ english, loading } = useContext(providerFile); 
+   const{ english } = useContext(providerFile); 
       const location =  useLocation();
       console.log(location.pathname)
    
   return(
   
-    <footer className="foot">
+    <footer className={ location.pathname === "/" ? "foot" : "footSkills"}>
     {english? (<p>@Created and developded By Hebertt Nascimento</p>) : 
     (<p>@Criado e desenvolvido por Hebertt Nascimento</p>)}
     

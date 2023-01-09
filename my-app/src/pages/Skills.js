@@ -51,8 +51,8 @@ function Skills () {
 React Router, Figma, CSS , HTML , Jest/Unity test , RTL.
         I'm also starting to study some Back-End stacks such as MySql.</p>
   </div>
-   
   </div>
+  <Footer /> 
 
               </>
               ) : ( 
@@ -74,13 +74,14 @@ React Router, Figma, CSS , HTML , Jest/Unity test , RTL.
           <p className="descriptionSkill">Sou desenvolvedor front-end, atualmente trabalhando em projetos pessoais e desenvolvendo projetos para TRYBE como aluno,
      Trybe é uma escola de desenvolvimento web que tem um compromisso genuíno com o sucesso profissional de seus alunos, mas ao mesmo tempo trabalhando em alguns projetos.
       Estou cursando um bacharelado em engenharia de software.
-      Minhas principais stacks de front-end são ReactJs, Css, Scss, Redux , Context , JavaScript , Material UI
+      Minhas principais stacks de front-end são ReactJs, Css, Scss, Redux , Context , JavaScript , Material UI,
       React Router, Figma, CSS , HTML , Jest/Testes Unitários , RTL.
      Também estou começando a estudar algumas stacks de back-end, tais como MySql.</p>
   </div>
                   </div>
-                  
   <Footer /> 
+
+
                   </>
    
                
