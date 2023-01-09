@@ -53,24 +53,30 @@ function Skills () {
 
               </>
               ) : ( 
-                 <main className='skillsMain'>
-              <h1 className='titleSkills'>Habilidades & Experiências</h1> 
-             <div className="container">
-     <div className="col">
-       <h2 className="titulo">Habilidades de Front-end</h2>
+                
+              <><h1 className='titleSkills'>Habilidades & Experiências</h1><div className="container">
+                    <div className="col">
+                      <h2 className="titulo">Habilidades de Front-end</h2>
 
-       <ul className="skill">
-         <li><span className="blueline html"></span><em>HTML</em></li>
-         <li><span className="blueline css"></span><em>CSS</em></li>
-         <li><span className="blueline javascript"></span><em>ReactJS</em></li> 
-         <li><span className="blueline php"></span><em>Javascript</em></li>
-         <li><span className="blueline jquery"></span><em>TypeScript</em></li>
-       </ul>
-     </div>
-      
-     </div>
+                      <ul className="skill">
+                        <li><span className="blueline html"></span><em>HTML</em></li>
+                        <li><span className="blueline css"></span><em>CSS</em></li>
+                        <li><span className="blueline javascript"></span><em>ReactJS</em></li>
+                        <li><span className="blueline php"></span><em>Javascript</em></li>
+                        <li><span className="blueline jquery"></span><em>TypeScript</em></li>
+                      </ul>
+                    </div>
+                    <div className="textSkills">
+    <p className="descriptionSkill">Sou desenvolvedor front-end, atualmente trabalhando em projetos pessoais e desenvolvendo projetos para TRYBE como aluno,
+     Trybe é uma escola de desenvolvimento web que tem um compromisso genuíno com o sucesso profissional de seus alunos, mas ao mesmo tempo trabalhando em alguns projetos.
+      Estou cursando um bacharelado em engenharia de software.
+      Minhas principais stacks de front-end são ReactJs, Css, Scss, Redux , Context , JavaScript , CSS , HTML , Jest/Testes Unitários , RTL.
+     Também estou começando a estudar algumas stacks de back-end, tais como MySql.</p>
+  </div>
+
+                  </div></>
    
-                 </main>
+               
                  )}
                  </>)}   
             </div>
