@@ -747,11 +747,12 @@ body {
   color: #fff;
   font-family: "Poppins";
   font-size: 12px;
+  margin-left: -5vw;
   background-color: #1d1d1d;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 87.7vw;
   height: 12vh;
   padding-bottom: 5vh;
 }/*# sourceMappingURL=main.css.map */
