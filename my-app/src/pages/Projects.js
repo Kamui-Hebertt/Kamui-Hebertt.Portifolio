@@ -9,7 +9,7 @@ import wallet from '../styles/projectsImg/wallet.png';
 
 
 function Projects () {
-    const { loading, setloading } =  useContext(providerFile);
+    const { loading, setloading, english } =  useContext(providerFile);
 
     useEffect(
         () => {
@@ -45,33 +45,26 @@ function Projects () {
           {loading ? <Loading /> : (
           <>
           <div className="pro">
-            <h2 className="titleProject">Projects</h2>
+            <h2 className="titleProject">{english? "Projects" : "Projetos" }</h2>
 
           <ul className="someProjects">
             <li>
               <a href="https://trivia-project-redux.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={ trivia } alt="link" className="projectImg" />
-                
-               
                 </a>
-             
               </li>
               <li>
               <a href="https://recipe-app-react-jade.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={ recipes } alt="link" className="projectImg" />
                 </a>
-
               </li>
               <li>
               <a href="https://wallet-project-redux.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={ wallet } alt="link" className="projectImg" />
                 </a>
-                
               </li>
-            
-            
+
           </ul>
-          
           </div>
           </>
           ) }  

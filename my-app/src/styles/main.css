@@ -1,8 +1,9 @@
 .mainContent {
   border: 1px solid black;
-  height: 180vh;
   width: 80vw;
-  margin-left: 15vw;
+  margin-left: 16vw;
+  font-family: "Poppins";
+  font-size: 2vh;
   display: flex;
   flex-direction: column;
   background-color: rgb(71, 67, 67);
@@ -49,7 +50,7 @@ body {
 
 .content {
   border: 1px solid black;
-  width: 75vw;
+  width: 72vw;
   padding-left: 7vw;
 }
 
@@ -430,19 +431,39 @@ body {
   outline: none;
 }
 
+.container {
+  border: 1px solid rgb(240, 26, 176);
+  margin-left: 17vw;
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .col {
-  width: 40vw;
-  margin-left: 56vw;
-  margin-top: 35vh;
   position: relative;
-  height: 80vh;
+  width: 55vw;
   font-size: 12px;
   line-height: 2em;
+  height: 80vh;
+  border: 1px solid rgb(24, 183, 194);
+}
+
+.textSkills {
+  border: 1px solid rgb(173, 11, 11);
+  width: 80vw;
+  height: 80vh;
+}
+
+.descriptionSkill {
+  color: #fff;
+  font-family: "Poppins";
+  line-height: 25px;
+  text-align: left;
 }
 
 .skill {
   list-style: none;
-  padding-top: 30px;
 }
 
 .skill li {
@@ -459,7 +480,8 @@ body {
 .skill li em {
   position: relative;
   font-style: normal;
-  font-size: 14px;
+  font-size: 3vh;
+  font-family: "Poppins";
   text-align: center;
   color: #dedede;
   top: -28px;
@@ -480,9 +502,10 @@ body {
 
 .titleSkills {
   float: right;
-  margin-right: 37vw;
+  padding-bottom: 10vh;
+  margin-right: 25vw;
   margin-top: 8vh;
-  width: 20vw;
+  width: 40vw;
   border: 1px solid black;
   font-size: 8vh;
   color: #49c5b6;
@@ -494,7 +517,8 @@ body {
   font-size: 4vh;
   display: flex;
   justify-content: center;
-  margin-bottom: 3vh;
+  margin-bottom: 10vh;
+  font-family: "Poppins";
 }
 
 .titulo {
@@ -717,4 +741,18 @@ body {
   align-items: center;
   justify-content: center;
   border: 2px solid rgb(201, 12, 12);
+}
+
+.foot {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 12px;
+  margin-left: -5vw;
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87.7vw;
+  height: 12vh;
+  padding-bottom: 5vh;
 }/*# sourceMappingURL=main.css.map */

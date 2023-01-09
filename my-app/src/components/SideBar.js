@@ -10,9 +10,10 @@ import CloseIcon from '@mui/icons-material/Close';
 
  function SideBar () {
    
-  const { english, setEnglish } = useContext(providerFile);
+  const { english, setEnglish, loading, setLoading } = useContext(providerFile);
   
   const setLanguage = () => {
+    
     english ? setEnglish(false) : setEnglish(true);
   }
   

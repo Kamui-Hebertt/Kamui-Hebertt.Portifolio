@@ -5,13 +5,19 @@ import providerFile from '../context/contex';
 import H from '../styles/images/h.png';
 import profile from '../styles/images/profile.jfif'
 import MenuIcon from '@mui/icons-material/Menu';
+import Footer from '../components/Footer';
+
 
 
 
 function Home () {
-    const { loading, setloading, english, newSideBar, setNewSideBar } =  useContext(providerFile);
+    const { loading, setloading, english  } =  useContext(providerFile);
+    
+
+
+
     const openSideBar = () => {
-   const x =  document.querySelector('.links')
+   const x =  document.querySelector('.links');
 
    if (x.style.display === 'none') {
      return x.style.display = 'block';
@@ -20,6 +26,7 @@ function Home () {
   }
       
     }
+
     useEffect(
         () => {
            setloading(true);
@@ -34,8 +41,8 @@ function Home () {
 
         return(
          
-            <div className='allContent'>
-          <div className='menuBar' >
+            <div className="allContent">
+          <div className="menuBar" >
           <button onClick={ openSideBar } >
               <MenuIcon />
               </button>
@@ -68,6 +75,7 @@ function Home () {
                   </p>
           </div>
          </div>
+         <Footer />
             </div>
             ) : ( 
             <div className="mainContent">
@@ -79,18 +87,18 @@ function Home () {
               ebertt, Desenvolvedor Web  </p>
               </div>
               </div>
-              <div className='about'>
+              <div className="about">
            <div className="about1">
           <p>Sobre mim</p>
           </div>
           <div className="allAbout">
             <p className="pAbout">Sou obcecado pela Internet e como ela funciona,
-             então experimentar novas tecnologias é muito divertido pra mim. Gosto de me sentir desafiada
+             então experimentar novas tecnologias é muito divertido pra mim. Gosto de me sentir desafiado
               e encontro satisfação pessoal em aprender coisas novas. </p>
 
           </div>
          </div>
-              
+         <Footer />
             </div>
             
             )}
@@ -98,6 +106,7 @@ function Home () {
 
           </>)
            }  
+           
             </div>
         )
     }

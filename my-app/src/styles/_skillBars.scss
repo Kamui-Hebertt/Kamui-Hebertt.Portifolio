@@ -1,23 +1,51 @@
 * {margin: 0; padding: 0; outline: none;}
 
 
+.container {
+  border: 1px solid rgb(240, 26, 176);
+  margin-left: 17vw;
+  height: 100vh;
+  width: 80vw;
+  display: flex;
 
+  flex-direction: row-reverse;
+
+ 
+}
 .col {
 
-  width: 40vw;
-  margin-left: 56vw;
-  margin-top: 35vh;
+
+
+
   position: relative;
-  height: 80vh;
+  width: 55vw;
   font-size: 12px;
   line-height: 2em;
-
-  
+  height: 80vh;
+  border: 1px solid rgb(24, 183, 194);
+ 
 } 
+
+.textSkills {
+
+  border: 1px solid rgb(173, 11, 11);
+ width: 80vw;
+ 
+  height: 80vh;
+
+}
+
+.descriptionSkill {
+ color: $whiteLetter;
+ font-family: "Poppins";
+ line-height: 25px;
+ text-align: left;
+
+}
 
 .skill { 
   list-style:none; 
-  padding-top:30px;
+
 }
 
 .skill li { 
@@ -34,10 +62,12 @@
 .skill li em { 
   position:relative; 
   font-style: normal;
-  font-size: 14px;
+  font-size: 3vh;
+  font-family: "Poppins";
   text-align: center;
   color:#dedede;
   top:-28px;
+
 }
 
 .blueline { 
@@ -58,9 +88,10 @@
 
 .titleSkills{
   float: right;
-  margin-right: 37vw;
+  padding-bottom: 10vh;
+  margin-right: 25vw;
   margin-top: 8vh;
-  width: 20vw;
+  width: 40vw;
   border: 1px solid black;
   font-size: 8vh;
   color: $blueHove;
@@ -73,9 +104,9 @@
   font-size: 4vh;
   display: flex;
   justify-content: center;
-  margin-bottom: 3vh;
+  margin-bottom: 10vh;
   
-
+font-family: "Poppins";
 }
 
 .titulo      { opacity:1;  animation:titulo 5s ease-out;     }
