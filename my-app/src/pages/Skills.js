@@ -25,7 +25,7 @@ function Skills () {
            <SideBar />
          {loading ? <Loading /> : (
          <>{ english ? (
-           <main className='skillsMain'>
+           <>
            <h1 className='titleSkills'>Skills And Experinces</h1> 
           <div className="container">
   <div className="col">
@@ -39,10 +39,19 @@ function Skills () {
       <li><span className="blueline jquery"></span><em>TypeScript</em></li>
     </ul>
   </div>
+
+  <div className="textSkills">
+    <p className="descriptionSkill">I'm a front-end developer, currently working on personal projects and developing projects for TRYBE as student,
+     Trybe is a web development school that has a genuine commitment to the professional success of its students,
+     but at same time working on some projects.
+      I'm studying a bachelor's degree in software engineer.
+       My main stacks are ReactJs, Css, Scss, Redux , Context , JavaScript , CSS , HTML , Jest/Unity test , RTL.
+        I'm also starting to study some Back-End stacks such as MySql.</p>
+  </div>
    
   </div>
 
-              </main>
+              </>
               ) : ( 
                  <main className='skillsMain'>
               <h1 className='titleSkills'>Habilidades & Experiências</h1> 
