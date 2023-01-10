@@ -6,6 +6,7 @@ import trivia from '../styles/projectsImg/trivia.png';
 import recipes from '../styles/projectsImg/recipes.png';
 import MenuIcon from '@mui/icons-material/Menu';
 import wallet from '../styles/projectsImg/wallet.png';
+import Footer from '../components/Footer';
 
 
 function Projects () {
@@ -66,8 +67,10 @@ function Projects () {
 
           </ul>
           </div>
+          <Footer />
           </>
           ) }  
+          
             </div>
         )
     }

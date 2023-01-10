@@ -4,7 +4,7 @@
 .container {
   border: 1px solid rgb(240, 26, 176);
   margin-left: 17vw;
-  height: 100vh;
+  height: 110vh;
   width: 80vw;
   display: flex;
 
@@ -13,22 +13,21 @@
  
 }
 .col {
+ padding-right: 2vw;
 
-
-
+  margin-top: 3vh;
 
   position: relative;
   width: 55vw;
   font-size: 12px;
   line-height: 2em;
   height: 80vh;
-  border: 1px solid rgb(24, 183, 194);
+
  
 } 
 
 .textSkills {
 
-  border: 1px solid rgb(173, 11, 11);
  width: 80vw;
  
   height: 80vh;
@@ -36,11 +35,16 @@
 }
 
 .descriptionSkill {
+  
  color: $whiteLetter;
  font-family: "Poppins";
  line-height: 25px;
+ width: 40vw;
  text-align: left;
 
+ margin-left: 3vw;
+ margin-top:  18vh;
+ text-align: center;
 }
 
 .skill { 
@@ -88,15 +92,16 @@
 
 .titleSkills{
   float: right;
-  padding-bottom: 10vh;
+  padding-bottom: 4vh;
   margin-right: 25vw;
   margin-top: 8vh;
   width: 40vw;
+  text-align: center;
   border: 1px solid black;
   font-size: 8vh;
   color: $blueHove;
   font-family: "Poppins";
-  text-align: center;
+
 
  
 }
