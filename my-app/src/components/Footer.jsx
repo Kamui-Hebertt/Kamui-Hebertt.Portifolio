@@ -14,8 +14,8 @@ const Footer = () => {
   return(
   
     <footer className={ location.pathname === "/" ? "foot" : "footSkills"}>
-    {english? (<p>@Created and developded By Hebertt Nascimento</p>) : 
-    (<p>@Criado e desenvolvido por Hebertt Nascimento</p>)}
+    {english? (<p>Copyright ©2023 All rights reserved | This template is made by Hebertt</p>) : 
+    (<p>Copyright ©2023 All rights reserved | This template is made by Hebertt</p>)}
     
     </footer> 
 

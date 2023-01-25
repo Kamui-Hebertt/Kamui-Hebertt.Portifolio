@@ -285,6 +285,19 @@ body {
   .menuBar {
     display: block;
     margin-top: 1vw;
+    justify-content: end;
+    display: flex;
+    width: 100vw;
+    background-color: rgb(71, 67, 67);
+    border: 1px solid black;
+  }
+  .mainContent {
+    border: 1px solid rgb(17, 160, 226);
+    width: 80%;
+    margin-right: 10vw;
+  }
+  .allContent {
+    border: 1px solid rgb(170, 18, 18);
   }
   .x svg {
     width: 10vw;
@@ -348,23 +361,12 @@ body {
     gap: 5px;
     width: 100vw;
   }
-  .mainContent {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-  }
-  .mainContent h2 {
-    width: 80vw;
-    font-size: 10vw;
-  }
-  .texti {
-    width: 50vw;
-    margin-bottom: 20vh;
+  .pAbout {
+    height: 50vh;
   }
   .text1 {
     height: 40vh;
-    width: 60vw;
+    width: 80vw;
     margin-left: -15vw;
   }
   .hi {
@@ -374,16 +376,6 @@ body {
     text-align: center;
     width: 15vw;
     margin-bottom: -9vh;
-  }
-  .hi2 {
-    width: 100vw;
-    border: 1px solid rgb(223, 46, 46);
-  }
-  .hi1 {
-    border: 1px solid black;
-    width: 70vw;
-    font-size: 5vh;
-    text-align: center;
   }
   .texti {
     border: 1px solid black;
@@ -403,13 +395,6 @@ body {
   .menuBar svg {
     margin-left: 10vw;
   }
-  .menuBar {
-    justify-content: end;
-    display: flex;
-    margin-left: 14.2vw;
-    width: 100vw;
-    background-color: rgb(71, 67, 67);
-  }
   .hi2 {
     width: 30vw;
   }
@@ -420,14 +405,10 @@ body {
   .titleSkills {
     border: 1px solid black;
   }
-  .titulo {
-    border: 1px solid black;
-    height: 5vh;
-    font-size: 12px;
-  }
   .profileClass {
-    height: 20vh;
-    width: 22vh;
+    height: 40vh;
+    width: 40vh;
+    margin-left: 4vw;
   }
 }
 * {
@@ -531,6 +512,12 @@ body {
 }
 
 .titulo {
+  opacity: 1;
+  -webkit-animation: titulo 5s ease-out;
+          animation: titulo 5s ease-out;
+}
+
+.stack {
   opacity: 1;
   -webkit-animation: titulo 5s ease-out;
           animation: titulo 5s ease-out;
@@ -889,4 +876,31 @@ body {
 .footSkills > p {
   margin-top: 10vh;
   margin-left: 10vw;
+}
+
+.contact {
+  border: 1px solid black;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
+}
+
+.textC {
+  border: 1px solid rgb(224, 20, 20);
+  line-height: 4rem;
+  margin-left: 13vw;
+  width: 60vw;
+  height: 50vh;
+  color: #fff;
+  margin-top: 3vh;
+  padding-left: 1.5vw;
+}
+
+.textC > h3 {
+  color: #2187e7;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
