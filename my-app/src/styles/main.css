@@ -517,6 +517,12 @@ body {
           animation: titulo 5s ease-out;
 }
 
+.stack {
+  opacity: 1;
+  -webkit-animation: titulo 5s ease-out;
+          animation: titulo 5s ease-out;
+}
+
 .html {
   width: 75%;
   -webkit-animation: html 2s ease-out;
@@ -870,4 +876,31 @@ body {
 .footSkills > p {
   margin-top: 10vh;
   margin-left: 10vw;
+}
+
+.contact {
+  border: 1px solid black;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
+}
+
+.textC {
+  border: 1px solid rgb(224, 20, 20);
+  line-height: 4rem;
+  margin-left: 13vw;
+  width: 60vw;
+  height: 50vh;
+  color: #fff;
+  margin-top: 3vh;
+  padding-left: 1.5vw;
+}
+
+.textC > h3 {
+  color: #2187e7;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

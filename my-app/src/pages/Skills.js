@@ -23,7 +23,7 @@ function Skills () {
 
    
         return(
-            <div className='allContent'>
+            <div className="allContent">
            <SideBar />
          {loading ? <Loading /> : (
          <>{ english ? (
@@ -34,11 +34,11 @@ function Skills () {
     <h2 className="titulo">Front-End Skills</h2>
    
     <ul className="skill">
-      <li><span className="blueline html"></span><em>HTML</em></li>
-      <li><span className="blueline css"></span><em>CSS</em></li>
-      <li><span className="blueline javascript"></span><em>ReactJS</em></li> 
-      <li><span className="blueline php"></span><em>Javascript</em></li>
-      <li><span className="blueline jquery"></span><em>TypeScript</em></li>
+      <li><span className="blueline html"></span><em className="stack">HTML</em></li>
+      <li><span className="blueline css"></span><em className="stack">CSS</em></li>
+      <li><span className="blueline javascript"></span><em className="stack">ReactJS</em></li> 
+      <li><span className="blueline php"></span><em className="stack">Javascript</em></li>
+      <li><span className="blueline jquery"></span><em className="stack">TypeScript</em></li>
     </ul>
   </div>
 
@@ -48,8 +48,8 @@ function Skills () {
      but at same time working on some projects.
       I'm studying a bachelor's degree in software engineer.
        My main stacks are ReactJs, Css, Scss, Redux , Context , JavaScript ,Material UI
-React Router, Figma, CSS , HTML , Jest/Unity test , RTL.
-        I'm also starting to study some Back-End stacks such as MySql.</p>
+      React Router, Figma, CSS , HTML , Jest/Unity test , RTL.
+        I'm also starting to study some Back-End stacks such as Docker and MySql.</p>
   </div>
   </div>
   <Footer /> 
@@ -63,11 +63,11 @@ React Router, Figma, CSS , HTML , Jest/Unity test , RTL.
                       <h2 className="titulo">Habilidades de Front-end</h2>
 
                       <ul className="skill">
-                        <li><span className="blueline html"></span><em>HTML</em></li>
-                        <li><span className="blueline css"></span><em>CSS</em></li>
-                        <li><span className="blueline javascript"></span><em>ReactJS</em></li>
-                        <li><span className="blueline php"></span><em>Javascript</em></li>
-                        <li><span className="blueline jquery"></span><em>TypeScript</em></li>
+                        <li><span className="blueline html"></span><em className="stack">HTML</em></li>
+                        <li><span className="blueline css"></span><em className="stack">CSS</em></li>
+                        <li><span className="blueline javascript"></span><em className="stack">ReactJS</em></li>
+                        <li><span className="blueline php"></span><em className="stack">Javascript</em></li>
+                        <li><span className="blueline jquery"></span><em className="stack">TypeScript</em></li>
                       </ul>
                     </div>
                     <div className="textSkills">
@@ -76,7 +76,7 @@ React Router, Figma, CSS , HTML , Jest/Unity test , RTL.
       Estou cursando um bacharelado em engenharia de software.
       Minhas principais stacks de front-end são ReactJs, Css, Scss, Redux , Context , JavaScript , Material UI,
       React Router, Figma, CSS , HTML , Jest/Testes Unitários , RTL.
-     Também estou começando a estudar algumas stacks de back-end, tais como MySql.</p>
+     Também estou começando a estudar algumas stacks de back-end, tais como Docker e  MySql.</p>
   </div>
                   </div>
   <Footer /> 

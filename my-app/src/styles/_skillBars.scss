@@ -110,13 +110,12 @@
   display: flex;
   justify-content: center;
   margin-bottom: 10vh;
-  
-font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 .titulo      { opacity:1;  animation:titulo 5s ease-out;     }
 
-
+.stack       {  opacity:1;  animation:titulo 5s ease-out;}
 .html        { width:75%;  animation:html 2s ease-out;       }
 .css         { width:60%;  animation:css 2s ease-out;        }
 .php         { width:75%;  animation:php 2s ease-out;        }
