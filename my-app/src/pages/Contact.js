@@ -9,7 +9,7 @@ import providerFile from '../context/contex';
 
 
 function Contact () {
-   const { loading, setloading } = useContext(providerFile);
+   const { loading, setloading, english } = useContext(providerFile);
 
    useEffect(
     () => {
@@ -27,11 +27,11 @@ function Contact () {
           {loading ? <Loading /> : (
           <main className="contact">
             <div className="textC">
-            <h3>How to Contact me</h3>
+            <h3>{english ? "How to Contact me" : "Como me contatar" }</h3>
             <p>Email: heberttafetteira.com@gmail.com</p>
-            <p>Phone Number: +55</p>
-            <p>Whatsapp: </p>
-            <p>Linkedin: </p>
+            <p>{english ? "Phone Number/Whatsapp: +55 2199215-7839" : "Telefone"}</p>
+         
+           Linkedin: <a href>https://www.linkedin.com/in/hebertt-nascimento/ </a>
             </div>
             </main>
             ) }  
