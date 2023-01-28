@@ -924,7 +924,7 @@ body {
 
 .carAll {
   border: 1px solid rgb(25, 190, 89);
-  width: 98vw;
+  width: 100vw;
   height: 150vh;
   display: flex;
   justify-content: center;

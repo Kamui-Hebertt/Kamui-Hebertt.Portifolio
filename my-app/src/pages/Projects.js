@@ -64,7 +64,7 @@ function Projects() {
 
         </div></>
       )}
-      <Footer />
+    {loading ? null : (<Footer />)}  
     </div>
   )
 }
