@@ -1,15 +1,30 @@
 .card1 {
-  border: 1px solid black;
-  background-color: aqua;
-width: 40vw;
+
+height: 20vh;
+
+
+
 }
 
 .card1 > img {
-  width: 20vw;
+  width: 30vw;
+ 
 
 }
 
 
 .maincar { 
   border: 1px solid black;
+  width: 20vw;
+  height: 100vh;
+}
+
+
+.carAll{
+
+  border: 1px solid rgb(25, 190, 89);
+  width: 98vw;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
 }

@@ -14,9 +14,11 @@ export default function Card({ project }) {
   return (
     <Slider {...settings} >
      
-      <div className="card1">
+      <div className="card1" with="40px">
+ 
         <img src={project.photo1} alt={`Projeto ${project.name}`}  />
-        <p>asdad</p>
+        <p><a href={project.url}>asdad</a></p>
+  
       </div>
       <div className="card1" >
         <img src={project.photo2} alt={`Projeto ${project.name}`}  />

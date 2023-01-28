@@ -26,4 +26,5 @@ export const project = [
     photo3: 'https://uploaddeimagens.com.br/images/004/316/597/full/2935644d-e08d-4cf4-bf81-ba23e7376598.png?1674864981',
     url: 'https://wallet-project-redux.vercel.app/',
   }
+
 ];
