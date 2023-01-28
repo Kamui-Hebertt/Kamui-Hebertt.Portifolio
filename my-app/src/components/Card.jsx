@@ -1,8 +1,9 @@
 import React from 'react'
 import Slider from "react-slick";
-// import Trivia1 from '../images/trivia/trivia.png'
+
 
 export default function Card({ project }) {
+  console.log(project.photo1)
   const settings = {
     dots: true,
     infinite: true,
@@ -11,16 +12,19 @@ export default function Card({ project }) {
     slidesToScroll: 1
   };
   return (
-    <Slider {...settings}>
-      <div>
-        <images src={project.photo1} alt={`Projeto ${}`}
+    <Slider {...settings} >
+     
+      <div className="card1">
+        <img src={project.photo1} alt={`Projeto ${project.name}`}  />
+        <p>asdad</p>
       </div>
-      <div>
-        <h3>2</h3>
+      <div className="card1" >
+        <img src={project.photo2} alt={`Projeto ${project.name}`}  />
       </div>
-      <div>
-        <h3>3</h3>
+      <div className="card1">
+        <img src={project.photo3} alt={`Projeto ${project.name}`}  />
       </div>
+
     </Slider>
   );
 

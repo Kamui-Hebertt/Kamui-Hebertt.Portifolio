@@ -904,4 +904,18 @@ body {
   color: #2187e7;
   display: flex;
   justify-content: center;
+}
+
+.card1 {
+  border: 1px solid black;
+  background-color: aqua;
+  width: 40vw;
+}
+
+.card1 > img {
+  width: 20vw;
+}
+
+.maincar {
+  border: 1px solid black;
 }/*# sourceMappingURL=main.css.map */

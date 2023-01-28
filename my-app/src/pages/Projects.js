@@ -35,7 +35,7 @@ function Projects() {
     }
 
   }
-  console.log('adas')
+
   return (
     <div className='allContent'>
       <div className="projectHamburger">
@@ -54,7 +54,7 @@ function Projects() {
           
         </>
       )}
-      {project.length > 0 && project.map((obj) => <Card key={obj.id} project={obj} />)}
+      {project.length > 0 && project.map((obj) => <Card key={obj.id} project={obj}  />)}
       <Footer />
     </div>
   )
