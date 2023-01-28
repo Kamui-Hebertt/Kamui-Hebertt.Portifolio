@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Slider from "react-slick";
-// import Trivia1 from '../images/trivia/trivia.png'
+import providerFile from '../context/contex';
+
 
 export default function Card({ project }) {
+  const {  english } = useContext(providerFile);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -11,16 +14,23 @@ export default function Card({ project }) {
     slidesToScroll: 1
   };
   return (
-    <Slider {...settings}>
-      <div>
-        <images src={project.photo1} alt={`Projeto ${}`}
+    <Slider {...settings} >
+     
+      <div className="card1" with="40px">
+ 
+        <img src={project.photo1} alt={`Projeto ${project.name}`}  />
+        <p><a href={project.url}>{english ? "Link to the project" : "Link para o projeto"}</a></p>
+  
       </div>
-      <div>
-        <h3>2</h3>
+      <div className="card1" >
+        <img src={project.photo2} alt={`Projeto ${project.name}`}  />
+        <p><a href={project.url}>{english ? "Link to the project" : "Link para o projeto"}</a></p>
       </div>
-      <div>
-        <h3>3</h3>
+      <div className="card1">
+        <img src={project.photo3} alt={`Projeto ${project.name}`}  />
+        <p><a href={project.url}>{english ? "Link to the project" : "Link para o projeto"}</a></p>
       </div>
+
     </Slider>
   );
 

@@ -12,7 +12,7 @@ import Card from '../components/Card'
 
 
 function Projects() {
-  const { loading, setloading } = useContext(providerFile);
+  const { loading, setloading, english } = useContext(providerFile);
   useEffect(
     () => {
       setloading(true)
@@ -35,7 +35,7 @@ function Projects() {
     }
 
   }
-  console.log('adas')
+
   return (
     <div className='allContent'>
       <div className="projectHamburger">
@@ -45,17 +45,26 @@ function Projects() {
       </div>
       <SideBar />
       {loading ? <Loading /> : (
-        <>
-          {/* <div className="pro">
-            <h2 className="titleProject">{english ? "Projects" : "Projetos"}</h2>           
-          </div> */}
-          
+            <><h2 className="titleProject">{english ? "Some of my projects" : "Alguns dos meus projetos"}</h2><div className='carAll'>
+          {<div className="pro">
 
-          
-        </>
+
+            {project.length > 0 && project.map((obj) => <Card key={obj.id} project={obj} />)}
+
+          </div>}
+
+
+
+          {<div className="pro">
+
+
+            {project.length > 0 && project.map((obj) => <Card key={obj.id} project={obj} />)}
+
+          </div>}
+
+        </div></>
       )}
-      {project.length > 0 && project.map((obj) => <Card key={obj.id} project={obj} />)}
-      <Footer />
+    {loading ? null : (<Footer />)}  
     </div>
   )
 }

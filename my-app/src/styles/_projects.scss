@@ -2,9 +2,12 @@
 
 
   border: 1px solid rgb(201, 20, 20);
-  width: 70vw;
-  height: 90vh;
-  margin-left: 20vw;
+  width: 30vw;
+  height: 150vh;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+margin-left: 10vw;
 
 }
 
@@ -43,6 +46,7 @@ align-items: center;
 }
 
 .titleProject{
+  margin-left: 7vw;
   display: flex;
   justify-content: center;
   height: 10vh;
