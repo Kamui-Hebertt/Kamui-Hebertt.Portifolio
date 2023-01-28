@@ -31,11 +31,11 @@ function Contact () {
             <p>Email: heberttafetteira.com@gmail.com</p>
             <p>{english ? "Phone Number/Whatsapp: +55 2199215-7839" : "Telefone"}</p>
          
-           Linkedin: <a href="https://www.linkedin.com/in/hebertt-nascimento/"> Linkedin </a>
+           Linkedin: <a href="https://www.linkedin.com/in/hebertt-nascimento/" target="_blank" rel="noreferrer"> Linkedin </a>
             </div>
             </main>
             ) }  
-            <Footer />
+           {loading ? null : (<Footer />) } 
             
             </div>
         )
