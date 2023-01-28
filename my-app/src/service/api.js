@@ -2,7 +2,7 @@ export const project = [
   {
     id: 1,
     name: 'Trivia',
-    descPt: 'Projeto Trivia é um jogo de quiz',
+    descPt: 'Trivia Game',
     photo1: 'https://uploaddeimagens.com.br/images/004/316/576/full/trivia.png?1674863071',
     photo2: 'https://uploaddeimagens.com.br/images/004/316/576/full/trivia.png?1674863071',
     photo3: 'https://uploaddeimagens.com.br/images/004/316/576/full/trivia.png?1674863071',
@@ -10,7 +10,7 @@ export const project = [
   },
   {
     id: 2,
-    name: 'App de Receita',
+    name: 'Recipe App',
     description: '',
     photo1: 'https://uploaddeimagens.com.br/images/004/316/589/full/3ebdbf24-b778-4848-bac5-889519778124.png?1674864175',
     photo2: 'https://uploaddeimagens.com.br/images/004/316/589/full/3ebdbf24-b778-4848-bac5-889519778124.png?1674864175',

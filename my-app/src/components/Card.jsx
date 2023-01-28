@@ -19,16 +19,19 @@ export default function Card({ project }) {
       <div className="card1" with="40px">
  
         <img src={project.photo1} alt={`Projeto ${project.name}`}  />
-        <p><a href={project.url}>{english ? "Link to the project" : "Link para o projeto"}</a></p>
+        <p className='projectName'>{project.name}</p>
+        <p className='projectLink'><a href={project.url}>{english ? "Link to the project" : "Link para o projeto"}</a></p>
   
       </div>
       <div className="card1" >
         <img src={project.photo2} alt={`Projeto ${project.name}`}  />
-        <p><a href={project.url}>{english ? "Link to the project" : "Link para o projeto"}</a></p>
+        <p className='projectName'>{project.name}</p>
+        <p className='projectLink'><a href={project.url}>{english ? "Link to the project" : "Link para o projeto"}</a></p>
       </div>
       <div className="card1">
         <img src={project.photo3} alt={`Projeto ${project.name}`}  />
-        <p><a href={project.url}>{english ? "Link to the project" : "Link para o projeto"}</a></p>
+        <p className='projectName'>{project.name}</p>
+        <p className='projectLink'><a href={project.url}>{english ? "Link to the project" : "Link para o projeto"}</a></p>
       </div>
 
     </Slider>
