@@ -60,50 +60,53 @@ function Contact () {
             <div  >
                 <SideBar />
           {loading ? <Loading /> : (
-          <main className="contact">
-            <div className="textC">
-            <h3>{english ? "How to Contact me" : "Como me contatar" }</h3>
-            <p>Email: heberttafetteira.com@gmail.com</p>
-            <p>{english ? "Phone Number/Whatsapp: +55 2199215-7839" : "Telefone/Whatsapp: +55 2199215-7839"}</p>
-         
-           Linkedin: <a href="https://www.linkedin.com/in/hebertt-nascimento/" target="_blank" rel="noreferrer"> Linkedin </a>
-            </div>
-            <div>
-            <form onSubmit={handleSubmit}>
-          <div>
-           <label htmlFor="name">Name:</label>
-             <input
-          type="text"
-          name="name"
-          value={name}
-          onChange={handleInputChange}
-          required
-        />
-          </div>
-       <div>
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          name="email"
-          value={email}
-          onChange={handleInputChange}
-          required
-        />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea
-          name="message"
-          value={message}
-          onChange={handleInputChange}
-          required
-        />
-      </div>
-      <button type="submit">Send</button>
-    </form>
-            </div>
-       
-            </main>
+          <><main className="contact">
+                <div className="textC">
+                  <h3>{english ? "How to Contact me" : "Como me contatar"}</h3>
+                  <p>Email: heberttafetteira.com@gmail.com</p>
+                  <p>{english ? "Phone Number/Whatsapp: +55 2199215-7839" : "Telefone/Whatsapp: +55 2199215-7839"}</p>
+
+                  Linkedin: <a href="https://www.linkedin.com/in/hebertt-nascimento/" target="_blank" rel="noreferrer"> Linkedin </a>
+                </div>
+
+
+              </main>
+              <div className="form">
+                  <form className="formMain" onSubmit={handleSubmit}>
+                    <div>
+                      <label htmlFor="name" className="nameL">{english ?"Name:" : "Nome:"}</label>
+                      <input
+                        className="name"
+                        type="text"
+                        name="name"
+                        value={name}
+                        onChange={handleInputChange}
+                        required />
+                    </div>
+                    <div>
+                      <label className="emailL" htmlFor="email">Email:</label>
+                      <input
+                        className="email"
+                        type="email"
+                        name="email"
+                        value={email}
+                        onChange={handleInputChange}
+                        required />
+                    </div>
+                    <div>
+                      <div className="textfield">
+                      <label className="messageL" htmlFor="message">{english ?"Message:" : "Mensagem:"}</label>
+                      <textarea
+                        className="textMessage"
+                        name="message"
+                        value={message}
+                        onChange={handleInputChange}
+                        required />
+                    </div>
+                    </div>
+                    <button type="submit" className="sendBtn">{english ?"Send" : "Enviar"}</button>
+                  </form>
+                </div></>
             ) }  
            {loading ? null : (<Footer />) } 
             

@@ -30,7 +30,9 @@ function Skills () {
            <>
            <h1 className='titleSkills'>Skills And Experinces</h1> 
           <div className="container">
+            <div className="skills">
   <div className="col">
+
     <h2 className="titulo">Front-End Skills</h2>
    
     <ul className="skill">
@@ -40,16 +42,34 @@ function Skills () {
       <li><span className="blueline php"></span><em className="stack">Javascript</em></li>
       <li><span className="blueline jquery"></span><em className="stack">TypeScript</em></li>
     </ul>
+  
+
+
+  </div>
+  <div className="col">
+
+    <h2 className="titulo">Back-End Skills</h2>
+   
+    <ul className="skill">
+      <li><span className="blueline node"></span><em className="stack">Node/Express</em></li>
+      <li><span className="blueline sql"></span><em className="stack">MySql</em></li>
+      <li><span className="blueline docker"></span><em className="stack">Docker</em></li> 
+
+    </ul>
+  
+
+
+  </div>
   </div>
 
   <div className="textSkills">
-    <p className="descriptionSkill">I'm a front-end developer, currently working on personal projects and developing projects for TRYBE as student,
+    <p className="descriptionSkill">I'm a full-stack web developer, currently working on personal projects and developing projects for TRYBE as student,
      Trybe is a web development school that has a genuine commitment to the professional success of its students,
      but at same time working on some projects.
       I'm studying a bachelor's degree in software engineer.
        My main stacks are ReactJs, Css, Scss, Redux , Context , JavaScript ,Material UI
       React Router, Figma, CSS , HTML , Jest/Unity test , RTL.
-        I'm also starting to study some Back-End stacks such as Docker and MySql.</p>
+      I have some projects in MySql, Docker and Node.js/Express at the moment I have been focusing a lot on backend stacks .</p>
   </div>
   </div>
   <Footer /> 
@@ -59,6 +79,7 @@ function Skills () {
                 
               <><h1 className='titleSkills'>Habilidades & Experiências</h1>
               <div className="container">
+                <div className="skills">
                     <div className="col">
                       <h2 className="titulo">Habilidades de Front-end</h2>
 
@@ -70,13 +91,25 @@ function Skills () {
                         <li><span className="blueline jquery"></span><em className="stack">TypeScript</em></li>
                       </ul>
                     </div>
+
+                    <div className="col">
+    <h2 className="titulo">Habilidades em Back-end</h2>
+   
+    <ul className="skill">
+    <li><span className="blueline node"></span><em className="stack">Node/Express</em></li>
+      <li><span className="blueline sql"></span><em className="stack">MySql</em></li>
+      <li><span className="blueline docker"></span><em className="stack">Docker</em></li> 
+
+    </ul>
+    </div>
+  </div>
                     <div className="textSkills">
-          <p className="descriptionSkill">Sou desenvolvedor front-end, atualmente trabalhando em projetos pessoais e desenvolvendo projetos para TRYBE como aluno,
+          <p className="descriptionSkill">Sou desenvolvedor full-stack, atualmente trabalhando em projetos pessoais e desenvolvendo projetos para TRYBE como aluno,
      Trybe é uma escola de desenvolvimento web que tem um compromisso genuíno com o sucesso profissional de seus alunos, mas ao mesmo tempo trabalhando em alguns projetos.
       Estou cursando um bacharelado em engenharia de software.
       Minhas principais stacks de front-end são ReactJs, Css, Scss, Redux , Context , JavaScript , Material UI,
       React Router, Figma, CSS , HTML , Jest/Testes Unitários , RTL.
-     Também estou começando a estudar algumas stacks de back-end, tais como Docker e  MySql.</p>
+      Possuo alguns projetos em MySql, Docker e Node.js/Express no momento tenho focado bastante em stacks de back-end.</p>
   </div>
                   </div>
   <Footer /> 
