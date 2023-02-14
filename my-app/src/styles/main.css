@@ -414,9 +414,11 @@ body {
   line-height: 25px;
   width: 40vw;
   text-align: left;
+  font-size: 22px;
   margin-left: 3vw;
   margin-top: 18vh;
   text-align: center;
+  line-height: 32px;
 }
 
 .skill {
@@ -457,6 +459,12 @@ body {
   height: 150vh;
 }
 
+.skills {
+  display: flex;
+  width: 35vw;
+  border: 1px solid black;
+}
+
 .titleSkills {
   float: right;
   padding-bottom: 4vh;
@@ -473,6 +481,9 @@ body {
 .titulo {
   font-size: 4vh;
   display: flex;
+  height: 12vh;
+  line-height: 38px;
+  text-align: center;
   justify-content: center;
   margin-bottom: 10vh;
   font-family: "Poppins";
@@ -511,6 +522,21 @@ body {
 .jquery {
   width: 10%;
   animation: jquery 2s ease-out;
+}
+
+.node {
+  width: 38%;
+  animation: node 2s ease-out;
+}
+
+.sql {
+  width: 30%;
+  animation: sql 2s ease-out;
+}
+
+.docker {
+  width: 30%;
+  animation: docker 2s ease-out;
 }
 
 @keyframes titulo {
@@ -559,6 +585,30 @@ body {
   }
   100% {
     width: 10%;
+  }
+}
+@keyframes node {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 38%;
+  }
+}
+@keyframes sql {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 30%;
+  }
+}
+@keyframes docker {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 30%;
   }
 }
 /*media queries*/
@@ -853,21 +903,21 @@ body {
 
 .form {
   border: 1px solid rgb(32, 156, 16);
-  height: 50vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3vh;
+  gap: 4vh;
 }
 
 .name {
   height: 2.7vh;
-  width: 20vw;
+  width: 18vw;
 }
 
 .email {
   height: 2.7vh;
-  width: 20vw;
+  width: 18vw;
 }
 
 .textMessage {
@@ -878,8 +928,11 @@ body {
 
 .sendBtn {
   width: 6vw;
-  height: 3vh;
+  height: 4vh;
   border-radius: 5px;
+  color: #fff;
+  background-color: #2187e7;
+  border: none;
 }
 
 .formMain input {
@@ -892,5 +945,31 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 13px;
+}
+
+.emailL {
+  margin-right: 5px;
+  color: #fff;
+  font-family: "Poppins";
+}
+
+.nameL {
+  margin-right: 5px;
+  color: #fff;
+  font-family: "Poppins";
+}
+
+.messageL {
+  margin-bottom: 1vh;
+  margin-right: 10px;
+  color: #fff;
+  font-family: "Poppins";
+}
+
+.textfield {
+  height: 30vh;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

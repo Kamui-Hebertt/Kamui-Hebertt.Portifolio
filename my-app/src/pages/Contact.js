@@ -74,7 +74,7 @@ function Contact () {
               <div className="form">
                   <form className="formMain" onSubmit={handleSubmit}>
                     <div>
-                      <label htmlFor="name">{english ?"Name:" : "Nome:"}</label>
+                      <label htmlFor="name" className="nameL">{english ?"Name:" : "Nome:"}</label>
                       <input
                         className="name"
                         type="text"
@@ -84,7 +84,7 @@ function Contact () {
                         required />
                     </div>
                     <div>
-                      <label htmlFor="email">Email:</label>
+                      <label className="emailL" htmlFor="email">Email:</label>
                       <input
                         className="email"
                         type="email"
@@ -94,13 +94,15 @@ function Contact () {
                         required />
                     </div>
                     <div>
-                      <label htmlFor="message">{english ?"Message:" : "Mensagem:"}</label>
+                      <div className="textfield">
+                      <label className="messageL" htmlFor="message">{english ?"Message:" : "Mensagem:"}</label>
                       <textarea
                         className="textMessage"
                         name="message"
                         value={message}
                         onChange={handleInputChange}
                         required />
+                    </div>
                     </div>
                     <button type="submit" className="sendBtn">{english ?"Send" : "Enviar"}</button>
                   </form>
