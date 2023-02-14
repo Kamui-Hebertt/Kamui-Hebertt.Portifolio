@@ -2,10 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import Loading from '../components/Loading';
 import SideBar from '../components/SideBar';
 import providerFile from '../context/contex';
-// import trivia from '../styles/projectsImg/trivia.png';
-// import recipes from '../styles/projectsImg/recipes.png';
 import MenuIcon from '@mui/icons-material/Menu';
-// import wallet from '../styles/projectsImg/wallet.png';
 import Footer from '../components/Footer';
 import { project } from '../service/api';
 import Card from '../components/Card'
@@ -49,16 +46,14 @@ function Projects() {
           {<div className="pro">
 
 
-            {project.length > 0 && project.map((obj) => <Card key={obj.id} project={obj} />)}
+            {project.length > 0 && project.slice(0,3).map((obj) => <Card key={obj.id} project={obj} />)}
 
           </div>}
 
-
-
           {<div className="pro">
 
-
-            {project.length > 0 && project.map((obj) => <Card key={obj.id} project={obj} />)}
+          {project.length > 0 && project.slice(3,6).map((obj) => <Card key={obj.id} project={obj} />)}
+      
 
           </div>}
 
