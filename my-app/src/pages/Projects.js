@@ -50,7 +50,7 @@ function Projects() {
 
           </div>}
 
-          {<div className="pro">
+          {<div className="pro2">
 
           {project.length > 0 && project.slice(3,6).map((obj) => <Card key={obj.id} project={obj} />)}
       

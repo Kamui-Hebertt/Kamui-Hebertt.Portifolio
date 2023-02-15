@@ -5,7 +5,16 @@
   align-items: center;
   justify-content: center;
   gap: 4vh;
+  flex-direction: column;
 
+}
+.form > h3 {
+  color:$whiteLetter;
+  font-family: "Poppins";
+  font-size: 40px;
+
+  margin-top: 5vh;
+  margin-left: 10vw;
 }
 
 .name {
@@ -17,7 +26,6 @@ width: 18vw;
 .email {
   height: 2.7vh;
   width: 18vw;
-
 }
 
 .textMessage {
@@ -33,6 +41,13 @@ width: 18vw;
   color: $whiteLetter;
   background-color: $blueborder;
   border: none;
+  transition: 2s;
+}
+
+.sendBtn:hover {
+opacity: 0.5;
+cursor:pointer;
+
 }
 .formMain  input {
   border-radius: 7px;

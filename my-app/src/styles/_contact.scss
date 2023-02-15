@@ -1,29 +1,33 @@
 
 
 .contact {
-  border: 1px solid black;
-  height: 90vh;
+  border: 1px solid rgb(189, 44, 44);
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1rem;
+
   font-family:'Poppins' , 'Arial Narrow', Arial, sans-serif
 }
 
 .textC { 
-  border: 1px solid rgb(37, 5, 5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(10, 158, 126);
   border-radius: 20px;
-  line-height: 4rem;
+  line-height: 2rem;
   margin-left: 13vw;
-width: 60vw;
-height: 50vh;
-color: $whiteLetter;
-margin-top: 3vh;
-padding-left: 1.5vw;}
+  width: 60vw;
+  height: 30vh;
+  color: $whiteLetter;
+  margin-top: 3vh;
+  padding-left: 1.5vw;}
 
-.textC > h3{
+.textC > a{
   color: $blueborder;
  
- display: flex;
- justify-content: center;
+text-decoration: none;
 }

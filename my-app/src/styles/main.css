@@ -72,7 +72,6 @@ body {
 }
 
 .links {
-  border: 1px solid rgb(2, 119, 8);
   width: 20vw;
 }
 
@@ -385,7 +384,6 @@ body {
 }
 
 .container {
-  border: 1px solid rgb(240, 26, 176);
   margin-left: 17vw;
   height: 110vh;
   width: 80vw;
@@ -416,7 +414,7 @@ body {
   text-align: left;
   font-size: 22px;
   margin-left: 3vw;
-  margin-top: 18vh;
+  margin-top: 7vh;
   text-align: center;
   line-height: 32px;
 }
@@ -462,7 +460,6 @@ body {
 .skills {
   display: flex;
   width: 35vw;
-  border: 1px solid black;
 }
 
 .titleSkills {
@@ -621,6 +618,16 @@ body {
   margin-left: 10vw;
 }
 
+.pro2 {
+  margin-top: 10vh;
+  width: 30vw;
+  height: 150vh;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+}
+
 .projectImg {
   width: 15vw;
   height: 20vh;
@@ -762,6 +769,14 @@ body {
     opacity: 1;
   }
 }
+.projectLink {
+  margin-top: 5px;
+}
+
+.projectLink > a {
+  color: #fff;
+}
+
 .about {
   width: 80vw;
   border: 2px solid rgb(201, 12, 12);
@@ -832,35 +847,38 @@ body {
 }
 
 .contact {
-  border: 1px solid black;
-  height: 90vh;
+  border: 1px solid rgb(189, 44, 44);
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: "Poppins", "Arial Narrow", Arial, sans-serif;
 }
 
 .textC {
-  border: 1px solid rgb(37, 5, 5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(10, 158, 126);
   border-radius: 20px;
-  line-height: 4rem;
+  line-height: 2rem;
   margin-left: 13vw;
   width: 60vw;
-  height: 50vh;
+  height: 30vh;
   color: #fff;
   margin-top: 3vh;
   padding-left: 1.5vw;
 }
 
-.textC > h3 {
+.textC > a {
   color: #2187e7;
-  display: flex;
-  justify-content: center;
+  text-decoration: none;
 }
 
-.card1 {
-  height: 20vh;
+.card {
+  border: 1px solid black;
 }
 
 .card1:hover {
@@ -872,16 +890,23 @@ body {
   border-radius: 17px;
 }
 
+.card1:nth-child(3) {
+  width: 30vw;
+  margin-top: 5vh;
+  border-radius: 17px;
+}
+
 .maincar {
   width: 20vw;
   height: 100vh;
 }
 
 .carAll {
+  border: 1px solid black;
   padding-top: 5vh;
   padding-left: 2vw;
   width: 100vw;
-  height: 160vh;
+  height: 170vh;
   display: flex;
   justify-content: center;
 }
@@ -908,6 +933,15 @@ body {
   align-items: center;
   justify-content: center;
   gap: 4vh;
+  flex-direction: column;
+}
+
+.form > h3 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 40px;
+  margin-top: 5vh;
+  margin-left: 10vw;
 }
 
 .name {
@@ -933,6 +967,12 @@ body {
   color: #fff;
   background-color: #2187e7;
   border: none;
+  transition: 2s;
+}
+
+.sendBtn:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .formMain input {
