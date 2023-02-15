@@ -2,12 +2,11 @@
 
 
 .container {
-  border: 1px solid rgb(240, 26, 176);
+
   margin-left: 17vw;
   height: 110vh;
   width: 80vw;
   display: flex;
-
   flex-direction: row-reverse;
 
  
@@ -35,7 +34,7 @@
 }
 
 .descriptionSkill {
-  
+
  color: $whiteLetter;
  font-family: "Poppins";
  line-height: 25px;
@@ -43,7 +42,7 @@
  text-align: left;
  font-size: 22px;
  margin-left: 3vw;
- margin-top:  18vh;
+ margin-top:  7vh;
  text-align: center;
  line-height: 32px;
 }
@@ -94,7 +93,7 @@
 .skills {
 display: flex;
 width: 35vw;
-  border: 1px solid black;
+
 }
 
 .titleSkills{
@@ -148,9 +147,9 @@ width: 35vw;
 @keyframes php         { 0% { width:0px; } 100% { width:75%; }  }
 @keyframes javascript  { 0% { width:0px; } 100% { width:65%; }  }
 @keyframes jquery      { 0% { width:0px; } 100% { width: 10%; }  }
-@keyframes node  { 0% { width:0px; } 100% { width:38%; }  }
-@keyframes sql      { 0% { width:0px; } 100% { width: 30%; }  }
-@keyframes docker  { 0% { width:0px; } 100% { width:30%; }  }
+@keyframes node        { 0% { width:0px; } 100% { width:38%; }  }
+@keyframes sql         { 0% { width:0px; } 100% { width: 30%; }  }
+@keyframes docker      { 0% { width:0px; } 100% { width:30%; }  }
 
 
 

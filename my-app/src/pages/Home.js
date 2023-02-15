@@ -37,12 +37,14 @@ function Home () {
         },
         []
       );
+
+      
   
 
         return(
          
             <div className="allContent">
-          <div className="menuBar" >
+          <div className='menubtn' >
           <button onClick={ openSideBar } >
               <MenuIcon />
               </button>

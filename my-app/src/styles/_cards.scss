@@ -1,9 +1,9 @@
-.card1 {
-
-height: 20vh;
 
 
 
+.card{
+  
+  border: 1px solid black;
 }
 .card1:hover{
   opacity: 0.5;
@@ -12,6 +12,15 @@ height: 20vh;
 
 .card1 > img {
   width: 30vw;
+ 
+  border-radius: 17px;
+ 
+
+}
+
+.card1:nth-child(3) {
+  width: 30vw;
+  margin-top: 5vh;
   border-radius: 17px;
  
 
@@ -27,11 +36,11 @@ height: 20vh;
 
 .carAll{
 
- 
+  border: 1px solid black;
   padding-top: 5vh;
   padding-left: 2vw;
   width: 100vw;
-  height: 160vh;
+  height: 170vh;
   display: flex;
   justify-content: center;
 }
@@ -51,7 +60,7 @@ justify-content: center;
   font-family: "Poppins";
   color: $whiteLetter;
 
-font-size: 1.3rem;
+   font-size: 1.3rem;
  
 }
 

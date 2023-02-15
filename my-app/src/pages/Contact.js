@@ -60,18 +60,9 @@ function Contact () {
             <div  >
                 <SideBar />
           {loading ? <Loading /> : (
-          <><main className="contact">
-                <div className="textC">
-                  <h3>{english ? "How to Contact me" : "Como me contatar"}</h3>
-                  <p>Email: heberttafetteira.com@gmail.com</p>
-                  <p>{english ? "Phone Number/Whatsapp: +55 2199215-7839" : "Telefone/Whatsapp: +55 2199215-7839"}</p>
-
-                  Linkedin: <a href="https://www.linkedin.com/in/hebertt-nascimento/" target="_blank" rel="noreferrer"> Linkedin </a>
-                </div>
-
-
-              </main>
+          <>
               <div className="form">
+             <h3>{english ? "How to Contact me" : "Como me contatar"}</h3>
                   <form className="formMain" onSubmit={handleSubmit}>
                     <div>
                       <label htmlFor="name" className="nameL">{english ?"Name:" : "Nome:"}</label>
@@ -106,7 +97,21 @@ function Contact () {
                     </div>
                     <button type="submit" className="sendBtn">{english ?"Send" : "Enviar"}</button>
                   </form>
-                </div></>
+                </div>
+                <main className="contact">
+                <div className="textC">
+                  
+                  <p>Email: heberttafetteira.com@gmail.com</p>
+                  <p>{english ? "Phone Number/Whatsapp: +55 2199215-7839" : "Telefone/Whatsapp: +55 2199215-7839"}</p>
+
+                   <a href="https://www.linkedin.com/in/hebertt-nascimento/" target="_blank" rel="noreferrer"> Linkedin </a>
+                </div>
+
+
+              </main>
+                
+                
+                </>
             ) }  
            {loading ? null : (<Footer />) } 
             
