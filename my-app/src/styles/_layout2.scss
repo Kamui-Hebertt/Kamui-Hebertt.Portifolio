@@ -1,5 +1,5 @@
 .mainContent {
-  border: 1px solid black;
+
 
 
   width: 80vw;
@@ -16,6 +16,9 @@
 body{
   background-color: $kindgray;
 }
+.menubtn {
+  display:none;
+}
 
 
 .hi1 {
@@ -24,7 +27,7 @@ body{
   width: 30vw;
   font-size: 5vh;
   text-align: center;
-  border: 1px solid black;
+
  
 }
 .hi2 {
@@ -49,13 +52,13 @@ margin-right: 7vw;
 
 .profileClass {
 
-  border: 1px solid rgb(177, 7, 7);
+
   margin-top: 15vh;
   margin-left: 50vw;
 padding-bottom: 10vh;
 }
 .content {
-  border: 1px solid black;
+
   width: 72vw;
   padding-left: 7vw;
 }
@@ -68,7 +71,7 @@ margin-left: 1vw;
   flex-direction: column;
   width: 25vw;
   height: 40vh;
-  border: 1px solid black;
+
   margin-bottom: 5vw;
   margin-top: 20vh;
 }
@@ -89,8 +92,9 @@ margin-left: 1vw;
 }
 
 .menuBar { 
+height: 5px;
 
-  display: none;
+
 }
 
 
