@@ -9,7 +9,7 @@ import Card from '../components/Card'
 
 
 function Projects() {
-  const { loading, setloading, english } = useContext(providerFile);
+  const { loading, setloading, english, openSideBar } = useContext(providerFile);
   useEffect(
     () => {
       setloading(true)
@@ -21,17 +21,6 @@ function Projects() {
     []
   );
 
-
-  const openSideBar = () => {
-    const x = document.querySelector('.links')
-
-    if (x.style.display === 'none') {
-      return x.style.display = 'block';
-    } else {
-      return x.style.display = 'none';
-    }
-
-  }
 
   return (
     <div className='allContent'>

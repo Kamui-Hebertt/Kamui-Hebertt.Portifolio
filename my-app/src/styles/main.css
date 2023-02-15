@@ -35,6 +35,7 @@ body {
 
 .hi {
   width: 70vw;
+  margin-left: 10rem;
   font-size: 5vh;
   text-align: center;
   margin-bottom: -10vh;
@@ -43,27 +44,20 @@ body {
   width: 10vw;
 }
 
-.profileClass {
-  margin-top: 15vh;
-  margin-left: 50vw;
-  padding-bottom: 10vh;
-}
-
 .content {
   width: 72vw;
   padding-left: 7vw;
 }
 
 .texti {
-  margin-left: 1vw;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 25vw;
-  height: 40vh;
   margin-bottom: 5vw;
   margin-top: 20vh;
+  padding-right: 8rem;
 }
 
 .logo {
@@ -247,83 +241,36 @@ body {
 }
 
 @media (max-width: 768px) {
-  .menubtn {
-    display: block;
-    width: 100vw;
-    display: flex;
-    justify-content: end;
-  }
-  .links {
-    width: 100vw;
-  }
-  .menubtn > button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    color: #fff;
-    height: 25px;
-  }
-  .links {
-    display: none;
-  }
-  .photoAndI {
-    border: 1px solid purple;
-    margin-left: -8vw;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 50vh;
-  }
-  #root {
-    width: 50px;
-    height: 200vh;
-  }
-  .content {
-    width: 50vw;
-    height: 100vw;
-    margin-right: 8vw;
-  }
   .pAbout {
-    width: 50vw;
-    height: 40vh;
-    border: 1px solid purple;
-  }
-  .pAbout {
-    font-size: 20px;
-    margin-bottom: 35px;
-  }
-  .allabout {
-    width: 40vw;
-    height: 80vh;
-  }
-  .about {
-    height: 20vw;
-    font-size: 16px;
-    display: flex;
-    border: 1px solid purple;
-    flex-direction: column;
-  }
-  .about1 > p {
     font-size: 15px;
   }
-  .hi {
-    font-size: 20px;
-  }
-  .hi1 {
-    font-size: 20px;
-  }
   .texti {
-    font-size: 16px;
-    width: 90vw;
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: -100px;
+    border: 1px solid black;
+  }
+  .texti p {
+    font-size: 20px;
   }
   .profileClass {
-    width: 55vw;
-    margin-right: 15vw;
-    border: 1px solid purple;
+    width: 250px;
+    margin-left: -5px;
+    margin-bottom: -100px;
   }
   .footer {
-    margin-top: 50vh;
+    width: 100px;
+  }
+  .about1 p {
+    font-size: 15px;
+  }
+  .about {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+  .foot {
+    width: 200px;
   }
 }
 * {
@@ -727,10 +674,8 @@ body {
 }
 
 .about {
-  width: 80vw;
   display: flex;
   align-items: center;
-  height: 90vh;
 }
 
 .pAbout {
@@ -761,34 +706,13 @@ body {
 
 .foot {
   color: #fff;
+  background-color: #1d1d1d;
   font-family: "Poppins";
   font-size: 12px;
-  margin-left: -5vw;
-  background-color: #1d1d1d;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 87.7vw;
-  height: 12vh;
-  padding-bottom: 5vh;
-}
-
-.footSkills {
-  color: #fff;
-  font-family: "Poppins";
-  font-size: 12px;
-  background-color: #1d1d1d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 98.7vw;
-  height: 12vh;
-  padding-bottom: 5vh;
-}
-
-.footSkills > p {
-  margin-top: 10vh;
-  margin-left: 10vw;
+  height: 5rem;
 }
 
 .contact {
@@ -957,4 +881,39 @@ body {
   align-items: center;
   flex-direction: column;
   display: flex;
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
+  .links {
+    width: 130vw;
+    display: flex;
+    margin-left: 2vw;
+  }
+  .links a {
+    border: 1px solid black;
+    width: 85vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .x {
+    display: block;
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+  }
+  .langbtn {
+    width: 85vw;
+  }
+  .x button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+  }
+  .logo {
+    width: 85vw;
+  }
 }/*# sourceMappingURL=main.css.map */
