@@ -968,6 +968,8 @@ body {
   .pro2 {
     gap: 7rem;
     width: 15rem;
+    margin-right: 3rem;
+    margin-top: -6rem;
   }
   .card1 > img {
     width: 15rem;
@@ -984,6 +986,7 @@ body {
     align-items: center;
   }
   .pro {
+    margin-right: 3rem;
     gap: 7rem;
     width: 15rem;
   }
