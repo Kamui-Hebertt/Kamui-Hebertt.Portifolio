@@ -252,13 +252,21 @@ body {
   .menuBar {
     height: 5px;
     display: block;
+    height: 2rem;
+    display: flex;
+    justify-content: end;
+  }
+  .menuBar button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
   }
   .hi1 {
     margin-left: 9rem;
     width: 15rem;
   }
   .hi {
-    margin-bottom: -6.5rem;
+    margin-bottom: -5.5rem;
   }
   .content {
     height: 30rem;
@@ -293,6 +301,7 @@ body {
   .foot {
     width: 100%;
     text-align: center;
+    padding-left: 1rem;
   }
 }
 * {

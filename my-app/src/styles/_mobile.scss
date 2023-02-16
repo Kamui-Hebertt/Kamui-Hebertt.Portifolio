@@ -12,8 +12,16 @@ margin-bottom: 5rem;
 .menuBar { 
   height: 5px;
   display: block;
+  height: 2rem;
+  display: flex;
+  justify-content: end;
   
   
+  }
+  .menuBar button {
+    background-color: transparent;
+    border: none;
+    color: $whiteLetter;
   }
   .hi1 {
     margin-left: 9rem;
@@ -23,7 +31,7 @@ margin-bottom: 5rem;
   }
  
   .hi {
-    margin-bottom: -6.5rem;
+    margin-bottom: -5.5rem;
     
   }
   .content {
@@ -74,6 +82,7 @@ width: 1rem;;
 .foot {
   width: 100%;
   text-align: center;
+  padding-left: 1rem;
 
 }
 }
