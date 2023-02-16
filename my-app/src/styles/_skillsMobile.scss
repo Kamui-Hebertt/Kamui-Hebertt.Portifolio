@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+
+
+  .allContent{
+    max-width: 60rem;
+  }
+  .skill{
+    width: 7rem;
+   margin-left: 1.1rem;
+  }
+ 
+.descriptionSkill{
+  font-size: 14px;
+  margin-top: -4rem;
+  width: 17rem;
+
+}
+
+.titleSkills{
+  font-size: 25px;
+}
+.titulo{
+  font-size: 20px;
+  margin-left: 6px;
+ 
+}
+
+.col {
+
+  font-size: 8px;
+  text-align: center;
+}
+.container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 180vh;
+  margin-left: 2.4rem;
+  flex-wrap: wrap;
+ 
+}
+
+
+.blueline { 
+  height: 3px; 
+  margin: 2px 0; 
+  background: #2187e7; 
+  margin-left: -1.1rem;
+
+  box-shadow: 0px 0px 10px 1px rgba(0,198,255,0.6);
+}
+
+.titulo      { opacity:1;  animation:titulo 5s ease-out;     }
+
+.stack       {  opacity:1;  animation:titulo 5s ease-out;}
+.html        { width: 60%;  animation:html 2s ease-out;   margin-left: -1.6rem;     }
+.css         { width:60%;  animation:css 2s ease-out; margin-left: -2rem;       }
+.php         { width: 48%;  animation:php 2s ease-out; margin-left: 0rem       }
+.javascript  { width: 50%;  animation:javascript 2s ease-out;  margin-left: -10px }
+.jquery      { width: 15%;  animation:jquery 2s ease-out; margin-left: 0.8px    }
+.node        { width: 38%;  animation:node 2s ease-out; margin-left: 0.8px }
+.sql         { width: 30%;  animation:sql 2s ease-out;  margin-left: -20px   }
+.docker     { width: 30%;  animation:docker 2s ease-out;      }
+
+
+
+}
