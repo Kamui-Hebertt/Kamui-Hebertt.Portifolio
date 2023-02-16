@@ -38,6 +38,4 @@ export const project = [
   },
 
 
-
-
 ];
