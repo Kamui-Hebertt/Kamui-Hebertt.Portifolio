@@ -1,7 +1,4 @@
 .mainContent {
-
-
-
   width: 80vw;
  margin-left: 16vw;
  font-family: "Poppins";
@@ -16,14 +13,13 @@
 body{
   background-color: $kindgray;
 }
-.menubtn {
+.menubtn button{
   display:none;
 }
 
 
 .hi1 {
   margin-left: 7vw;
-
   width: 30vw;
   font-size: 5vh;
   text-align: center;
@@ -37,43 +33,40 @@ body{
 margin-right: 7vw;
   width: 30vw;
  
-}
-
-.hi {
+}.hi {
 
   width: 70vw;
+  margin-left: 10rem;
   font-size: 5vh;
   text-align: center;
   margin-bottom: -10vh;
   display: flex;
   justify-content: center;
   width: 10vw;
+
 }
 
-.profileClass {
 
 
-  margin-top: 15vh;
-  margin-left: 50vw;
-padding-bottom: 10vh;
-}
 .content {
 
   width: 72vw;
   padding-left: 7vw;
+  
+
 }
 
 .texti {
-margin-left: 1vw;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 25vw;
-  height: 40vh;
+
 
   margin-bottom: 5vw;
   margin-top: 20vh;
+  padding-right: 8rem;
 }
 
 
@@ -93,7 +86,7 @@ margin-left: 1vw;
 
 .menuBar { 
 height: 5px;
-
+display: none;
 
 }
 

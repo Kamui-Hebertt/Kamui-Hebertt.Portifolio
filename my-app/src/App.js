@@ -13,12 +13,23 @@ function App() {
   const [ loading, setloading ] = useState(true);
   const [newSideBar, setNewSideBar] = useState(false) 
 
+  const openSideBar = () => {
+    const x =  document.querySelector('.links');
+ 
+    if (x.style.display === 'none') {
+      return x.style.display = 'block';
+   } else {
+    return   x.style.display = 'none';
+   }
+       
+     }
 
   const contexObj = {
     english,
      setEnglish,
     loading, setloading,
-    newSideBar, setNewSideBar
+    newSideBar, setNewSideBar,
+    openSideBar
 
   }
 

@@ -1,0 +1,46 @@
+
+@media (max-width: 768px) {
+
+.links{
+  display: none;
+}
+.links {
+  width: 130vw;
+  display: flex;
+  margin-left: 2vw;
+
+
+}
+.links a {
+  border: 1px solid black;
+  width: 85vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.x{
+display: block;
+
+width: 100vw;
+display:flex;
+justify-content: end;
+}
+.langbtn {
+
+  width: 85vw;
+  
+}
+.x button {
+  background-color: transparent;
+  color: $whiteLetter;
+  border: none;
+}
+
+.logo{
+  width: 85vw;
+  
+}
+
+
+
+}

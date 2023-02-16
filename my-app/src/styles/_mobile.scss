@@ -1,98 +1,88 @@
 @media (max-width: 768px) {
 
+.pAbout{
+  font-size: 18px;
 
-.menubtn {
+margin-bottom: 5rem;
+}
+.about1 > p {
+  font-size: 18px;
+}
+
+.menuBar { 
+  height: 5px;
   display: block;
- 
-  width: 100vw;
+  height: 2rem;
   display: flex;
   justify-content: end;
-
-}
-
-.links {
-  width: 100vw;
-}
-.menubtn > button{
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  color: $whiteLetter;
-  height:25px;
   
-}
-  .links{
-    display: none;
+  
   }
-
-  .photoAndI {
-    border: 1px solid purple;
-    margin-left: -8vw;
-    width: 100vw;
-
-  
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-  height: 50vh; }
-  #root {
-    width: 50px;
-    height: 200vh;
+  .menuBar button {
+    background-color: transparent;
+    border: none;
+    color: $whiteLetter;
   }
- .content {
-  width: 50vw;
-  height: 100vw;
-  margin-right: 8vw;
- }
-.pAbout {
-  width: 50vw;
-  height: 40vh;
-  border: 1px solid purple;
-  
+  .hi1 {
+    margin-left: 9rem;
+    width: 15rem;
+
+
+  }
+ 
+  .hi {
+    margin-bottom: -5.5rem;
+    
+  }
+  .content {
+ 
+    height: 30rem;
+ 
+  }
+.texti {
+
+
+display: flex;
+
+margin-left: 2rem;
+
+height: 5rem;
 }
-.pAbout{
-  font-size: 20px;
-  margin-bottom: 35px;
+.texti p {
+  font-size: 18px;
+
 }
 
-.allabout {
-  width: 40vw;
-  height: 80vh;
+.profileClass{
+  width: 15rem;
+  margin-top: 5rem;
+  margin-left: -1rem;
 
 }
- .about {
-  height: 20vw;
-  font-size: 16px;
-  display: flex;
-  border: 1px solid purple;
-  flex-direction: column;
- }
- .about1 > p {
+
+
+.nameLogo {
+width: 1rem;;
+  margin-top: 1rem;
+
+
+}
+.about1 p{
   font-size: 15px;
- }
-
- .hi {
-  font-size:20px;
- }
-.hi1 {
-  font-size: 20px;
 }
- .texti {
-  font-size: 16px;
-  width: 90vw;
+.about1 {
+  margin-bottom: 6rem;
+}
+.about {
 
- }
+  margin-left: -3rem;
+  height: 35rem;
+ 
+}
+.foot {
+  width: 100%;
+  text-align: center;
+  padding-left: 1rem;
 
-
- .profileClass{
-  width: 55vw;
-  
-
-margin-right: 15vw;
-
-  border: 1px solid purple;
- }
- .footer {
-margin-top: 50vh;
- }
+}
 }

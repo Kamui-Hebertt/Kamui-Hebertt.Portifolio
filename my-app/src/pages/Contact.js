@@ -4,12 +4,13 @@ import Loading from '../components/Loading';
 import SideBar from '../components/SideBar';
 import providerFile from '../context/contex';
 import axios from "axios";
+import MenuIcon from '@mui/icons-material/Menu'
 
 
 
 
 function Contact () {
-   const { loading, setloading, english } = useContext(providerFile);
+   const { loading, setloading, english, openSideBar } = useContext(providerFile);
 
    const [formData, setFormData] = useState({
     name: "",
@@ -62,6 +63,11 @@ function Contact () {
           {loading ? <Loading /> : (
           <>
               <div className="form">
+              <div className='menubtn' >
+          <button onClick={ openSideBar } >
+              <MenuIcon />
+              </button>
+              </div>
              <h3>{english ? "How to Contact me" : "Como me contatar"}</h3>
                   <form className="formMain" onSubmit={handleSubmit}>
                     <div>

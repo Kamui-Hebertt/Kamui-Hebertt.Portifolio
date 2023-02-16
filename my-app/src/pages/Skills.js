@@ -3,12 +3,13 @@ import Footer from '../components/Footer';
 import Loading from '../components/Loading';
 import SideBar from '../components/SideBar';
 import providerFile from '../context/contex';
+import MenuIcon from '@mui/icons-material/Menu';
 
 
 
 
 function Skills () {
-    const { loading, setloading, english   } = useContext(providerFile);
+    const { loading, setloading, english, openSideBar   } = useContext(providerFile);
 
     useEffect(
         () => {
@@ -24,6 +25,11 @@ function Skills () {
    
         return(
             <div className="allContent">
+              <div className="projectHamburger">
+        <button onClick={openSideBar} >
+          <MenuIcon />
+        </button>
+      </div>
            <SideBar />
          {loading ? <Loading /> : (
          <>{ english ? (
