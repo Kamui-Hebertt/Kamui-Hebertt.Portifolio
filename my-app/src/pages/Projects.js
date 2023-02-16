@@ -24,14 +24,19 @@ function Projects() {
 
   return (
     <div className='allContent'>
-      <div className="projectHamburger">
+      
+      <SideBar />
+
+      {loading ? <Loading /> : (
+            <div className="allProjects">
+            
+            <div className="projectHamburger">
         <button onClick={openSideBar} >
           <MenuIcon />
         </button>
       </div>
-      <SideBar />
-      {loading ? <Loading /> : (
-            <><h2 className="titleProject">{english ? "Some of my projects" : "Alguns dos meus projetos"}</h2><div className='carAll'>
+            
+            <h2 className="titleProject">{english ? "Some of my projects" : "Alguns dos meus projetos"}</h2><div className='carAll'>
           {<div className="pro">
 
 
@@ -46,7 +51,8 @@ function Projects() {
 
           </div>}
 
-        </div></>
+        </div>
+        </div>
       )}
     {loading ? null : (<Footer />)}  
     </div>

@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+
+.allProjects{
+
+  display: flex;
+  flex-direction: column;
+  height: 50rem;
+ 
+
+}
+
+.pro2{
+  display: flex;
+  border: 1px solid black;
+  width: 90%;
+
+}
+.carAll{
+  display: flex;
+  border: 1px solid black;
+  flex-wrap: wrap;
+
+}
+
+.pro{
+
+display: flex;
+
+flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

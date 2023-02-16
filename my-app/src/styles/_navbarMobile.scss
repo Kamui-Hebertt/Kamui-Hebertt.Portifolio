@@ -5,22 +5,34 @@
   display: none;
 }
 .links {
-  width: 130vw;
+  width: 100%;
   display: flex;
-  margin-left: 2vw;
 
+}
 
+.icons {
+ 
+  margin-top: -0.5rem;
+  display: flex;
+  width: 10%;
+  gap:0.5rem;
+  gap:1rem;
 }
 .links a {
-  border: 1px solid black;
-  width: 85vw;
-  text-align: center;
+  color: $whiteLetter;
+  text-decoration: none;
+  border-top: 1px solid $kindgray;
+  border-bottom: 1px solid $kindgray;
+  width: 90%;
+  height: 7.6vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  transition: 0.4s;
 }
+
 .x{
 display: block;
-
 width: 100vw;
 display:flex;
 justify-content: end;

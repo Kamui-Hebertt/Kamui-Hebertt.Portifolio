@@ -266,7 +266,7 @@ body {
     width: 15rem;
   }
   .hi {
-    margin-bottom: -5.5rem;
+    margin-bottom: -4.6rem;
   }
   .content {
     height: 30rem;
@@ -302,6 +302,7 @@ body {
     width: 100%;
     text-align: center;
     padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 * {
@@ -919,16 +920,27 @@ body {
     display: none;
   }
   .links {
-    width: 130vw;
+    width: 100%;
     display: flex;
-    margin-left: 2vw;
+  }
+  .icons {
+    margin-top: -0.5rem;
+    display: flex;
+    width: 10%;
+    gap: 0.5rem;
+    gap: 1rem;
   }
   .links a {
-    border: 1px solid black;
-    width: 85vw;
-    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-top: 1px solid rgb(71, 67, 67);
+    border-bottom: 1px solid rgb(71, 67, 67);
+    width: 90%;
+    height: 7.6vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    transition: 0.4s;
   }
   .x {
     display: block;
@@ -946,5 +958,26 @@ body {
   }
   .logo {
     width: 85vw;
+  }
+}
+@media (max-width: 768px) {
+  .allProjects {
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+  }
+  .pro2 {
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+  }
+  .carAll {
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+  }
+  .pro {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */
