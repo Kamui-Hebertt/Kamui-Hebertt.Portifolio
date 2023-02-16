@@ -266,7 +266,7 @@ body {
     width: 15rem;
   }
   .hi {
-    margin-bottom: -5.5rem;
+    margin-bottom: -4.6rem;
   }
   .content {
     height: 30rem;
@@ -302,6 +302,7 @@ body {
     width: 100%;
     text-align: center;
     padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 * {
@@ -375,6 +376,7 @@ body {
   height: 3px;
   margin: 2px 0;
   background: #2187e7;
+  z-index: 2;
   position: absolute;
   box-shadow: 0px 0px 10px 1px rgba(0, 198, 255, 0.6);
 }
@@ -396,7 +398,6 @@ body {
   margin-top: 8vh;
   width: 40vw;
   text-align: center;
-  border: 1px solid black;
   font-size: 8vh;
   color: #49c5b6;
   font-family: "Poppins";
@@ -587,14 +588,14 @@ body {
 }
 
 .titleProject {
+  color: #49c5b6;
   padding-top: 2vh;
   margin-left: 7vw;
   display: flex;
   justify-content: center;
   height: 12vh;
-  font-size: 6vh;
+  font-size: 7vh;
   font-family: "Poppins";
-  color: #fff;
 }
 
 .projectHamburger {
@@ -747,7 +748,6 @@ body {
 }
 
 .contact {
-  border: 1px solid rgb(189, 44, 44);
   height: 40vh;
   display: flex;
   justify-content: center;
@@ -761,7 +761,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border: 1px solid rgb(10, 158, 126);
+  border: 1px solid #fff;
   border-radius: 20px;
   line-height: 2rem;
   margin-left: 13vw;
@@ -802,7 +802,6 @@ body {
 }
 
 .carAll {
-  border: 1px solid black;
   padding-top: 5vh;
   padding-left: 2vw;
   width: 100vw;
@@ -827,7 +826,6 @@ body {
 }
 
 .form {
-  border: 1px solid rgb(32, 156, 16);
   height: 60vh;
   display: flex;
   align-items: center;
@@ -839,7 +837,8 @@ body {
 .form > h3 {
   color: #fff;
   font-family: "Poppins";
-  font-size: 40px;
+  font-size: 7vh;
+  color: #49c5b6;
   margin-top: 5vh;
   margin-left: 10vw;
 }
@@ -919,16 +918,27 @@ body {
     display: none;
   }
   .links {
-    width: 130vw;
+    width: 100%;
     display: flex;
-    margin-left: 2vw;
+  }
+  .icons {
+    margin-top: -0.5rem;
+    display: flex;
+    width: 10%;
+    gap: 0.5rem;
+    gap: 1rem;
   }
   .links a {
-    border: 1px solid black;
-    width: 85vw;
-    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-top: 1px solid rgb(71, 67, 67);
+    border-bottom: 1px solid rgb(71, 67, 67);
+    width: 90%;
+    height: 7.6vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    transition: 0.4s;
   }
   .x {
     display: block;
@@ -946,5 +956,163 @@ body {
   }
   .logo {
     width: 85vw;
+  }
+}
+@media (max-width: 768px) {
+  .allProjects {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+  }
+  .pro2 {
+    gap: 7rem;
+    width: 15rem;
+    margin-right: 3rem;
+    margin-top: -6rem;
+  }
+  .card1 > img {
+    width: 15rem;
+  }
+  .titleProject {
+    font-size: 25px;
+    align-self: center;
+  }
+  .carAll {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 200rem;
+    align-items: center;
+  }
+  .pro {
+    margin-right: 3rem;
+    gap: 7rem;
+    width: 15rem;
+  }
+}
+@media (max-width: 768px) {
+  .textC {
+    width: 20rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .email {
+    width: 10rem;
+    margin-right: 2rem;
+    height: 1.5rem;
+  }
+  .name {
+    height: 1.5rem;
+    margin-right: 2rem;
+    width: 10rem;
+  }
+  .textC p {
+    font-size: 11px;
+    text-align: center;
+  }
+  .allContact h3 {
+    margin-top: 10rem;
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+  .textMessage {
+    width: 15rem;
+    height: 7rem;
+  }
+  .sendBtn {
+    margin-top: -5rem;
+    width: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .allContent {
+    max-width: 60rem;
+  }
+  .skill {
+    width: 7rem;
+    margin-left: 1.1rem;
+  }
+  .descriptionSkill {
+    font-size: 14px;
+    margin-top: -4rem;
+    width: 17rem;
+  }
+  .titleSkills {
+    font-size: 30px;
+  }
+  .titulo {
+    font-size: 20px;
+    margin-left: 6px;
+  }
+  .col {
+    font-size: 8px;
+    text-align: center;
+  }
+  .container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 180vh;
+    margin-left: 2.4rem;
+    flex-wrap: wrap;
+  }
+  .blueline {
+    height: 3px;
+    margin: 2px 0;
+    background: #2187e7;
+    margin-left: -1.1rem;
+    box-shadow: 0px 0px 10px 1px rgba(0, 198, 255, 0.6);
+  }
+  .titulo {
+    opacity: 1;
+    animation: titulo 5s ease-out;
+  }
+  .stack {
+    opacity: 1;
+    animation: titulo 5s ease-out;
+  }
+  .html {
+    width: 60%;
+    animation: html 2s ease-out;
+    margin-left: -1.6rem;
+  }
+  .css {
+    width: 60%;
+    animation: css 2s ease-out;
+    margin-left: -2rem;
+  }
+  .php {
+    width: 48%;
+    animation: php 2s ease-out;
+    margin-left: 0rem;
+  }
+  .javascript {
+    width: 50%;
+    animation: javascript 2s ease-out;
+    margin-left: -10px;
+  }
+  .jquery {
+    width: 15%;
+    animation: jquery 2s ease-out;
+    margin-left: 0.8px;
+  }
+  .node {
+    width: 38%;
+    animation: node 2s ease-out;
+    margin-left: 0.8px;
+  }
+  .sql {
+    width: 30%;
+    animation: sql 2s ease-out;
+    margin-left: -20px;
+  }
+  .docker {
+    width: 30%;
+    animation: docker 2s ease-out;
   }
 }/*# sourceMappingURL=main.css.map */

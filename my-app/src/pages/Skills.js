@@ -25,7 +25,7 @@ function Skills () {
    
         return(
             <div className="allContent">
-              <div className="projectHamburger">
+          <div className="menuBar" >
         <button onClick={openSideBar} >
           <MenuIcon />
         </button>
@@ -33,8 +33,8 @@ function Skills () {
            <SideBar />
          {loading ? <Loading /> : (
          <>{ english ? (
-           <>
-           <h1 className='titleSkills'>Skills And Experinces</h1> 
+           <div className="allSkills">
+           <h1 className="titleSkills">Skills And Experinces</h1> 
           <div className="container">
             <div className="skills">
   <div className="col">
@@ -62,9 +62,6 @@ function Skills () {
       <li><span className="blueline docker"></span><em className="stack">Docker</em></li> 
 
     </ul>
-  
-
-
   </div>
   </div>
 
@@ -80,10 +77,10 @@ function Skills () {
   </div>
   <Footer /> 
 
-              </>
+              </div>
               ) : ( 
                 
-              <><h1 className='titleSkills'>Habilidades & Experiências</h1>
+              <div className="allSkills"><h1 className='titleSkills'>Habilidades & Experiências</h1>
               <div className="container">
                 <div className="skills">
                     <div className="col">
@@ -121,7 +118,7 @@ function Skills () {
   <Footer /> 
 
 
-                  </>
+                  </div>
    
                
                  )}

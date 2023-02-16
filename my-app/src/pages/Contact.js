@@ -61,14 +61,16 @@ function Contact () {
             <div  >
                 <SideBar />
           {loading ? <Loading /> : (
-          <>
+          <div className="allContact">
+            <div className="menuBar" >
+               <button onClick={openSideBar} >
+               <MenuIcon />
+               </button>
+                </div>
               <div className="form">
-              <div className='menubtn' >
-          <button onClick={ openSideBar } >
-              <MenuIcon />
-              </button>
-              </div>
+              
              <h3>{english ? "How to Contact me" : "Como me contatar"}</h3>
+             
                   <form className="formMain" onSubmit={handleSubmit}>
                     <div>
                       <label htmlFor="name" className="nameL">{english ?"Name:" : "Nome:"}</label>
@@ -117,7 +119,7 @@ function Contact () {
               </main>
                 
                 
-                </>
+                </div>
             ) }  
            {loading ? null : (<Footer />) } 
             
