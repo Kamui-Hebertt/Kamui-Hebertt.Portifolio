@@ -30,15 +30,17 @@ function Projects() {
       {loading ? <Loading /> : (
             <div className="allProjects">
             
-            <div className="projectHamburger">
-        <button onClick={openSideBar} >
-          <MenuIcon />
-        </button>
-      </div>
+            <div className="menuBar" >
+           <button onClick={openSideBar} >
+           <MenuIcon />
+           </button>
+           </div>
             
-            <h2 className="titleProject">{english ? "Some of my projects" : "Alguns dos meus projetos"}</h2><div className='carAll'>
-          {<div className="pro">
-
+            <h2 className="titleProject">{english ? "Some of my projects" : "Alguns dos meus projetos"}
+            </h2><div className="carAll">
+          {
+            
+            <div className="pro">
 
             {project.length > 0 && project.slice(0,3).map((obj) => <Card key={obj.id} project={obj} />)}
 
@@ -52,9 +54,9 @@ function Projects() {
           </div>}
 
         </div>
+        {loading ? null : (<Footer />)}  
         </div>
       )}
-    {loading ? null : (<Footer />)}  
     </div>
   )
 }

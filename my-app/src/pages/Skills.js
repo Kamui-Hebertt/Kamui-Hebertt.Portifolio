@@ -25,7 +25,7 @@ function Skills () {
    
         return(
             <div className="allContent">
-              <div className="projectHamburger">
+          <div className="menuBar" >
         <button onClick={openSideBar} >
           <MenuIcon />
         </button>

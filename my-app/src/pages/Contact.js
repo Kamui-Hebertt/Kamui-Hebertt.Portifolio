@@ -63,11 +63,11 @@ function Contact () {
           {loading ? <Loading /> : (
           <>
               <div className="form">
-              <div className='menubtn' >
-          <button onClick={ openSideBar } >
-              <MenuIcon />
-              </button>
-              </div>
+              <div className="menuBar" >
+               <button onClick={openSideBar} >
+               <MenuIcon />
+               </button>
+                </div>
              <h3>{english ? "How to Contact me" : "Como me contatar"}</h3>
                   <form className="formMain" onSubmit={handleSubmit}>
                     <div>
