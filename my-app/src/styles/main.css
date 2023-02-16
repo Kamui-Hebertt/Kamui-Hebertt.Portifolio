@@ -990,4 +990,43 @@ body {
     gap: 7rem;
     width: 15rem;
   }
+}
+@media (max-width: 768px) {
+  .textC {
+    width: 20rem;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .email {
+    width: 10rem;
+    margin-right: 2rem;
+    height: 1.5rem;
+  }
+  .name {
+    height: 1.5rem;
+    margin-right: 2rem;
+    width: 10rem;
+  }
+  .textC p {
+    font-size: 11px;
+    text-align: center;
+  }
+  .allContact h3 {
+    margin-top: 10rem;
+    font-size: 25px;
+    margin-top: 1rem;
+  }
+  .textMessage {
+    width: 15rem;
+    height: 7rem;
+  }
+  .sendBtn {
+    margin-top: -5rem;
+    width: 4rem;
+  }
 }/*# sourceMappingURL=main.css.map */
