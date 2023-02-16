@@ -3,8 +3,6 @@ import { useLocation } from "react-router-dom";
 import providerFile from "../context/contex";
 
 
-
-
 const Footer = () => {
    const{ english } = useContext(providerFile); 
       const location =  useLocation();

@@ -1,41 +1,79 @@
 @media (max-width: 768px) {
 
 .pAbout{
-  font-size: 15px;
+  font-size: 18px;
+
+margin-bottom: 5rem;
 }
+.about1 > p {
+  font-size: 18px;
+}
+
+.menuBar { 
+  height: 5px;
+  display: block;
+  
+  
+  }
+  .hi1 {
+    margin-left: 9rem;
+    width: 15rem;
+
+
+  }
+ 
+  .hi {
+    margin-bottom: -6.5rem;
+    
+  }
+  .content {
+ 
+    height: 30rem;
+ 
+  }
 .texti {
 
 
 display: flex;
-margin-left: 80px;
-margin-bottom: -100px;
-  border:1px solid black;
 
+margin-left: 2rem;
+
+height: 5rem;
 }
 .texti p {
-  font-size: 20px;
+  font-size: 18px;
 
 }
 
 .profileClass{
-  width: 250px;
-  margin-left: -5px;
-  margin-bottom: -100px;
-}
-.footer {
-  width: 100px;
+  width: 15rem;
+  margin-top: 5rem;
+  margin-left: -1rem;
+
 }
 
+
+.nameLogo {
+width: 1rem;;
+  margin-top: 1rem;
+
+
+}
 .about1 p{
   font-size: 15px;
 }
-
+.about1 {
+  margin-bottom: 6rem;
+}
 .about {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;  
+
+  margin-left: -3rem;
+  height: 35rem;
+ 
 }
 .foot {
-  width: 200px;
+  width: 100%;
+  text-align: center;
+
 }
 }

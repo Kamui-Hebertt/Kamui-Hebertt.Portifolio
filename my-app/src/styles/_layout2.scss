@@ -1,7 +1,4 @@
 .mainContent {
-
-
-
   width: 80vw;
  margin-left: 16vw;
  font-family: "Poppins";
@@ -16,14 +13,13 @@
 body{
   background-color: $kindgray;
 }
-.menubtn {
+.menubtn button{
   display:none;
 }
 
 
 .hi1 {
   margin-left: 7vw;
-
   width: 30vw;
   font-size: 5vh;
   text-align: center;
@@ -90,7 +86,7 @@ margin-right: 7vw;
 
 .menuBar { 
 height: 5px;
-
+display: none;
 
 }
 
