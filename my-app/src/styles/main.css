@@ -398,7 +398,6 @@ body {
   margin-top: 8vh;
   width: 40vw;
   text-align: center;
-  border: 1px solid black;
   font-size: 8vh;
   color: #49c5b6;
   font-family: "Poppins";
@@ -589,14 +588,14 @@ body {
 }
 
 .titleProject {
+  color: #49c5b6;
   padding-top: 2vh;
   margin-left: 7vw;
   display: flex;
   justify-content: center;
   height: 12vh;
-  font-size: 6vh;
+  font-size: 7vh;
   font-family: "Poppins";
-  color: #fff;
 }
 
 .projectHamburger {
@@ -749,7 +748,6 @@ body {
 }
 
 .contact {
-  border: 1px solid rgb(189, 44, 44);
   height: 40vh;
   display: flex;
   justify-content: center;
@@ -763,7 +761,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border: 1px solid rgb(10, 158, 126);
+  border: 1px solid #fff;
   border-radius: 20px;
   line-height: 2rem;
   margin-left: 13vw;
@@ -828,7 +826,6 @@ body {
 }
 
 .form {
-  border: 1px solid rgb(32, 156, 16);
   height: 60vh;
   display: flex;
   align-items: center;
@@ -840,7 +837,8 @@ body {
 .form > h3 {
   color: #fff;
   font-family: "Poppins";
-  font-size: 40px;
+  font-size: 7vh;
+  color: #49c5b6;
   margin-top: 5vh;
   margin-left: 10vw;
 }
@@ -1045,7 +1043,7 @@ body {
     width: 17rem;
   }
   .titleSkills {
-    font-size: 25px;
+    font-size: 30px;
   }
   .titulo {
     font-size: 20px;

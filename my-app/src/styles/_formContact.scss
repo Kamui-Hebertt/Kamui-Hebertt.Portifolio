@@ -1,5 +1,4 @@
 .form {
-  border: 1px solid rgb(32, 156, 16);
   height: 60vh;
   display: flex;
   align-items: center;
@@ -11,8 +10,8 @@
 .form > h3 {
   color:$whiteLetter;
   font-family: "Poppins";
-  font-size: 40px;
-
+  font-size: 7vh;
+ color: $blueHove;
   margin-top: 5vh;
   margin-left: 10vw;
 }
@@ -54,7 +53,7 @@ cursor:pointer;
 }
 
 .formMain { 
-margin-left: 9vw;
+  margin-left: 9vw;
   height: 45vh;
 
   display: flex;
@@ -86,7 +85,6 @@ margin-left: 9vw;
 .textfield {
   height: 30vh;
   align-items: center;
-
   flex-direction: column;
   display: flex;
   

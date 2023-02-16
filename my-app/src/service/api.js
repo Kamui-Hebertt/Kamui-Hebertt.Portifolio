@@ -38,7 +38,7 @@ export const project = [
   },
   {
     id: 5,
-    name: 'Recipe App',
+    name: 'Trybe Tunes App',
     description: '',
     photo1: 'https://uploaddeimagens.com.br/images/004/316/589/full/3ebdbf24-b778-4848-bac5-889519778124.png?1674864175',
     photo2: 'https://uploaddeimagens.com.br/images/004/352/556/full/Screenshot_%28240%29.png?1676313471',
