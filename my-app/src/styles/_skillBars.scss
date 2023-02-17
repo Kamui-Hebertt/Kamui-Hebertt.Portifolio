@@ -15,8 +15,6 @@
   padding-right: 2vw;
    position: relative;
   margin-top: 3vh;
-
-
   width: 55vw;
   font-size: 12px;
   line-height: 2em;
@@ -26,10 +24,8 @@
 } 
 
 .textSkills {
-
- width: 80vw;
- 
-  height: 80vh;
+width: 80vw;
+height: 80vh;
 
 }
 
@@ -86,15 +82,34 @@
 .skillsMain {
   border: 1px solid transparent;
   height: 150vh;
- 
-
-
 }
 
 .skills {
 display: flex;
 width: 35vw;
 
+}
+
+.dowloadDiv {
+  margin-top: 2rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.downloadBtn{
+  background-color: $blueHove;
+  border-color: $whiteLetter;
+  color:$whiteLetter;
+  width: 7rem;
+  font-family: "Poppins";
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.downloadBtn:hover{
+  opacity: 0.5;
+  
 }
 
 .titleSkills{
@@ -107,10 +122,8 @@ width: 35vw;
   font-size: 8vh;
   color: $blueHove;
   font-family: "Poppins";
-
-
- 
 }
+
 .titulo {
   font-size: 4vh;
 
@@ -133,7 +146,7 @@ width: 35vw;
 .jquery      { width: 10%;  animation:jquery 2s ease-out;     }
 .node        { width: 38%;  animation:node 2s ease-out; }
 .sql         { width: 30%;  animation:sql 2s ease-out;     }
-.docker     { width: 30%;  animation:docker 2s ease-out;     }
+.docker      { width: 30%;  animation:docker 2s ease-out;     }
 
 
 

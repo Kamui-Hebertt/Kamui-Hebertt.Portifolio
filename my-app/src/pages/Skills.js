@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 
 function Skills () {
-    const { loading, setloading, english, openSideBar   } = useContext(providerFile);
+    const { loading, setloading, english, openSideBar, handleClickBr, handleClickEn  } = useContext(providerFile);
 
     useEffect(
         () => {
@@ -73,7 +73,13 @@ function Skills () {
        My main stacks are ReactJs, Css, Scss, Redux , Context , JavaScript ,Material UI
       React Router, Figma, CSS , HTML , Jest/Unity test , RTL.
       I have some projects in MySql, Docker and Node.js/Express at the moment I have been focusing a lot on backend stacks .</p>
+      <div className="dowloadDiv">
+               <button className="downloadBtn" onClick={ handleClickEn }>
+                Download Cv
+              </button>
+              </div>
   </div>
+
   </div>
   <Footer /> 
 
@@ -106,14 +112,21 @@ function Skills () {
     </ul>
     </div>
   </div>
-                    <div className="textSkills">
+          <div className="textSkills">
           <p className="descriptionSkill">Sou desenvolvedor full-stack, atualmente trabalhando em projetos pessoais e desenvolvendo projetos para TRYBE como aluno,
      Trybe é uma escola de desenvolvimento web que tem um compromisso genuíno com o sucesso profissional de seus alunos, mas ao mesmo tempo trabalhando em alguns projetos.
       Estou cursando um bacharelado em engenharia de software.
       Minhas principais stacks de front-end são ReactJs, Css, Scss, Redux , Context , JavaScript , Material UI,
       React Router, Figma, CSS , HTML , Jest/Testes Unitários , RTL.
       Possuo alguns projetos em MySql, Docker e Node.js/Express no momento tenho focado bastante em stacks de back-end.</p>
+
+              <div className="dowloadDiv">
+               <button className="downloadBtn" onClick={ handleClickBr }>
+                Baixar Currículo
+              </button>
+              </div>
   </div>
+           
                   </div>
   <Footer /> 
 
