@@ -565,6 +565,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 10vw;
+  margin-bottom: 2rem;
 }
 
 .pro2 {
