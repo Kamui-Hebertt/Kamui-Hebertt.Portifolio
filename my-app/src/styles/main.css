@@ -391,6 +391,27 @@ body {
   width: 35vw;
 }
 
+.dowloadDiv {
+  margin-top: 2rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.downloadBtn {
+  background-color: #49c5b6;
+  border-color: #fff;
+  color: #fff;
+  width: 7rem;
+  font-family: "Poppins";
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.downloadBtn:hover {
+  opacity: 0.5;
+}
+
 .titleSkills {
   float: right;
   padding-bottom: 4vh;

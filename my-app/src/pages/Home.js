@@ -10,8 +10,10 @@ import Footer from '../components/Footer';
 
 
 
+
 function Home() {
-  const { loading, setloading, english } = useContext(providerFile);
+  const { loading, setloading, english, } = useContext(providerFile);
+
 
   const openSideBar = () => {
     const x = document.querySelector('.links');
@@ -90,6 +92,8 @@ function Home() {
                     e encontro satisfação pessoal em aprender coisas novas. </p>
 
                 </div>
+            
+
               </div>
             </div>
 

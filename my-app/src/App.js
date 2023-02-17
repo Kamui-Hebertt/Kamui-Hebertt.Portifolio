@@ -5,6 +5,8 @@ import Skills from './pages/Skills';
 import providerFile from './context/contex';
 import { useState } from 'react';
 import Contact from './pages/Contact';
+import brCv from './service/Curriculo.pdf'
+import enCv from './service/en-cv.pdf';
 
 
 function App() {
@@ -24,12 +26,31 @@ function App() {
        
      }
 
+     const handleClickBr = () => {
+      const link = document.createElement('a');
+      link.href = brCv;
+      link.download = 'Hebertt Nascimento Currículo.pdf';
+      link.target = '_blank';
+      link.click();
+    };
+
+    const handleClickEn = () => {
+      const link = document.createElement('a');
+      link.href = enCv;
+      link.download = 'Hebertt Nascimento CV.pdf';
+      link.target = '_blank';
+      link.click();
+    };
+
+
   const contexObj = {
     english,
      setEnglish,
     loading, setloading,
     newSideBar, setNewSideBar,
-    openSideBar
+    openSideBar,
+    handleClickBr,
+    handleClickEn,
 
   }
 
