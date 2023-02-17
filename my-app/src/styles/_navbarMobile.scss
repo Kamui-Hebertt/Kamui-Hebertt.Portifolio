@@ -2,12 +2,16 @@
 @media (max-width: 768px) {
 
 .links{
-  display: none;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
 
 }
 .links {
-  width: 100%;
-  display: flex;
+ 
+
+ 
 
 }
 
