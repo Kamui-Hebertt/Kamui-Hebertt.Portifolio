@@ -17,7 +17,7 @@ function App() {
     const x =  document.querySelector('.links');
  
     if (x.style.display === 'none') {
-      return x.style.display = 'block';
+      return x.style.display = 'flex';
    } else {
     return   x.style.display = 'none';
    }
