@@ -36,7 +36,6 @@ export const project = [
     photo3: 'https://uploaddeimagens.com.br/images/004/354/137/full/Screenshot_%28250%29.png?1676412067',
     url: 'https://pokedex-redux-theta.vercel.app/',
   },
-  
 
 
 ];
