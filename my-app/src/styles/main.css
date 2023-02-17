@@ -565,11 +565,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 10vw;
-  margin-bottom: 4rem;
+  margin-bottom: 7rem;
 }
 
 .pro2 {
-  margin-top: 10vh;
+  margin-top: 2vh;
   width: 30vw;
   height: 150vh;
   gap: 30px;
@@ -826,7 +826,7 @@ body {
 .carAll {
   padding-top: 5vh;
   padding-left: 2vw;
-  height: 170vh;
+  height: 185vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -989,7 +989,7 @@ body {
     gap: 7rem;
     width: 15rem;
     margin-right: 3rem;
-    margin-top: -18rem;
+    margin-top: -30rem;
   }
   .card1 > img {
     width: 15rem;
@@ -1002,7 +1002,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 200rem;
+    height: 170rem;
     align-items: center;
   }
   .pro {
