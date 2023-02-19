@@ -582,7 +582,7 @@ body {
   gap: 35px;
   display: flex;
   flex-direction: column;
-  margin-left: 10vw;
+  margin-left: 13vw;
   margin-bottom: 7rem;
 }
 
@@ -1019,6 +1019,7 @@ body {
     gap: 10rem;
     width: 15rem;
     margin-top: 140rem;
+    margin-bottom: 2rem;
     margin-left: -23rem;
   }
   .card1 > img {
