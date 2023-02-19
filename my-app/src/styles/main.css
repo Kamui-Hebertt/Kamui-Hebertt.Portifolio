@@ -305,6 +305,24 @@ body {
     padding-right: 1rem;
   }
 }
+@media (max-width: 280px) {
+  .allContent {
+    margin-right: 30rem;
+  }
+  .profileClass {
+    margin-left: -3rem;
+  }
+  .foot {
+    width: 18rem;
+  }
+  .hi {
+    margin-right: 2rem;
+  }
+  .hi1 {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -940,7 +958,12 @@ body {
     display: flex;
     width: 100%;
     position: absolute;
+    position: fixed;
     z-index: 1;
+    height: 110%;
+  }
+  .skillsBtn {
+    text-align: center;
   }
   .icons {
     margin-top: -0.5rem;
@@ -978,18 +1001,25 @@ body {
   .logo {
     width: 85vw;
   }
+  .icons {
+    margin-right: 25px;
+  }
+}
+@media (max-width: 280px) {
+  .icons {
+    margin-right: 30px;
+  }
 }
 @media (max-width: 768px) {
   .allProjects {
     display: flex;
     flex-direction: column;
-    height: 200vh;
   }
   .pro2 {
-    gap: 7rem;
+    gap: 10rem;
     width: 15rem;
-    margin-right: 3rem;
-    margin-top: -30rem;
+    margin-top: 140rem;
+    margin-left: -23rem;
   }
   .card1 > img {
     width: 15rem;
@@ -1002,13 +1032,17 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 170rem;
+    height: 1rem;
     align-items: center;
+  }
+  .foot {
+    margin-top: 80rem;
   }
   .pro {
     margin-right: 3rem;
     gap: 7rem;
     width: 15rem;
+    margin-top: 70rem;
   }
 }
 @media (max-width: 768px) {
@@ -1050,6 +1084,29 @@ body {
     width: 4rem;
   }
 }
+@media (max-width: 280px) {
+  .form h3 {
+    margin-right: 1rem;
+    text-align: center;
+  }
+  .sendBtn {
+    margin-top: -3rem;
+  }
+  .textMessage {
+    margin-right: 1.7rem;
+  }
+}
+@media (max-width: 375px) {
+  .sendBtn {
+    margin-top: -2.5rem;
+  }
+  .textMessage {
+    margin-right: 1.7rem;
+  }
+  .email {
+    margin-right: 2rem;
+  }
+}
 @media (max-width: 768px) {
   .allContent {
     max-width: 60rem;
@@ -1062,6 +1119,9 @@ body {
     font-size: 14px;
     margin-top: -4rem;
     width: 17rem;
+  }
+  .downloadBtn {
+    margin-right: 1rem;
   }
   .titleSkills {
     font-size: 30px;

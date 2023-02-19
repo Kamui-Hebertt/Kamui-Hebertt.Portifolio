@@ -3,15 +3,18 @@
 .allProjects{
   display: flex;
   flex-direction: column;
-  height: 200vh;
+
 
 }
 
+
 .pro2{
-  gap: 7rem;
+  gap: 10rem;
   width: 15rem;
-  margin-right: 3rem;
-  margin-top: -30rem;
+
+  margin-top: 140rem;
+  
+   margin-left: -23rem;
 }
 .card1 > img {
   width:  15rem;
@@ -26,16 +29,30 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 170rem;
+  height: 1rem;
   align-items: center;
 
 
 }
-
+.foot{
+  margin-top: 80rem;
+}
 .pro{
   
   margin-right: 3rem;
   gap: 7rem;
   width: 15rem;
+  margin-top: 70rem;
 
 }}
+
+@media (max-width: 375px) {
+
+
+.card1{
+
+}
+
+}
+
+
