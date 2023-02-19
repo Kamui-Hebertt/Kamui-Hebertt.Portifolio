@@ -9,6 +9,7 @@ margin-bottom: 5rem;
   font-size: 18px;
 }
 
+
 .menuBar { 
   
   height: 5px;
@@ -87,4 +88,31 @@ width: 1rem;;
   padding-right: 1rem;
 
 }
+}
+
+
+
+
+@media (max-width: 280px) {
+
+  .allContent{
+    margin-right: 30rem;
+  }
+  .profileClass{
+    margin-left: -3rem;
+  }
+  .foot{
+
+    width: 18rem;
+  }
+
+
+ .hi{
+  margin-right: 2rem;
+ }
+  .hi1{
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+
 }

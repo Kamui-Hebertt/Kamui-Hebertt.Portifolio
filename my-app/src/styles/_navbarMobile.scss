@@ -5,8 +5,16 @@
   display: flex;
   width: 100%;
   position: absolute;
+  position: fixed;
+ 
   z-index: 1;
+  height: 110%;
+  
 
+}
+
+.skillsBtn{
+  text-align: center;
 }
 
 .icons {
@@ -51,5 +59,17 @@ justify-content: end;
   width: 85vw;
   
 }
+.icons{
+  margin-right: 25px;
+}
+
+}
+
+
+@media (max-width: 280px) {
+
+  .icons{
+    margin-right: 30px;
+  }
 
 }

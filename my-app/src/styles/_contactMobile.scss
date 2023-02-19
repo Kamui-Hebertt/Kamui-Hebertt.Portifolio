@@ -54,3 +54,35 @@
 
 
 }
+
+@media (max-width: 280px) {
+.form h3{
+  margin-right: 1rem;
+  text-align: center;
+}
+  .sendBtn{
+    margin-top: -3rem;
+  }
+.textMessage{
+ margin-right: 1.7rem;
+}
+
+}
+
+@media (max-width: 375px) {
+
+  .sendBtn{
+    margin-top: -2.5rem;
+  }
+.textMessage{
+ margin-right: 1.7rem;
+}
+
+.email{
+  margin-right: 2rem;
+}
+
+
+
+}
+
