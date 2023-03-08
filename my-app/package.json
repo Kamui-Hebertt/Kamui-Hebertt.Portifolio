@@ -1,9 +1,9 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
@@ -60,7 +60,6 @@
     "sass": "^1.57.1"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-
   "keywords": [],
   "author": "",
   "license": "ISC"
