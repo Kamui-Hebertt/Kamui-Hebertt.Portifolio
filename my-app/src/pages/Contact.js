@@ -59,6 +59,7 @@ function Contact () {
       email: email,
       subject: "costumer message",
       description: message,
+      
     };
     
     emailjs.send(
