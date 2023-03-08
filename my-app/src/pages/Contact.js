@@ -1,17 +1,19 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import Footer from '../components/Footer';
 import Loading from '../components/Loading';
 import SideBar from '../components/SideBar';
 import providerFile from '../context/contex';
-import axios from "axios";
+// import axios from "axios";
 import MenuIcon from '@mui/icons-material/Menu'
 
 
 
 
 function Contact () {
-   const { loading, setloading, english, openSideBar } = useContext(providerFile);
-
+  const { loading, setloading, english, openSideBar } = useContext(providerFile);
+  const form = useRef();
+  
    const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -40,19 +42,56 @@ function Contact () {
     });
   };
 
+  
+  
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    axios
-      .post("http://localhost:3000/send-email", formData)
-      .then((response) => {
-        console.log(response);
-        alert("Email sent successfully");
-      })
-      .catch((error) => {
-        console.error(error);
-        alert("Failed to send email. Please try again later.");
-      });
+
+    if (!name || !email || !message ) {
+      alert(!english ? 'Preencha todos os campos' : 'fulfil all fields');
+      return;
+    }
+
+    const templateParams = {
+      from_name: name,
+      email: email,
+      subject: "costumer message",
+      description: message,
+      
+    };
+    
+    emailjs.send(
+        'service_714sd0j',
+        'template_uuco2rq',
+         templateParams,
+        'jKyrOlP3iZ70djF8G'
+      )
+      .then(
+        (response) => {
+          alert(!english ? 'Mensagem enviada com Sucesso!!' :'Message sent successfully!!', response.text);
+          setFormData({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.log('error...', error);
+        }
+      );
+
+    // axios
+    //   .post("http://localhost:3000/send-email", formData)
+    //   .then((response) => {
+    //     console.log(response);
+    //     alert("Email sent successfully");
+    //   })
+    //   .catch((error) => {
+    //     console.error(error);
+    //     alert("Failed to send email. Please try again later.");
+    //   });
   };
    
 
@@ -71,7 +110,7 @@ function Contact () {
               
              <h3>{english ? "How to Contact me" : "Como me contatar"}</h3>
              
-                  <form className="formMain" onSubmit={handleSubmit}>
+                  <form className="formMain" ref={form} onSubmit={handleSubmit}>
                     <div>
                       <label htmlFor="name" className="nameL">{english ?"Name:" : "Nome:"}</label>
                       <input
