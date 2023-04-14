@@ -60,15 +60,53 @@
 .html        { width: 60%;  animation:html 2s ease-out;   margin-left: -1.6rem;     }
 .css         { width:60%;  animation:css 2s ease-out; margin-left: -2rem;       }
 .php         { width: 48%;  animation:php 2s ease-out; margin-left: 0rem       }
-.javascript  { width: 50%;  animation:javascript 2s ease-out;  margin-left: -10px }
-.jquery      { width: 15%;  animation:jquery 2s ease-out; margin-left: 0.8px    }
+.javascript  { width: 50%;  animation:javascript 2s ease-out;  margin-left: 0 }
+.jquery      { width: 40%;  animation:jquery 2s ease-out; margin-left: 0.8px    }
 .node        { width: 38%;  animation:node 2s ease-out; margin-left: 0.8px }
 .sql         { width: 30%;  animation:sql 2s ease-out;  margin-left: -20px   }
-.docker     { width: 30%;  animation:docker 2s ease-out;      }
+.docker     { width: 30%;  animation:docker 2s ease-out; margin-left: -2rem;     }
 
 
 
 }
+
+
+@media (max-width: 375px ) {
+
+
+  .titulo      { opacity:1;  animation:titulo 5s ease-out;     }
+
+  .stack       {  opacity:1;  animation:titulo 5s ease-out;}
+  .html        { width: 60%;  animation:html 2s ease-out;   margin-left: -1.8rem;     }
+  .css         { width:60%;  animation:css 2s ease-out; margin-left: -2.2rem;       }
+  .php         { width: 48%;  animation:php 2s ease-out; margin-left: -0.2rem       }
+  .javascript  { width: 40%;  animation:javascript 2s ease-out;  margin-left: -1rem }
+  .jquery      { width: 40%;  animation:jquery 2s ease-out; margin-left: -0.2rem    }
+  .node        { width: 38%;  animation:node 2s ease-out; margin-left: 0.8px }
+  .sql         { width: 30%;  animation:sql 2s ease-out;  margin-left: -1.6rem   }
+  .docker     { width: 30%;  animation:docker 2s ease-out;  margin-left: -1.4rem;     }
+  
+
+}
+
+// @media (max-width: 412px) {
+
+
+//   .titulo      { opacity:1;  animation:titulo 5s ease-out;     }
+
+//   .stack       {  opacity:1;  animation:titulo 5s ease-out;}
+//   .html        { width: 60%;  animation:html 2s ease-out;   margin-left: -1.8rem;     }
+//   .css         { width:60%;  animation:css 2s ease-out; margin-left: -1.8rem;       }
+//   .php         { width: 48%;  animation:php 2s ease-out; margin-left: -0.2rem       }
+//   .javascript  { width: 40%;  animation:javascript 2s ease-out;  margin-left: -0.2rem }
+//   .jquery      { width: 40%;  animation:jquery 2s ease-out; margin-left: -0.2rem    }
+//   .node        { width: 38%;  animation:node 2s ease-out; margin-left: 0.8px }
+//   .sql         { width: 30%;  animation:sql 2s ease-out;  margin-left: -1.6rem   }
+//   .docker     { width: 30%;  animation:docker 2s ease-out;  margin-left: -0.4rem;     }
+  
+
+// }
+
 
 
 
