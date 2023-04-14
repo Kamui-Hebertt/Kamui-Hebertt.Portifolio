@@ -49,11 +49,14 @@ justify-content: center;
 }
 
 .projectLink{
-  margin-left: 10vw;
-  font-family: "Poppins";
-  color: $whiteLetter;
 
-   font-size: 1.3rem;
+
+  font-family: "Poppins";
+  color: #fff;
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: center;
+  margin-left: 5rem;
  
 }
 

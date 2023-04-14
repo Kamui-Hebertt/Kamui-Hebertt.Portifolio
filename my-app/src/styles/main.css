@@ -225,7 +225,7 @@ body {
 }
 .profileClass {
   width: 25vw;
-  margin-left: 33vw;
+  margin-left: 37vw;
   margin-bottom: -33vw;
   display: 1px solid rgb(131, 9, 9);
 }
@@ -737,11 +737,8 @@ body {
     opacity: 1;
   }
 }
-.projectLink {
-  margin-top: 5px;
-}
-
 .projectLink > a {
+  margin-right: 4rem;
   color: #fff;
 }
 
@@ -859,10 +856,12 @@ body {
 }
 
 .projectLink {
-  margin-left: 10vw;
   font-family: "Poppins";
   color: #fff;
+  display: flex;
   font-size: 1.3rem;
+  justify-content: center;
+  margin-left: 5rem;
 }
 
 .form {
