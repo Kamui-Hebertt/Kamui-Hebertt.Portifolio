@@ -17,13 +17,13 @@
 }
 
 .name {
-height: 2.7vh;
+height: 3.7vh;
 width: 18vw;
 
 }
 
 .email {
-  height: 2.7vh;
+  height: 3.7vh;
   width: 18vw;
 }
 
@@ -35,7 +35,7 @@ width: 18vw;
 
 .sendBtn {
   width: 6vw;
-  height: 4vh;
+
   border-radius: 5px;
   color: $whiteLetter;
   background-color: $blueborder;
@@ -64,6 +64,7 @@ cursor:pointer;
 
 .emailL {
   margin-right: 5px;
+
   color:$whiteLetter;
   font-family: "Poppins";
 }

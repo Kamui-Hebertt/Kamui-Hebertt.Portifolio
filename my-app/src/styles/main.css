@@ -484,8 +484,8 @@ body {
 }
 
 .jquery {
-  width: 10%;
-  animation: jquery 2s ease-out;
+  width: 40%;
+  animation: typescript 2s ease-out;
 }
 
 .node {
@@ -543,12 +543,12 @@ body {
     width: 65%;
   }
 }
-@keyframes jquery {
+@keyframes typescript {
   0% {
     width: 0px;
   }
   100% {
-    width: 10%;
+    width: 40%;
   }
 }
 @keyframes node {
@@ -883,12 +883,12 @@ body {
 }
 
 .name {
-  height: 2.7vh;
+  height: 3.7vh;
   width: 18vw;
 }
 
 .email {
-  height: 2.7vh;
+  height: 3.7vh;
   width: 18vw;
 }
 
@@ -900,7 +900,6 @@ body {
 
 .sendBtn {
   width: 6vw;
-  height: 4vh;
   border-radius: 5px;
   color: #fff;
   background-color: #2187e7;
@@ -1175,10 +1174,10 @@ body {
   .javascript {
     width: 50%;
     animation: javascript 2s ease-out;
-    margin-left: -10px;
+    margin-left: 0;
   }
   .jquery {
-    width: 15%;
+    width: 40%;
     animation: jquery 2s ease-out;
     margin-left: 0.8px;
   }
@@ -1195,5 +1194,56 @@ body {
   .docker {
     width: 30%;
     animation: docker 2s ease-out;
+    margin-left: -2rem;
+  }
+}
+@media (max-width: 375px) {
+  .titulo {
+    opacity: 1;
+    animation: titulo 5s ease-out;
+  }
+  .stack {
+    opacity: 1;
+    animation: titulo 5s ease-out;
+  }
+  .html {
+    width: 60%;
+    animation: html 2s ease-out;
+    margin-left: -1.8rem;
+  }
+  .css {
+    width: 60%;
+    animation: css 2s ease-out;
+    margin-left: -2.2rem;
+  }
+  .php {
+    width: 48%;
+    animation: php 2s ease-out;
+    margin-left: -0.2rem;
+  }
+  .javascript {
+    width: 40%;
+    animation: javascript 2s ease-out;
+    margin-left: -1rem;
+  }
+  .jquery {
+    width: 40%;
+    animation: jquery 2s ease-out;
+    margin-left: -0.2rem;
+  }
+  .node {
+    width: 38%;
+    animation: node 2s ease-out;
+    margin-left: 0.8px;
+  }
+  .sql {
+    width: 30%;
+    animation: sql 2s ease-out;
+    margin-left: -1.6rem;
+  }
+  .docker {
+    width: 30%;
+    animation: docker 2s ease-out;
+    margin-left: -1.4rem;
   }
 }/*# sourceMappingURL=main.css.map */

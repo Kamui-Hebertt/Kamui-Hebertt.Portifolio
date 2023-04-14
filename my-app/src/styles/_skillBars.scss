@@ -142,7 +142,7 @@ width: 35vw;
 .css         { width:60%;  animation:css 2s ease-out;        }
 .php         { width:75%;  animation:php 2s ease-out;        }
 .javascript  { width:65%;  animation:javascript 2s ease-out; }
-.jquery      { width: 10%;  animation:jquery 2s ease-out;     }
+.jquery      { width: 40%;  animation:typescript   2s ease-out;     }
 .node        { width: 38%;  animation:node 2s ease-out; }
 .sql         { width: 30%;  animation:sql 2s ease-out;     }
 .docker      { width: 30%;  animation:docker 2s ease-out;     }
@@ -158,7 +158,7 @@ width: 35vw;
 @keyframes css         { 0% { width:0px; } 100% { width: 60%; }  }
 @keyframes php         { 0% { width:0px; } 100% { width:75%; }  }
 @keyframes javascript  { 0% { width:0px; } 100% { width:65%; }  }
-@keyframes jquery      { 0% { width:0px; } 100% { width: 10%; }  }
+@keyframes  typescript      { 0% { width:0px; } 100% { width: 40%; }  }
 @keyframes node        { 0% { width:0px; } 100% { width:38%; }  }
 @keyframes sql         { 0% { width:0px; } 100% { width: 30%; }  }
 @keyframes docker      { 0% { width:0px; } 100% { width:30%; }  }
