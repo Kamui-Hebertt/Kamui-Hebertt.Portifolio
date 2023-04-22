@@ -629,12 +629,12 @@ body {
 
 .titleProject {
   color: #49c5b6;
-  padding-top: 2vh;
+  padding-top: 3vh;
   margin-left: 7vw;
   display: flex;
   justify-content: center;
   height: 12vh;
-  font-size: 7vh;
+  font-size: 8vh;
   font-family: "Poppins";
 }
 
@@ -867,20 +867,26 @@ body {
 }
 
 .projectLink {
-
-  margin-left: 2.5vw;
-
+  margin-left: 3vw;
   font-family: "Poppins";
   color: #fff;
+}
+
+.projectLink > a {
+  width: 10rem;
+  font-family: "Poppins";
+  color: #3fcfc3;
   display: flex;
   font-size: 1.3rem;
   justify-content: center;
-  margin-left: 5rem;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
   .projectLink {
-    margin-left: 5vw;
+    margin-left: 10.2vw;
   }
 }
 .form {
@@ -1035,8 +1041,7 @@ body {
   .pro2 {
     gap: 10rem;
     width: 15rem;
-    margin-top: 122rem;
-    margin-bottom: 2rem;
+    margin-top: 126rem;
     margin-left: -24rem;
   }
   .card1 > img {
