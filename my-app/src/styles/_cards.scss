@@ -7,7 +7,7 @@
 }
 
 .card1 > img {
-  width: 30vw;
+  width: 100%;
  
   border-radius: 17px;
  
@@ -49,11 +49,16 @@ justify-content: center;
 }
 
 .projectLink{
-  margin-left: 10vw;
+  margin-left: 2.5vw;
   font-family: "Poppins";
   color: $whiteLetter;
 
    font-size: 1.3rem;
  
 }
+
+@media (max-width: 768px){
+  .projectLink{ margin-left: 5vw;}
+}
+
 

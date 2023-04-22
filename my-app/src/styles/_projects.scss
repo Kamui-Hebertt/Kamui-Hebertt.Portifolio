@@ -2,7 +2,7 @@
 
 
 
-  width: 30vw;
+  width: 15rem;
   height: 150vh;
   gap: 35px;
   display: flex;
@@ -14,8 +14,8 @@
 
 .pro2 {
 
-    margin-top: 2vh;
-    width: 30vw;
+    margin-top: -3rem;
+    width: 20%;
     height: 150vh;
     gap: 30px;
     display: flex;
@@ -158,6 +158,17 @@ align-items: center;
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+.foot2 {
+  color: #fff;
+  background-color: #1d1d1d;
+  font-family: "Poppins";
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
 }
 
 @keyframes fade {
