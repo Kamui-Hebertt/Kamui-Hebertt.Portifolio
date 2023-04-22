@@ -12,9 +12,9 @@
   gap: 10rem;
   width: 15rem;
 
-  margin-top: 140rem;
+  margin-top: 122rem;
   margin-bottom: 2rem;
-   margin-left: -23rem;
+   margin-left: -24rem;
 }
 .card1 > img {
   width:  15rem;
@@ -34,17 +34,35 @@
 
 
 }
-.foot{
-  margin-top: 80rem;
-}
-.pro{
+// .foot{
+//   margin-top: 80rem;
+// }
+.foot2 {
+   text-align: center;
+  color: #fff;
+  background-color: #1d1d1d;
+  font-family: "Poppins";
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin-top: 72rem;
   
-  margin-right: 3rem;
-  gap: 7rem;
-  width: 15rem;
-  margin-top: 70rem;
+ 
+  }
 
-}}
+  .pro{
+  
+    margin-right: 3rem;
+    gap: 3rem;
+    width: 15rem;
+    margin-top: 60rem;
+  
+  }
+}
+
+
 
 @media (max-width: 375px) {
 

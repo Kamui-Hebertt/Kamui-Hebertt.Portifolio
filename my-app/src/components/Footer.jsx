@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import providerFile from "../context/contex";
 
@@ -7,9 +7,12 @@ const Footer = () => {
    const{ english } = useContext(providerFile); 
       const location =  useLocation();
       console.log(location.pathname);
+
+    
+
    
   return(  
-    <footer className="foot">
+    <footer  className={location.pathname !== "/projects" ? "foot": "foot2"}>
       {english? (<p>Copyright ©2023 All rights reserved | This template is made by Hebertt</p>) : 
       (<p>Copyright ©2023 All rights reserved | This template is made by Hebertt</p>)}
     </footer> 

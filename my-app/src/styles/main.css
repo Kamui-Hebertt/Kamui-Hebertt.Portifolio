@@ -577,7 +577,7 @@ body {
 }
 /*media queries*/
 .pro {
-  width: 30vw;
+  width: 15rem;
   height: 150vh;
   gap: 35px;
   display: flex;
@@ -587,8 +587,8 @@ body {
 }
 
 .pro2 {
-  margin-top: 2vh;
-  width: 30vw;
+  margin-top: -3rem;
+  width: 20%;
   height: 150vh;
   gap: 30px;
   display: flex;
@@ -729,6 +729,17 @@ body {
   animation-duration: 1.5s;
 }
 
+.foot2 {
+  color: #fff;
+  background-color: #1d1d1d;
+  font-family: "Poppins";
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
 @keyframes fade {
   from {
     opacity: 0.4;
@@ -823,7 +834,7 @@ body {
 }
 
 .card1 > img {
-  width: 30vw;
+  width: 100%;
   border-radius: 17px;
 }
 
@@ -856,6 +867,9 @@ body {
 }
 
 .projectLink {
+
+  margin-left: 2.5vw;
+
   font-family: "Poppins";
   color: #fff;
   display: flex;
@@ -864,6 +878,11 @@ body {
   margin-left: 5rem;
 }
 
+@media (max-width: 768px) {
+  .projectLink {
+    margin-left: 5vw;
+  }
+}
 .form {
   height: 60vh;
   display: flex;
@@ -953,7 +972,7 @@ body {
 
 @media (max-width: 768px) {
   .links {
-    display: flex;
+    display: none;
     width: 100%;
     position: absolute;
     position: fixed;
@@ -1016,9 +1035,9 @@ body {
   .pro2 {
     gap: 10rem;
     width: 15rem;
-    margin-top: 140rem;
+    margin-top: 122rem;
     margin-bottom: 2rem;
-    margin-left: -23rem;
+    margin-left: -24rem;
   }
   .card1 > img {
     width: 15rem;
@@ -1034,14 +1053,23 @@ body {
     height: 1rem;
     align-items: center;
   }
-  .foot {
-    margin-top: 80rem;
+  .foot2 {
+    text-align: center;
+    color: #fff;
+    background-color: #1d1d1d;
+    font-family: "Poppins";
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin-top: 72rem;
   }
   .pro {
     margin-right: 3rem;
-    gap: 7rem;
+    gap: 3rem;
     width: 15rem;
-    margin-top: 70rem;
+    margin-top: 60rem;
   }
 }
 @media (max-width: 768px) {
@@ -1062,7 +1090,7 @@ body {
   }
   .name {
     height: 1.5rem;
-    margin-right: 2rem;
+    margin-right: 2.2rem;
     width: 10rem;
   }
   .textC p {
