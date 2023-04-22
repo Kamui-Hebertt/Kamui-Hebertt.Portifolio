@@ -29,12 +29,12 @@ export const project = [
 
   {
     id: 4,
-    name: 'Pokedex',
-    descPt: 'Pokedex prokect',
-    photo1: 'https://uploaddeimagens.com.br/images/004/354/137/full/Screenshot_%28250%29.png?1676412067',
-    photo2: 'https://uploaddeimagens.com.br/images/004/354/137/full/Screenshot_%28250%29.png?1676412067',
-    photo3: 'https://uploaddeimagens.com.br/images/004/354/137/full/Screenshot_%28250%29.png?1676412067',
-    url: 'https://pokedex-redux-theta.vercel.app/',
+    name: 'Mirai Web Site',
+    descPt: 'Company web site',
+    photo1: 'https://uploaddeimagens.com.br/images/004/401/999/full/Screenshot_%281%29.png?1679456233',
+    photo2: 'https://uploaddeimagens.com.br/images/004/402/001/full/Screenshot_%285%29.png?1679456690',
+    photo3: 'https://uploaddeimagens.com.br/images/004/402/002/full/Screenshot_%286%29.png?1679456727',
+    url: 'https://miraisoftware.com.br/',
   },
 
 
