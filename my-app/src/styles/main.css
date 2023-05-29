@@ -811,12 +811,12 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #fff;
+  border: 1px solid rgb(143, 207, 233);
   border-radius: 20px;
   line-height: 2rem;
   margin-left: 13vw;
   width: 60vw;
-  height: 15vh;
+  height: 20vh;
   color: #fff;
   margin-top: 3vh;
   padding-left: 1.5vw;
@@ -825,6 +825,24 @@ body {
 .textC > a {
   color: #2187e7;
   text-decoration: none;
+}
+
+.emailC {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.phone {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.divEmail {
+  display: flex;
+  flex-direction: row;
+  width: 25rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
@@ -976,7 +994,6 @@ body {
   margin-top: 2rem;
   margin-left: 9vw;
   height: 51.5vh;
-  border: 1px solid rgb(58, 8, 8);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1187,7 +1204,6 @@ body {
     display: flex;
     justify-content: center;
     height: 40rem;
-    border: 1px solid black;
     align-items: center;
   }
   .formMain {

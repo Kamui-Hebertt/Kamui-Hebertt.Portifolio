@@ -4,6 +4,7 @@
   margin-top: 10rem;
   height: 10rem;
   display: flex;
+
   justify-content: center;
   align-items: center;
   font-size: 1rem;
@@ -11,19 +12,19 @@
   font-family:'Poppins' , 'Arial Narrow', Arial, sans-serif
 }
 
-
+ 
 
 .textC { 
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border: 1px solid $whiteLetter;
+  border: 1px solid rgb(143, 207, 233);
   border-radius: 20px;
   line-height: 2rem;
   margin-left: 13vw;
   width: 60vw;
-  height: 15vh;
+  height: 20vh;
   color: $whiteLetter;
   margin-top: 3vh;
   padding-left: 1.5vw;}
@@ -32,4 +33,23 @@
   color: $blueborder;
  
 text-decoration: none;
+}
+
+.emailC {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.phone{
+  width:1.5rem;
+  margin-right: 0.5rem;
+}
+
+.divEmail{
+  
+  display: flex;
+  flex-direction: row;
+  width: 25rem;
+  align-items: center;
+  justify-content: center;
 }

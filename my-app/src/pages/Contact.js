@@ -5,6 +5,8 @@ import Loading from "../components/Loading";
 import SideBar from "../components/SideBar";
 import providerFile from "../context/contex";
 import MenuIcon from "@mui/icons-material/Menu";
+import emailImg from '../assets/mail.svg';
+import phone from '../assets/phone.svg';
 
 function Contact() {
   const { loading, setloading, english, openSideBar } =
@@ -152,8 +154,13 @@ function Contact() {
           </div>
           <main className="contact">
             <div className="textC">
-              <p>Email: heberttafetteira.com@gmail.com</p>
+              <div className="divEmail">
+            <img className="emailC" src={emailImg} alt="email" />
+              <p> 
+                Email: heberttafetteira.com@gmail.com</p>
+              </div>
               <p>
+              <img className="phone" src={phone} alt="phone" />
                 {english
                   ? "Phone Number/Whatsapp: +55 2199215-7839"
                   : "Telefone/Whatsapp: +55 2199215-7839"}
