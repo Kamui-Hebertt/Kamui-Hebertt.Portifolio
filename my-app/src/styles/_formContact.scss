@@ -56,14 +56,22 @@ color:white;
   border:1px solid rgb(12, 57, 75);}
 
 .sendBtn {
-  margin-top: 1rem;
-  width: 10rem;
-  height: 3rem;
-  border-radius: 5px;
-  color: $whiteLetter;
-  background-color: $blueborder;
-  border: none;
+  background-color: $blueHove;
+  border-color: $whiteLetter;
+  color:$whiteLetter;
+  width: 7rem;
+  font-family: "Poppins";
+  font-size: 15px;
+  cursor: pointer;
 
+}
+
+
+
+
+.sendBtn:hover{
+  opacity: 0.5;
+  
 }
 
 .sendBtn:hover {
