@@ -266,7 +266,7 @@ body {
     width: 15rem;
   }
   .hi {
-    margin-bottom: -4.6rem;
+    margin-bottom: -5.7rem;
   }
   .content {
     height: 30rem;
@@ -303,6 +303,7 @@ body {
     text-align: center;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-top: 0.2rem;
   }
 }
 @media (max-width: 280px) {
@@ -796,7 +797,8 @@ body {
 }
 
 .contact {
-  height: 40vh;
+  margin-top: 10rem;
+  height: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -809,12 +811,12 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #fff;
+  border: 1px solid rgb(143, 207, 233);
   border-radius: 20px;
   line-height: 2rem;
   margin-left: 13vw;
   width: 60vw;
-  height: 30vh;
+  height: 20vh;
   color: #fff;
   margin-top: 3vh;
   padding-left: 1.5vw;
@@ -823,6 +825,24 @@ body {
 .textC > a {
   color: #2187e7;
   text-decoration: none;
+}
+
+.emailC {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.phone {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.divEmail {
+  display: flex;
+  flex-direction: row;
+  width: 25rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
@@ -899,37 +919,66 @@ body {
 }
 
 .form > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   font-family: "Poppins";
   font-size: 7vh;
   color: #49c5b6;
-  margin-top: 5vh;
+  margin-top: 7rem;
   margin-left: 10vw;
 }
 
 .name {
   height: 3.7vh;
   width: 18vw;
+  border: 1px solid rgb(143, 207, 233);
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+.name:focus {
+  color: white;
+  border: 1px solid rgb(12, 57, 75);
 }
 
 .email {
   height: 3.7vh;
   width: 18vw;
+  border: 1px solid rgb(143, 207, 233);
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+.email:focus {
+  color: white;
+  border: 1px solid rgb(12, 57, 75);
 }
 
 .textMessage {
   resize: none;
   height: 30vh;
   width: 40vw;
+  color: white;
+  border: 1px solid rgb(143, 207, 233);
+  background-color: rgb(54, 54, 54);
+  border-radius: 10px;
+}
+
+.textMessage:focus {
+  color: white;
+  border: 1px solid rgb(12, 57, 75);
 }
 
 .sendBtn {
-  width: 6vw;
+  margin-top: 1rem;
+  width: 10rem;
+  height: 3rem;
   border-radius: 5px;
   color: #fff;
   background-color: #2187e7;
   border: none;
-  transition: 2s;
 }
 
 .sendBtn:hover {
@@ -942,8 +991,9 @@ body {
 }
 
 .formMain {
+  margin-top: 2rem;
   margin-left: 9vw;
-  height: 45vh;
+  height: 51.5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1092,6 +1142,7 @@ body {
     width: 10rem;
     margin-right: 2rem;
     height: 1.5rem;
+    color: white;
   }
   .name {
     height: 1.5rem;
@@ -1112,31 +1163,51 @@ body {
     height: 7rem;
   }
   .sendBtn {
-    margin-top: -5rem;
-    width: 4rem;
+    width: 6rem;
+    height: 3em;
   }
 }
-@media (max-width: 280px) {
+@media (max-width: 375px) {
   .form h3 {
     margin-right: 1rem;
     text-align: center;
   }
   .sendBtn {
-    margin-top: -3rem;
+    margin-top: 1rem;
+    width: 8rem;
   }
   .textMessage {
     margin-right: 1.7rem;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 540px) {
   .sendBtn {
-    margin-top: -2.5rem;
+    height: 6rem;
+    margin-top: -4.5rem;
   }
   .textMessage {
     margin-right: 1.7rem;
   }
+  .sendBtn {
+    width: 8rem;
+    height: 2rem;
+  }
   .email {
     margin-right: 2rem;
+  }
+  .textMessage {
+    margin-left: 2em;
+  }
+}
+@media (max-width: 414px) {
+  .form {
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+    align-items: center;
+  }
+  .formMain {
+    height: 21.5rem;
   }
 }
 @media (max-width: 768px) {
