@@ -972,13 +972,17 @@ body {
 }
 
 .sendBtn {
-  margin-top: 1rem;
-  width: 10rem;
-  height: 3rem;
-  border-radius: 5px;
+  background-color: #49c5b6;
+  border-color: #fff;
   color: #fff;
-  background-color: #2187e7;
-  border: none;
+  width: 7rem;
+  font-family: "Poppins";
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sendBtn:hover {
+  opacity: 0.5;
 }
 
 .sendBtn:hover {
