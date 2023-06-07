@@ -164,7 +164,7 @@ function Skills() {
                      cursando bacharel em engenharia de software. Minhas principais stacks são
                       React, Css, Scss, Redux, Context, JavaScript
                      ,Material UI React Router, Figma, styled componets, Jest/Unity, GraphiQL,
-                     docker, nó, Rest API e muito mais. Fique a vontade para baixar meu curriculo em pdf
+                     docker, node, Rest API e muito mais. Fique a vontade para baixar meu curriculo em pdf
                   </p>
 
                   <div className="dowloadDiv">

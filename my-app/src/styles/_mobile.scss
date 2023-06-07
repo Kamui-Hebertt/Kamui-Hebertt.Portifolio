@@ -33,7 +33,7 @@ margin-bottom: 5rem;
   }
  
   .hi {
-    margin-bottom: -4.6rem;
+    margin-bottom: -5.7rem;
     
   }
   .content {
@@ -74,6 +74,11 @@ width: 1rem;;
 }
 .about1 {
   margin-bottom: 6rem;
+ 
+  
+}
+@media(max-width:768px) {
+  .about1 {margin-top: 10rem;}
 }
 .about {
 
@@ -86,7 +91,7 @@ width: 1rem;;
   text-align: center;
   padding-left: 1rem;
   padding-right: 1rem;
-
+  margin-top: 0.2rem;
 }
 }
 
@@ -109,6 +114,7 @@ width: 1rem;;
 
  .hi{
   margin-right: 2rem;
+ 
  }
   .hi1{
     margin-right: 2rem;
