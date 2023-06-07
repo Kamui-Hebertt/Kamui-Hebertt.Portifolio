@@ -8,39 +8,70 @@
 
 }
 .form > h3 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   color:$whiteLetter;
   font-family: "Poppins";
   font-size: 7vh;
   color: $blueHove;
-  margin-top: 5vh;
+  margin-top: 7rem;
   margin-left: 10vw;
 }
 
 .name {
 height: 3.7vh;
 width: 18vw;
-
+border:1px solid rgb(143, 207, 233);
+background-color: rgb(54, 54, 54);
+color:white;
 }
+
+.name:focus{
+  color:white;
+  border:1px solid rgb(12, 57, 75);}
 
 .email {
   height: 3.7vh;
   width: 18vw;
+  border:1px solid rgb(143, 207, 233);
+  background-color: rgb(54, 54, 54);
+  color:white;
 }
+.email:focus{
+  color:white;
+  border:1px solid rgb(12, 57, 75);}
+
 
 .textMessage {
   resize: none;
   height: 30vh;
   width: 40vw;
-}
+  color:white;
+  border:1px solid rgb(143, 207, 233);
+  background-color: rgb(54, 54, 54);
+  border-radius: 10px;
+ }
+.textMessage:focus{color:white;
+  border:1px solid rgb(12, 57, 75);}
 
 .sendBtn {
-  width: 6vw;
+  background-color: $blueHove;
+  border-color: $whiteLetter;
+  color:$whiteLetter;
+  width: 7rem;
+  font-family: "Poppins";
+  font-size: 15px;
+  cursor: pointer;
 
-  border-radius: 5px;
-  color: $whiteLetter;
-  background-color: $blueborder;
-  border: none;
-  transition: 2s;
+}
+
+
+
+
+.sendBtn:hover{
+  opacity: 0.5;
+  
 }
 
 .sendBtn:hover {
@@ -50,12 +81,13 @@ cursor:pointer;
 }
 .formMain  input {
   border-radius: 7px;
+ 
 }
 
 .formMain { 
+  margin-top: 2rem;
   margin-left: 9vw;
-  height: 45vh;
-
+  height: 51.5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,8 +107,6 @@ cursor:pointer;
 }
 
 .messageL { 
-
-
   margin-bottom: 1vh;
   margin-right: 10px;
   color:$whiteLetter;
@@ -88,5 +118,5 @@ cursor:pointer;
   align-items: center;
   flex-direction: column;
   display: flex;
-  
+
 }

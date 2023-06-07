@@ -1,3 +1,4 @@
+
 .nameLogo {
   width: 3vw;
 
@@ -50,4 +51,57 @@
 
   margin-right: 4vw ;
   height: 20vh;
+
+.nameLogo {
+  width: 3vw;
+
+
 }
+
+.loader {
+  width: 48px;
+  height: 48px;
+  margin-left: 50vw;
+  margin-top: 46vh;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
+
+
+.profileClass{
+  width: 25vw;
+  
+  margin-left: 37vw;
+  margin-bottom: -33vw;
+  display: 1px solid rgb(131, 9, 9);
+}
+
+
+.portugueseText {
+
+  height: 20vh;
+  width: 20vw;
+  display: 1px solid black;
+  
+}
+
+.hi1 {
+  
+
+  margin-right: 4vw ;
+  height: 20vh;
+
+}}
