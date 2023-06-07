@@ -35,7 +35,7 @@ function SideBar() {
         <img src={logo} alt="logo" className="logo" />
       </div >
       <Link to="/"><p>Home</p></Link>
-      <Link to="/projects"><p>{english ? `Works` : `Projetos`}</p></Link>
+      <Link to="/projects"><p>{english ? `Projects` : `Projetos`}</p></Link>
       <Link to="/skills"><p className="skillsBtn">{english ? `My Skills` : `Minhas habilidades`}</p></Link>
       <Link to="/contact"><p>{english ? `Contact` : `contato`}</p></Link>
       <button onClick={() => setLanguage()} className="langbtn">{english ? `Portuguese` : `Inglês`}</button>

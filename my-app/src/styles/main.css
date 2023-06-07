@@ -205,7 +205,7 @@ body {
 .loader {
   width: 48px;
   height: 48px;
-  margin-left: 50vw;
+  margin-left: 52vw;
   margin-top: 46vh;
   border: 5px solid #FFF;
   border-bottom-color: #FF3D00;
@@ -215,6 +215,11 @@ body {
   animation: rotation 1s linear infinite;
 }
 
+@media (max-width: 414px) {
+  .loader {
+    margin-left: 49vw;
+  }
+}
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -240,7 +245,50 @@ body {
   margin-right: 4vw;
   height: 20vh;
 }
+.hi1 .nameLogo {
+  width: 3vw;
+}
+.hi1 .loader {
+  width: 48px;
+  height: 48px;
+  margin-left: 50vw;
+  margin-top: 46vh;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.hi1 .profileClass {
+  width: 25vw;
+  margin-left: 37vw;
+  margin-bottom: -33vw;
+  display: 1px solid rgb(131, 9, 9);
+}
+.hi1 .portugueseText {
+  height: 20vh;
+  width: 20vw;
+  display: 1px solid black;
+}
+.hi1 .hi1 {
+  margin-right: 4vw;
+  height: 20vh;
+}
 
+@media (max-width: 800px) {
+  .hi {
+    margin-top: 10rem;
+  }
+}
 @media (max-width: 768px) {
   .pAbout {
     font-size: 18px;
@@ -294,10 +342,19 @@ body {
   .about1 {
     margin-bottom: 6rem;
   }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .about1 {
+    margin-top: 10rem;
+  }
+}
+@media (max-width: 768px) {
   .about {
     margin-left: -3rem;
     height: 35rem;
   }
+}
+@media (max-width: 768px) {
   .foot {
     width: 100%;
     text-align: center;
