@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter, Poppins } from 'next/font/google'
+import { Providers } from "@/app/redux/provider";
 
 const inter = Inter({ subsets: ['latin'] })
 const poppins = Poppins({
@@ -20,7 +21,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       
-      <nav className={poppins.className}>{children}</nav>
+    <body>
+    <Providers>
+        {children}
+        </Providers>
+    </body>
+        
+       
      
     </html>
   )
