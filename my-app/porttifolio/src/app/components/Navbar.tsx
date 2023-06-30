@@ -13,13 +13,17 @@ const Nav = () => {
 
   return (
  
-    <nav className="w-full bg-gray-800 shadow">
+    <nav className="w-full bg-slate-400 shadow font-Poppins">
     <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
       <div>
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-          <a href="#">
-            <h2 className="text-2xl text-white font-bold">Hebertt | Full Stack Developer</h2>
-          </a>
+        <a href="/" className="flex items-center gap-2">
+     <p className="text-white text-[18px] font-bold cursor-pointer flex" >
+    <span className="text-[#915EFF]">Hebertt</span>
+           </p>
+ 
+ <span className="sm:block hidden text-white">| Full Stack Developer</span> 
+    </a>
           <div className="md:hidden">
             <button
               className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -67,24 +71,20 @@ const Nav = () => {
           <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             <li className="text-white">
               <Link href="/">
-              Home
+              About
               </Link>
             </li>
             <li className="text-white">
               <Link href="/blogs">
-                Blogs
+                Work
               </Link>
             </li>
             <li className="text-white">
               <Link href="/about">
-               About US
+               Contact
               </Link>
             </li>
-            <li className="text-white">
-              <Link href="/contact">
-               Contact US
-              </Link>
-            </li>
+         
           </ul>
         </div>
       </div>
