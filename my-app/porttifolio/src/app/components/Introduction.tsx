@@ -14,13 +14,13 @@ export default function Intro() {
 
      <div className="flex flex-col justify-center items-center mt-5 w-4 h-15">
      <div className="w-5 h-5 rounded-full bg-[#915EFF]"></div>
-     <div className="w-1 sm:h-80 h-40 bg-gradient-to-b from-purple-500 to-indigo-500"></div>
+     <div className="w-1 sm:h-80 h-40 bg-gradient-to-b from-purple-500 to-transparent"></div>
      </div>
 
-     <div className="border-2 ml-4 mr-0 sm:mr-4 pt-5 mt-10 border-red w-25 h-[20rem]">
+     <div className="border-2 mb-12 ml-4 mr-0 sm:mr-4 pt-5 mt-10 border-red w-25 h-[20rem]">
         
 
-     <h1 className="border-2 mt-10 border-red font-black pl-2 lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2 text-white ">
+     <h1 className="border-2  border-red font-black pl-2 lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] text-white ">
       Hi, I'm <span className="text-[#915EFF]">Hebertt</span></h1>
       
       <div className="flex flex-col">
