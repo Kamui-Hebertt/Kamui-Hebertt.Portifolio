@@ -19,14 +19,59 @@
 }
 
 .divBack{
-  background-image: url("../../public/net.png");
+  background-image: url("../../public/net.jpg");
   width: 100%;
   background-repeat: no-repeat; 
   background-size: cover; 
+}
+
+
+
+
+
+
+
+
+
+.translated-div1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  animation: translated-div 2.5s ease infinite;
+}
+
+
+@keyframes translated-div {
+  0% {
+    transform: translateY(0);
+  }
+ 50% {
+    transform: translateY(30px) 
+  }
+
   
+}
+/* scroll down */
+my-text {
+  /* add these styles to make the text move smoothly */
+  display: inline-block;
+  animation: slide-left 0.5s ease forwards;
+}
+
+@keyframes slide-left {
+  /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* adjust the value to control how much the text moves */
+    transform: translateX(-10px);
+  }
+}
 
  
-}
+
 
 nav {
   font-family: 'Poppins', sans-serif;
