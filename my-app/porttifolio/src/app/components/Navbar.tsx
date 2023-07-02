@@ -13,7 +13,7 @@ const Nav = () => {
 
   return (
  
-    <nav className="w-full bg-transparent shadow font-Poppins">
+    <nav className="w-full bg-transparent shadow font-Poppins bg-[#050816]">
     <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
       <div>
         <div className="flex items-center justify-between py-3 md:py-5 md:block">

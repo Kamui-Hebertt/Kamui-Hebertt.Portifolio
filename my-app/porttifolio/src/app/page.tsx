@@ -9,14 +9,14 @@ export default function Home() {
   return (
     <>
 
-  <div className="divBack">
+
 
    <Nav />
 
 
    {/* <Counter /> */}
    <Intro />
-    </div>
+
     </>
   );
 }

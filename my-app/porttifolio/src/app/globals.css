@@ -28,16 +28,11 @@
 
 
 
-
-
-
-
-
 .translated-div1 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
   animation: translated-div 2.5s ease infinite;
 }
 
@@ -60,12 +55,12 @@ my-text {
 }
 
 @keyframes slide-left {
-  /* use % to specify the animation at different stages (in this case, 0% and 100%) */
+
   0% {
     transform: translateX(0);
   }
   100% {
-    /* adjust the value to control how much the text moves */
+  
     transform: translateX(-10px);
   }
 }
