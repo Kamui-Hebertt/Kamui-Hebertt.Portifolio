@@ -4,7 +4,7 @@
 export default function Intro() {
 
   return (
-    <section className="border-2 bg-[#050816] border-white h-[60rem] w-full bg-transparent">
+    <section className="border-2 bg-[#070c24] border-white  w-full ">
      <div className="border-2 border-red flex flex-line pl-20  ">
 
      <div className="flex flex-col justify-center items-center mt-[60px] w-4 h-15">
@@ -25,11 +25,11 @@ export default function Intro() {
       </div>
       {/* <span className="my-text">Hello</span> */}
 
-      <div className="flex justify-center items-center pb-4 h-40">
+      <div className="flex justify-center items-center pb-4 h-[10rem]">
       <div className=" cursor-pointer w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
       <div className="translated-div1"></div>
         </div>
- </div>
+        </div>
     </section>
   );
 }
