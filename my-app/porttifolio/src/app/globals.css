@@ -31,7 +31,7 @@
 .translated-div1 {
   width: 10px;
   height: 10px;
-z-index: 0;
+  z-index: 0;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   animation: translated-div 2.5s ease infinite;
@@ -66,7 +66,27 @@ my-text {
   }
 }
 
- 
+ /* keyframes */
+
+ /* .hidden {
+  opacity:0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+ }
+
+
+ .show {
+  opacity: 1;
+  filter: blur(0);
+  transform:translateX(0);
+ } */
+
+ /* @media(prefer-reduced-motion){
+  .hidden{
+    transition:none;
+  }
+ } */
 
 
 nav {

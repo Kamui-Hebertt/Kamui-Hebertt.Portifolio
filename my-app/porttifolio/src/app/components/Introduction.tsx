@@ -25,7 +25,7 @@ export default function Intro() {
       </div>
       {/* <span className="my-text">Hello</span> */}
 
-      <div className="flex justify-center items-center pb-4 h-[10rem]">
+      <div className="flex justify-center items-center pb-4 h-[13rem]">
       <div className=" cursor-pointer w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
       <div className="translated-div1"></div>
         </div>
