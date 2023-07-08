@@ -4,6 +4,8 @@ import Intro from "./components/Introduction";
 import net from '../../../public/net.png';
 import Overview from "./components/Overview";
 import StackCards from "./components/StackCards";
+import Square  from "./components/Square";
+
 
 export default function Home() {
 
@@ -20,6 +22,7 @@ export default function Home() {
    <Intro />
    <Overview />
    <StackCards />
+    <Square />
 
     </>
   );

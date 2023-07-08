@@ -1,29 +1,13 @@
-
-
+"use client"
 import front from '../../../public/front.png';
 import back from '../../../public/backend.png';
 import Image from 'next/image'
-// import { useEffect, useRef } from 'react';
+import { stagger, animate } from "framer-motion"
+import { useEffect, useRef } from 'react';
 
 export default function StackCards () {
-  // const myRef = useRef<HTMLDivElement | null>(null);
 
-  // useEffect(() => {
-  //   const observer = new IntersectionObserver((entries) => {
-  //     const entry = entries[0];
-  //     console.log('entry', entry);
-  //   });
-  
-  //   if (myRef.current) {
-  //     observer.observe(myRef.current);
-  //   }
-  
-  //   return () => {
-  //     if (myRef.current) {
-  //       observer.unobserve(myRef.current);
-  //     }
-  //   };
-  // }, []);
+ 
 
 
 
@@ -33,7 +17,9 @@ export default function StackCards () {
 
 <div className="h-[30rem] flex flex-row bg-[#070c24] sm:flex-wrap sm:flex-col">
 
-<div className="rounded-xl w-5/12 h-[23rem] mx-auto  mt-10 bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
+
+
+<div  className="rounded-xl w-5/12 h-[23rem] mx-auto  mt-10 bg-gradient-to-r p-[6px] from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]">
    <div className="flex flex-col justify-between h-full bg-[#070c24] text-white rounded-lg p-4">
    <Image
         src={front}
@@ -42,7 +28,7 @@ export default function StackCards () {
         height={64}
         className="border"
       />
-dasdasd
+  dasdasd
      </div>
 </div>
   
