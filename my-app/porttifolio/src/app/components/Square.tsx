@@ -43,9 +43,9 @@ function Square() {
         ref={divRef}
         className="moving-div text-white"
         initial={{ x: -25 }}
-        animate={{ x: 5 }}
+        animate={{ x: "10rem" }}
         transition={{ duration: 1 }}
-        style={{ minWidth: '20%' }} >Content
+        style={{ maxWidth: '20%', border: "1px solid black" }} >Content
         </motion.p>
      
     </div> 
