@@ -1,0 +1,527 @@
+[33mcommit 1d7a5e997de35ddad0de002421cb28cfab37cce1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jul 19 23:20:36 2023 -0300
+
+    fix: deleting stash files
+
+[33mcommit 6ba1e66d246e752bffc82a9b9c164df0d36bcae6[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jul 19 23:10:48 2023 -0300
+
+    deleting
+
+[33mcommit 09b4f6cd3ff560c30e63d989fd742996af5abf5d[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jul 19 22:52:51 2023 -0300
+
+    a
+
+[33mcommit 0fed5ea28e83deae76cfdbaacd2d9bceaff999f7[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jul 19 22:45:13 2023 -0300
+
+    update: resumes
+
+[33mcommit e6146f7cc9310a96820ead372cc72b5172d51d10[m
+Merge: 0c284ea8 7ce3b694
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jul 19 21:08:15 2023 -0300
+
+    Merge branch 'master' of github.com:Kamui-Hebertt/Kamui-Hebertt.Portifolio
+    
+    # Conflicts:
+    #       my-app/src/service/Curriculo.pdf
+    #       my-app/src/service/en-cv.pdf
+
+[33mcommit 0c284ea883efb5005af443e46f99447a4e8ed547[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jul 19 20:48:11 2023 -0300
+
+    updating resumes
+
+[33mcommit ff78be593b99072adf1c548c6cb340cacd5751e5[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jul 19 18:27:35 2023 -0300
+
+    update: both resume
+
+[33mcommit 7ce3b694edf3a42e5ba31fe401ecb73bac004d97[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Sat Jul 8 21:51:04 2023 -0300
+
+    feat: resume update
+
+[33mcommit c4ff96ad8f8dff8b7d81912f08734cebd9f07387[m
+Merge: a515b61e 65860d5f
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Sun Jun 18 22:20:50 2023 -0300
+
+    Merge pull request #42 from Kamui-Hebertt/updating-styles
+    
+    updating cvs
+
+[33mcommit 65860d5fd99f0aad98a3bb8731257a3b56551e2f[m[33m ([m[1;31morigin/updating-styles[m[33m, [m[1;32mupdating-styles[m[33m)[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Sun Jun 18 22:19:46 2023 -0300
+
+    updating cvs
+
+[33mcommit a515b61ef673bad88ad47d19f79e7bca73b1aaa8[m
+Merge: 8dd8584a 945177e0
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Wed Jun 7 03:59:56 2023 -0300
+
+    Merge pull request #41 from Kamui-Hebertt/updating-styles
+    
+    Updating styles
+
+[33mcommit 945177e041ac7b553598a97eae664cb9f40fe513[m
+Merge: ec6f1a11 6c22adfa
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jun 7 03:59:12 2023 -0300
+
+    fixing
+
+[33mcommit 6c22adfa034b94523ee7ebb1949129b037c1eff6[m
+Merge: bf770b8b 8dd8584a
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jun 7 03:52:30 2023 -0300
+
+    a
+
+[33mcommit ec6f1a115d02e62b9973a64d37fba0a184cdce37[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jun 7 03:43:22 2023 -0300
+
+    startig
+
+[33mcommit bf770b8b191776742f3ede487fb1f35a4d82549b[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Jun 7 02:48:33 2023 -0300
+
+    no
+
+[33mcommit 8dd8584ad495cc4947e1f41cfa733bc8b39b9a33[m
+Merge: a4ab8228 9c6a84e0
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Thu Jun 1 18:33:05 2023 -0300
+
+    Merge pull request #40 from Kamui-Hebertt/updates
+    
+    updatting cv en
+
+[33mcommit 9c6a84e08cbfc99a3270eab1621d42e3d6709237[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Jun 1 18:32:15 2023 -0300
+
+    updatting cv en
+
+[33mcommit a4ab8228f1353969cf60d3f3cb08b9c9e6a4bea8[m
+Merge: ceca62bf 1d219553
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Thu Jun 1 18:09:03 2023 -0300
+
+    Merge pull request #39 from Kamui-Hebertt/updates
+    
+    updatting cv
+
+[33mcommit 1d21955339be5ce1f1ec9220d3b6fda2006c228d[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Jun 1 18:07:30 2023 -0300
+
+    updatting cv
+
+[33mcommit ceca62bf731c8c3a59f9beab6279be2731fbb8cf[m
+Merge: 6c0da0ee cb1df8c0
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Mon May 29 20:01:41 2023 -0300
+
+    Merge pull request #38 from Kamui-Hebertt/updates
+    
+    tying to fix btn bug
+
+[33mcommit cb1df8c074c8bc5dd56999da819a15d216a3587c[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Mon May 29 19:57:30 2023 -0300
+
+    tying to fix btn bug
+
+[33mcommit 6c0da0ee1cf3281c3b0052fca8ca6ee7cf22d1a7[m
+Merge: 91df6ac6 29144615
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Mon May 29 19:50:58 2023 -0300
+
+    Merge pull request #37 from Kamui-Hebertt/updates
+    
+    tying to fix btn bug
+
+[33mcommit 291446156f201c53eac90cf37fc1d36fe847134f[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Mon May 29 19:50:12 2023 -0300
+
+    tying to fix btn bug
+
+[33mcommit 91df6ac60765f98a65dcb941a8990d7a5b284a9a[m
+Merge: a363dc96 7d64aade
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Mon May 29 19:22:08 2023 -0300
+
+    Merge pull request #36 from Kamui-Hebertt/updates
+    
+    styling button
+
+[33mcommit 7d64aade455e7a05d11d918e8ef329ac8ac798f3[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Mon May 29 19:20:20 2023 -0300
+
+    styling button
+
+[33mcommit a363dc961eba7540340b37b4b3c194ec0f01a61b[m
+Merge: 3f8a2089 895f8cfd
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Mon May 29 19:11:52 2023 -0300
+
+    Merge pull request #35 from Kamui-Hebertt/updates
+    
+    fxing styles
+
+[33mcommit 895f8cfdd7949cdc83bd0e722be5ddfbf841f052[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Mon May 29 19:10:30 2023 -0300
+
+    fixing style
+
+[33mcommit 61c42f68321821a52b0d1095a9f047e1b834cc97[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Mon May 29 18:26:25 2023 -0300
+
+    fxing styles
+
+[33mcommit 3f8a2089619c7828856d96802591a48394393cd8[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Sat Apr 22 18:53:09 2023 -0300
+
+    fixing a lot of styles bugs
+
+[33mcommit 9afb0867ce16f701fc06a4a8914b307e7784786c[m
+Merge: 241c6ab4 89998acc
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Sat Apr 22 03:53:02 2023 -0300
+
+    Merge pull request #34 from Kamui-Hebertt/portifolio-react
+    
+    fix: footer, name field, alignment and resposive height
+
+[33mcommit 89998acc657a4168fc8b0735ca84246daa8540c0[m[33m ([m[1;31morigin/portifolio-react[m[33m, [m[1;32mportifolio-react[m[33m)[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Sat Apr 22 03:51:04 2023 -0300
+
+    fix: footer, name field, alignment and resposive height
+
+[33mcommit 241c6ab448409dc731450f24d119d2d4b2ae8ff6[m
+Merge: 560deb16 961585ca
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Sat Apr 22 03:42:03 2023 -0300
+
+    Merge pull request #33 from Kamui-Hebertt/portifolio-react
+    
+    fix: footer, name field, alignment and resposive height
+
+[33mcommit 961585ca435b0b9faa5cb92a02b10b600043942b[m
+Merge: 3afff0e8 560deb16
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Sat Apr 22 03:37:33 2023 -0300
+
+    Merge branch 'master' into portifolio-react
+
+[33mcommit 3afff0e803b8ebfa5cad976807bb345d56436131[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Sat Apr 22 03:33:16 2023 -0300
+
+    fix: footer, name field, alignment and resposive height
+
+[33mcommit 560deb16e59d62e427d3ee0272e8f86e2459053b[m
+Merge: d9e6e3f7 c2334a5d
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Fri Apr 14 15:25:50 2023 -0300
+
+    Merge pull request #32 from Kamui-Hebertt/portifolio-react
+    
+    fixing styles and dc updating
+
+[33mcommit c2334a5db21a67c1f473be3ec5921d854d429716[m
+Merge: d4ec5e30 d9e6e3f7
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Fri Apr 14 15:25:37 2023 -0300
+
+    Merge branch 'master' into portifolio-react
+
+[33mcommit d4ec5e30d45ff14b6cf39e92ad62cb1f69a82170[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Fri Apr 14 15:24:07 2023 -0300
+
+    fixing styles and dc updating
+
+[33mcommit d9e6e3f78feefdd343ef29b344ade61ece5d0da1[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Mar 22 02:01:02 2023 -0300
+
+    feat:profile aligment, mirai website
+
+[33mcommit ab99131c80abb0916933d6d787c80cef3ecb07d0[m
+Merge: 40110f58 db967d8e
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Wed Mar 8 21:31:36 2023 -0300
+
+    Merge pull request #31 from Kamui-Hebertt/portifolio-react
+    
+    feat: icon,changed cv updated
+
+[33mcommit db967d8ef864d38f869745790bc8a4ce4a6b0046[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Mar 8 21:30:24 2023 -0300
+
+    feat: icon,changed cv updated
+
+[33mcommit 40110f58725eec4f552d7d4e3a7c5057d47e6627[m
+Merge: 48265dbb 9f413d30
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Wed Mar 8 16:35:37 2023 -0300
+
+    Merge pull request #30 from Kamui-Hebertt/portifolio-react
+    
+    feat:email contact
+
+[33mcommit 9f413d303b5ad492b5dfd42d532449faa179424e[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Mar 8 16:34:15 2023 -0300
+
+    feat:email contact
+
+[33mcommit c52e37aaa57f72057e77d1babf1b26cc2d10e9a9[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Wed Mar 8 16:14:34 2023 -0300
+
+    feat:email contact
+
+[33mcommit 48265dbbca55cdf590552bbcef1fd6bd675a8319[m
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Wed Mar 1 19:52:24 2023 -0300
+
+    Update README.md
+
+[33mcommit edd2f327b46783e3328e5a33bd2c261de6217d3a[m
+Merge: 4f889f93 bcac6159
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Sun Feb 19 19:52:44 2023 -0300
+
+    Merge pull request #29 from Kamui-Hebertt/portifolio-react
+    
+    feat:alignment
+
+[33mcommit bcac6159cde8de7d6cc6ff319c2350ba1d30183d[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Sun Feb 19 19:50:38 2023 -0300
+
+    feat:alignment
+
+[33mcommit 4f889f93537454d0d9597e4329a4e0c925a19470[m
+Merge: 42b70ab8 c3aad02d
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Sun Feb 19 19:23:04 2023 -0300
+
+    Merge pull request #28 from Kamui-Hebertt/portifolio-react
+    
+    fix:works mobile
+
+[33mcommit c3aad02d7c9b215af848d050cd2c0ea941d781a6[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Sun Feb 19 19:19:17 2023 -0300
+
+    fix:works mobile
+
+[33mcommit 42b70ab8dbcd38d23d127df5509e969ebf5b8250[m
+Merge: dbb91a9c e30f50b7
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Fri Feb 17 19:57:37 2023 -0300
+
+    Merge pull request #27 from Kamui-Hebertt/portifolio-react
+    
+    test bottom
+
+[33mcommit e30f50b7d6bc69462a62a4503250f046e5746a95[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Fri Feb 17 19:56:14 2023 -0300
+
+    test bottom
+
+[33mcommit dbb91a9c8e091b43e236f2f3faf1b6cdb68d941d[m
+Merge: f1c54800 3dd5a452
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Fri Feb 17 19:36:13 2023 -0300
+
+    Merge pull request #26 from Kamui-Hebertt/portifolio-react
+    
+    test bottom
+
+[33mcommit 3dd5a452c909c055349e31265d9d2abf239c03eb[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Fri Feb 17 19:34:44 2023 -0300
+
+    test bottom
+
+[33mcommit f1c54800e96fdf874e4eb34adeb01ae08e3c7217[m
+Merge: 68f86bf5 5562d638
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Fri Feb 17 19:33:03 2023 -0300
+
+    Merge pull request #25 from Kamui-Hebertt/portifolio-react
+    
+    test bottom
+
+[33mcommit 5562d638ab70f1e325b55485d56960a12b9d2696[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Fri Feb 17 19:30:58 2023 -0300
+
+    test bottom
+
+[33mcommit 68f86bf5f1882470578fce6964216970f01129e8[m
+Merge: d1a5de06 52c047b8
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Fri Feb 17 19:23:56 2023 -0300
+
+    Merge pull request #24 from Kamui-Hebertt/portifolio-react
+    
+    test
+
+[33mcommit 52c047b897d9301b8e2abeabaa0ecffa4c328144[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Fri Feb 17 19:23:17 2023 -0300
+
+    test
+
+[33mcommit d1a5de06067aeb62a7490e0dc1735e08e473240c[m
+Merge: d7ef7bcd f01a4b3b
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Fri Feb 17 17:39:53 2023 -0300
+
+    Merge pull request #23 from Kamui-Hebertt/portifolio-react
+    
+    fix: width
+
+[33mcommit f01a4b3b9b6d85fec26f52cf5b23762c7bf3c8b1[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Fri Feb 17 17:37:48 2023 -0300
+
+    fix: width
+
+[33mcommit d7ef7bcd2e1172d195fa38a5c0b4661f954833e2[m
+Merge: c3981d8e 4eb86806
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Fri Feb 17 17:29:25 2023 -0300
+
+    Merge pull request #22 from Kamui-Hebertt/portifolio-react
+    
+    feat:dowload cv
+
+[33mcommit 4eb86806f44435b07ce926923e46ffddf59e76f9[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Fri Feb 17 17:23:25 2023 -0300
+
+    feat:dowload cv
+
+[33mcommit c3981d8ed0235f922f520770a5a8edf76d373267[m
+Merge: d100387e 02918c0d
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Fri Feb 17 15:40:10 2023 -0300
+
+    Merge pull request #21 from Kamui-Hebertt/portifolio-react
+    
+    fix: movile mode side bar
+
+[33mcommit 02918c0da1725d7a19efcec379b877d8b26408ee[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Fri Feb 17 15:39:18 2023 -0300
+
+    fix: movile mode side bar
+
+[33mcommit d100387e150d71b30cf4c4d1860f95d323f54ee3[m
+Merge: dfa5e154 c5adff79
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Thu Feb 16 23:26:12 2023 -0300
+
+    Merge pull request #20 from Kamui-Hebertt/portifolio-react
+    
+    fix:api repetition
+
+[33mcommit c5adff79d7e436ff2c2bccd158909af4901eb751[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Feb 16 23:25:51 2023 -0300
+
+    fix:api repetition
+
+[33mcommit dfa5e154a6d616c4c57828a9fb690055eb8c9ce0[m
+Merge: f29beeee f830a421
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Thu Feb 16 22:25:48 2023 -0300
+
+    Merge pull request #19 from Kamui-Hebertt/portifolio-react
+    
+    Portifolio react
+
+[33mcommit f830a4217929edeec00e2dd817dae0b7b4399c05[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Feb 16 22:24:56 2023 -0300
+
+    fix:api repetition
+
+[33mcommit c5d3f6a149cc45ae5fc493d77da043b8904d7653[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Feb 16 20:22:29 2023 -0300
+
+    fix:api repetition
+
+[33mcommit c12c317533062e33eeb91d23010640091250bc5e[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Feb 16 20:20:21 2023 -0300
+
+    fix:api repetition
+
+[33mcommit f29beeeec70fa363bf1bb4640127768fc32d7323[m
+Merge: 765b3957 b8f22b50
+Author: Hebertt Nascimento <103397763+Kamui-Hebertt@users.noreply.github.com>
+Date:   Thu Feb 16 20:15:48 2023 -0300
+
+    Merge pull request #18 from Kamui-Hebertt/portifolio-react
+    
+    Portifolio react
+
+[33mcommit b8f22b505e53f0189a14fbf21329ea60c2f4aed0[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Feb 16 20:14:13 2023 -0300
+
+    fix:title
+
+[33mcommit 77d4328c565259b0d9f523302516ed3989a12380[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Feb 16 19:06:04 2023 -0300
+
+    feat:skills mobile
+
+[33mcommit 3595bfdae5234f919ecf0a6d4d28baa1b161ebd4[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Feb 16 16:36:08 2023 -0300
+
+    feat:contact me mobile
+
+[33mcommit a0c0b2bfe3e0be8f9706dafeba1b25ac1e279a75[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Feb 16 15:39:28 2023 -0300
+
+    feat: projects mobile done
+
+[33mcommit 375558f334b4320802384ccf3a5d7d405e33dee6[m
+Author: Kamui-Hebertt <heberttaferreira.com@gmail.com>
+Date:   Thu Feb 16 15:32:07 2023 -0300
+
+    feat: projects mobile done
